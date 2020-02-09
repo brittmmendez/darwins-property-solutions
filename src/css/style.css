@@ -1,0 +1,10 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+
+.gradient {
+  background-image: url(https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=2100);
+}
