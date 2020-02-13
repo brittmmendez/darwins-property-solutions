@@ -6,7 +6,7 @@ function Footer() {
     <footer className="relative bg-white text-gray-800 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
       <div className="flex flex-col md:flex-row">
         <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-          <h3 className="font-bold text-2xl">CompanyName</h3>
+          <Link to="/" title="" className="opacity-75 hover:opacity-100"><h3 className="font-bold text-2xl">CompanyName</h3></Link>
           <p className="text-gray-400">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
         </div>
 
@@ -15,7 +15,7 @@ function Footer() {
           <ul className="mt-4">
             <li className="mt-2"><Link to="/about" title="" className="opacity-75 hover:opacity-100">About Us</Link></li>
             <li className="mt-2"><Link to="/services" title="" className="opacity-75 hover:opacity-100">Our Services</Link></li>
-            <li className="mt-2"><Link to="/recent-projects" title="" className="opacity-75 hover:opacity-100">Recent Projects</Link></li>
+            <li className="mt-2"><Link to="/photo-gallery" title="" className="opacity-75 hover:opacity-100">Photo Gallery</Link></li>
           </ul>
         </div>
 

@@ -5,6 +5,27 @@
 @tailwind utilities;
 
 
+/* for background hero photo and action background on homepage*/
 .gradient {
   background-image: url(https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=2100);
+}
+
+
+/* for header */
+#menu-toggle:checked+#menu {
+  display: block;
+  position: absolute;
+  top: 66px;
+  left: 0;
+}
+
+#dropdown-toggle:checked+#dropdown {
+  position: absolute;
+  top: 66px;
+  left: 0;
+}
+
+.services-page img{
+  height: 350px;
+  object-fit: cover;
 }
