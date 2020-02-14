@@ -20,33 +20,33 @@ function ContactPage() {
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
 						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6" />
+						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
 					</div>
 					
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
 						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6" />
+						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
 					</div>
 					
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
 						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6" />
+						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
 					</div>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
 						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6" />
+						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
 					</div>
 					
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
 						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6" />
+						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
 					</div>
 					
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
 						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6" />
+						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
 					</div>
 				</div>
       </div>

@@ -12,6 +12,7 @@ function IndexPage() {
       />
       
 			<div className="w-full py-24 px-6 bg-fixed gradient bg-no-repeat bg-center relative z-10 h-xl">
+		
 				<div className="container max-w-4xl mx-auto text-center">
 					<h1 className=" pt-24 text-5xl font-bold leading-tight text-center text-gray-100 mb-3">Lorem ipsum dolor sit amet</h1>
 					<p className="text-md md:text-lg text-center text-white ">Ut enim ad minim veniam, quis nostrud exercitation</p>
@@ -28,10 +29,11 @@ function IndexPage() {
 					<h2 className="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Services</h2>
 				</div>
 				
-				
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6" />
+					<div data-sal="slide-up" data-sal-delay="100" data-sal-duration="500" >
+						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6 rounded shadow-md"/>
+					</div>
 
 						<h2 className="text-xl leading-tight mb-2">Ut enim ad minim veniam officia deserunt</h2>
 						<p className="mt-3 mx-auto text-sm leading-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -39,15 +41,18 @@ function IndexPage() {
 					</div>
 					
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6" />
-
+						<div data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
+						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6 rounded shadow-md"/>
+						</div>
 						<h2 className="text-xl leading-tight mb-2">Ut enim ad minim veniam officia deserunt</h2>
 						<p className="mt-3 mx-auto text-sm leading-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur.</p>
 					</div>
 					
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6" />
+					<div data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
+						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="w-full h-64 object-cover mb-6 rounded shadow-md"/>
+					</div>
 
 						<h2 className="text-xl leading-tight mb-2">Ut enim ad minim veniam officia deserunt</h2>
 						<p className="mt-3 mx-auto text-sm leading-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -67,6 +72,7 @@ function IndexPage() {
 			<div className="w-full py-12 bg-white bg-gray-300">
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+					<div data-sal="slide-right" data-sal-delay="200" data-sal-duration="500">
 					<h3 className="text-3xl mb-8 text-black leading-tight">
 							Lorem ipsum dolor sit amet, consectetur adipisicing.
 						</h3>
@@ -78,9 +84,12 @@ function IndexPage() {
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
+					</div>
 					
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
-						<img src="https://images.unsplash.com/photo-1519643381401-22c77e60520e?w=800" className="w-full h-auto" />
+					<div data-sal="slide-left" data-sal-delay="200" data-sal-duration="500">
+						<img src="https://images.unsplash.com/photo-1519643381401-22c77e60520e?w=800" className="w-full h-auto rounded shadow-md" />
+					</div>
 					</div>
 				</div>
 			</div>
