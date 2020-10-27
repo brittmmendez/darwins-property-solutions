@@ -59,3 +59,11 @@ Use `npm run build` to build your site for production.
 ## License
 
 [MIT](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/LICENSE.md)
+
+
+https://app.netlify.com/sites/goofy-mahavira-78f8c6/settings/domain/setup
+
+
+https://docs.netlify.com/domains-https/netlify-dns/dns-records/#add-a-new-record
+
+https://docs.netlify.com/domains-https/netlify-dns/delegate-to-netlify/
