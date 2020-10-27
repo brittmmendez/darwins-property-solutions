@@ -4,7 +4,7 @@
   "version": "4.0.0",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
-    "gatsby": "2.19.12",
+    "gatsby": "^2.24.87",
     "gatsby-plugin-manifest": "2.2.40",
     "gatsby-plugin-offline": "3.0.33",
     "gatsby-plugin-postcss": "2.1.19",
@@ -50,12 +50,5 @@
     "gatsby-plugin-eslint": "2.0.8",
     "prettier": "1.19.1",
     "tailwindcss": "1.1.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
-  },
-  "bugs": {
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
   }
 }

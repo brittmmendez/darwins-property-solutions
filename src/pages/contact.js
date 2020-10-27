@@ -13,13 +13,16 @@ function ContactPage() {
       <section className="pt-20">        
         <form name="contact" method="POST" data-netlify="true">
           <p>
-            <label>Name: <input type="text" name="name" /></label>   
+            <label>Your Name: <input type="text" name="name" /></label>   
           </p>
           <p>
-            <label>Email: <input type="email" name="email" /></label>
+            <label>Your Email: <input type="email" name="email" /></label>
           </p>
           <p>
-            <label>Phone Number: <input type="phone" name="email" /></label>
+            <label>Your Role: <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select></label>
           </p>
           <p>
             <label>Message: <textarea name="message"></textarea></label>
