@@ -12,7 +12,10 @@ function encode(data) {
 export default class ContactPage extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { isValidated: false }
+    this.state = { 
+      isValidated: false,
+      toggleModal: false 
+    }
   }
 
   handleChange = (e) => {
@@ -30,8 +33,17 @@ export default class ContactPage extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => console.log('form submitted'))
+      .then(() => this.setState({
+        toggleModal: true
+      }))
       .catch((error) => console.log(error))
+  }
+
+  handleClick() {
+    debugger
+    this.setState({
+      toggleModal: false
+    })
   }
 
   render() {
@@ -44,11 +56,30 @@ export default class ContactPage extends React.Component {
 
         <div className="w-full py-24 px-6 bg-fixed gradient bg-no-repeat bg-bottom relative z-10 h-lg">
           <div className="container max-w-4xl mx-auto text-center">
-            <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-100">About Us</h1>
+            <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-100">Contact Us</h1>
           </div>
         </div>
 
         <section className="services-page bg-white border-b py-12">
+          {this.state.toggleModal &&
+            <div className="h-screen w-full flex flex-col items-center justify-center">
+              <div className="h-screen w-full fixed flex items-center justify-center bg-modal z-10">
+                    <div className="bg-white shadow p-8 m-4 max-h-full text-center overflow-y-scroll">
+                        <div className="mb-4">
+                          <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Submitted!</h3>
+                        </div>
+                        <div className="mb-8">
+                            <p>Thank you for reaching out. We will be in touch with you shortly!</p>
+                        </div>
+                        <div className="flex justify-center">
+                          <button onClick={() => this.handleClick()} className="inline-block bg-black text-white border border-black border-solid px-8 py-4 font-semibold hover:bg-white hover:text-black"
+                            >Close
+                          </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          }
           <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left flex flex-wrap items-start md:flex-no-wraps">
             <div className="flex flex-wrap my-8">
               <div className="w-5/6 sm:w-1/2 p-2">
@@ -121,14 +152,9 @@ export default class ContactPage extends React.Component {
                   </div>
                 </form>
               </div>
-              {/* <div className="w-full sm:w-1/2 p-2">
-                <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
-              </div> */}
             </div>
           </div>
         </section>
-
-        
       </Layout>
     );
   }

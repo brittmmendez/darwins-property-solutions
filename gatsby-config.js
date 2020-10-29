@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Tailwind`,
     description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`
+    author: `Brittany Morris`
   },
   plugins: [
     "gatsby-plugin-eslint",
