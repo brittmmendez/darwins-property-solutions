@@ -9,6 +9,13 @@ module.exports = {
     `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `0ck90443p53t`,
+        accessToken: `IcC7NdcYxtRcHrCFKg1NQ1Nwgw3S0lerjpmTptWnT_s`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-tailwind`,

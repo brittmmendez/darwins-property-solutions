@@ -1,9 +1,13 @@
-import React from "react";
+/* eslint react/prop-types: 0 */
 
+import React from "react";
+import { graphql } from 'gatsby'
+import PropTypes from "prop-types"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-function AboutPage() {
+function AboutPage({ data }) {
+  console.log(data)
   return (
     <Layout>
       <SEO
@@ -93,3 +97,30 @@ function AboutPage() {
 }
 
 export default AboutPage;
+
+
+
+export const query = graphql`
+ query {
+  allContentfulServiceSection {
+    edges {
+      node {
+        columns {
+          body
+          img {
+            file {
+              fileName
+              url
+            }
+          }
+        }
+        title
+      }
+    }
+  }
+}
+`
+
+AboutPage.propTypes = {
+  data: PropTypes.object,
+}
