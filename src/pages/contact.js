@@ -30,8 +30,8 @@ export default class ContactPage extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
-      .catch((error) => alert(error))
+      .then(() => console.log('form submitted'))
+      .catch((error) => console.log(error))
   }
 
   render() {
@@ -58,7 +58,6 @@ export default class ContactPage extends React.Component {
                 <form
                 name="contact"
                 method="post"
-                action="/contact/thanks/"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
