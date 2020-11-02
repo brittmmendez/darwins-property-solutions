@@ -3,7 +3,8 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
-
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 /* for background hero photo and action background on homepage*/
 .gradient {
@@ -28,4 +29,77 @@
 .services-page img{
   height: 350px;
   object-fit: cover;
+}
+
+.product-image-array .slick-prev {
+  left: 25px;
+  z-index: 50;
+  top: 33%;
+}
+
+.product-image-array .slick-next {
+  right: 25px;
+  z-index: 50;
+  top: 33%;
+}
+
+.product-feature-image .cover {
+  -o-object-fit: cover;
+  object-fit: scale-down;
+  max-height: 450px;
+  padding: 40px;
+
+}
+
+.product-feature-image .slick-slider .slick-arrow {
+  height: 35px;
+  width: 35px;
+  border: 1px solid black;
+  border-radius: 1px;
+  background-color: black;
+  margin-right: 22px;
+  margin-left: 22px;
+}
+.product-feature-image .slick-prev:before, .product-feature-image .slick-next:before {
+  box-sizing: border-box;
+  height: 13.38px;
+  width: 6.18px;
+  color: white;
+  line-height: inherit;
+}
+.product-feature-image .slick-prev {
+  left: 10px;
+  z-index: 1;
+}
+.product-feature-image .slick-next {
+  right: 10px;
+}
+.product-feature-image .slick-prev:hover, .product-feature-image .slick-next:hover {
+  border: 3px solid black;
+}
+
+.slick-slide img {
+  margin: auto;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+.slick-next:focus:before, .slick-next:hover:before, .slick-prev:focus:before, .slick-prev:hover:before {
+  color: red;
+}
+
+ul.slick-dots.slick-thumb.product-thumbs {
+  position: initial
+}
+
+.slick-dots li, .slick-dots li button {
+    width: auto;
+    height: auto;
+}
+
+img.sm-img-cover {
+  height: 120px;
+  width: auto;
 }

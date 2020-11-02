@@ -33,14 +33,20 @@ export default class ContactPage extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => this.setState({
-        toggleModal: true
-      }))
+      .then(() => {
+        this.setState({
+          toggleModal: true
+        })
+
+      })
       .catch((error) => console.log(error))
+      
+      e.target[2].value="";
+      e.target[3].value="";
+      e.target[4].value="";
   }
 
   handleClick() {
-    debugger
     this.setState({
       toggleModal: false
     })
@@ -54,7 +60,7 @@ export default class ContactPage extends React.Component {
           title="Contact"
         />
 
-        <div className="w-full py-24 px-6 bg-fixed gradient bg-no-repeat bg-bottom relative z-10 h-lg">
+        <div className="w-full py-24 px-6 bg-fixed gradient bg-no-repeat bg-bottom z-10 h-lg">
           <div className="container max-w-4xl mx-auto text-center">
             <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-100">Contact Us</h1>
           </div>
@@ -80,9 +86,9 @@ export default class ContactPage extends React.Component {
                 </div>
             </div>
           }
-          <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left flex flex-wrap items-start md:flex-no-wraps">
+          <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left flex flex-wrap items-start md:flex-no-wraps relative">
             <div className="flex flex-wrap my-8">
-              <div className="w-5/6 sm:w-1/2 p-2">
+              <div className="p-2">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Get In Touch</h3>
                 <p className="text-gray-600 mb-2">Please fill out our form below and we will be in touch to answer any questions you have.<br /><br />
                 </p>
@@ -101,13 +107,14 @@ export default class ContactPage extends React.Component {
                       <input name="bot-field" onChange={this.handleChange} />
                     </label>
                   </div>
-                  <div className="field">
-                    <label className="label" htmlFor={'name'}>
+                  <div className="field mb-6">
+                    <label className="label hidden" htmlFor={'name'}>
                       Your name
                     </label>
                     <div className="control">
                       <input
-                        className="input"
+                        className="input border-solid border-gray-400 border-2 p-3 md:text-xl w-full" 
+                        placeholder="Name"
                         type={'text'}
                         name={'name'}
                         onChange={this.handleChange}
@@ -116,13 +123,14 @@ export default class ContactPage extends React.Component {
                       />
                     </div>
                   </div>
-                  <div className="field">
-                    <label className="label" htmlFor={'email'}>
+                  <div className="field mb-6">
+                    <label className="label hidden" htmlFor={'email'}>
                       Email
                     </label>
                     <div className="control">
                       <input
-                        className="input"
+                        className="input border-solid border-gray-400 border-2 p-3 md:text-xl w-full"
+                        placeholder="Email"
                         type={'email'}
                         name={'email'}
                         onChange={this.handleChange}
@@ -131,13 +139,14 @@ export default class ContactPage extends React.Component {
                       />
                     </div>
                   </div>
-                  <div className="field">
-                    <label className="label" htmlFor={'message'}>
+                  <div className="field mb-6">
+                    <label className="label hidden" htmlFor={'message'}>
                       Message
                     </label>
                     <div className="control">
                       <textarea
-                        className="textarea"
+                        placeholder="Message"
+                        className="textarea border-solid border-gray-400 border-2 p-3 md:text-xl w-full" 
                         name={'message'}
                         onChange={this.handleChange}
                         id={'message'}
@@ -146,8 +155,8 @@ export default class ContactPage extends React.Component {
                     </div>
                   </div>
                   <div className="field">
-                    <button className="button is-link" type="submit">
-                      Send
+                    <button className="button is-link inline-block bg-black text-white border border-black border-solid px-8 py-4 font-semibold hover:bg-white hover:text-black" type="submit">
+                      Submit
                     </button>
                   </div>
                 </form>

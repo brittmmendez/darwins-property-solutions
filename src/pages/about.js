@@ -1,13 +1,11 @@
-/* eslint react/prop-types: 0 */
-
 import React from "react";
 import { graphql } from 'gatsby'
 import PropTypes from "prop-types"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Reviews from "../components/reviews";
 
 function AboutPage({ data }) {
-  console.log(data)
   return (
     <Layout>
       <SEO
@@ -83,13 +81,13 @@ function AboutPage({ data }) {
         </div>  
       </section>
 
-      {/* <!--Services Section--> */}
+      {/* <!--Reviews Section--> */}
       <section className="bg-white border-b py-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<h2 className="w-full my-2 text-4xl font-bold leading-tight text-gray-800">What customers are saying!</h2>
+					<h2 className="w-full text-center my-2 text-4xl font-bold leading-tight text-gray-800">What customers are saying!</h2>
 				</div>
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto">
-          Customer reviews go here
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps my-8">
+          <Reviews data={data}/>
         </div>  
       </section>
     </Layout>
@@ -98,23 +96,17 @@ function AboutPage({ data }) {
 
 export default AboutPage;
 
-
-
 export const query = graphql`
  query {
-  allContentfulServiceSection {
+	allContentfulReviewCarousel {
     edges {
       node {
-        columns {
-          body
-          img {
-            file {
-              fileName
-              url
-            }
+        review {
+          contact
+          review {
+            review
           }
         }
-        title
       }
     }
   }

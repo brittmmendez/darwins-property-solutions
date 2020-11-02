@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import { Link } from "gatsby"
 
 function ServicesPage() {
   return (
@@ -134,8 +135,22 @@ function ServicesPage() {
             </div>
           </div>
         </div>
-        
       </section>
+      {/* <!--Action Area--> */}
+			<div className="py-16 gradient" >
+				<section className="container mx-auto text-center py-6 mb-12">
+					<h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Ready to Build?</h1>
+					<div className="w-full mb-4">	
+						<div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+					</div>
+					<h3 className="my-4 text-3xl leading-tight text-white">Main Hero Message to sell yourself!</h3>	
+
+					<button 
+					className="mx-2 my-6 bg-black text-white border border-black border-solid px-8 py-4 font-semibold hover:bg-white hover:text-black">Call Us</button>
+					<button className="mx-2 my-6 bg-black text-white border border-black border-solid px-8 py-4 font-semibold hover:bg-white hover:text-black">Email Us</button>
+				</section>
+			</div>
+			{/* <!--/Action Area--> */}
     </Layout>
   );
 }

@@ -1,57 +1,87 @@
 import React from "react";
-
+import { graphql } from 'gatsby'
+import PropTypes from "prop-types"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-function ContactPage() {
-  return (
-    <Layout>
-      <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Contact"
-      />
-      <div className="w-full py-24 px-6 bg-fixed gradient bg-no-repeat bg-bottom relative z-10 h-lg">
-        <div className="container max-w-4xl mx-auto text-center">
-          <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-100">Photo Gallery</h1>
-        </div>
-      </div>
-				
-			<div className="py-16 my-2">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
-						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
-					</div>
-					
-					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
-						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
-					</div>
-					
-					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
-						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
-					</div>
-				</div>
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
-						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
-					</div>
-					
-					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
-						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
-					</div>
-					
-					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2">
-						<h2 className="text-2xl leading-tight mb-2">Roofing</h2>
-						<img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" className="rounded shadow-md w-full h-64 object-cover mb-6" />
-					</div>
-				</div>
-      </div>
-    </Layout>
-  );
-}
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-export default ContactPage;
+import Slider from "react-slick";
+
+export default class PhotoGalleryPage extends React.Component {
+	render() {
+		const photos = this.props.data.allContentfulPhotoGallery.edges[0].node.photo
+		console.log(photos)
+
+	  	const settings = {
+		customPaging: function(i) {
+		  return (
+			<a>
+			   <img
+                src={photos[i].file.url}
+                className="sm-img-cover"
+                alt={photos[i].file.url}
+                width="120"
+                height="120" />
+			</a>
+		  );
+		},
+		dots: true,
+		dotsClass: 'slick-dots slick-thumb product-thumbs',
+		infinite: true,
+		fade: true,
+		speed: 500,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+	  };
+
+	  return (
+		<Layout>
+		<SEO
+		  keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+		  title="Contact"
+		/>
+      		<div className="container product-image-array m-auto">
+				<Slider {...settings}>
+				{photos.map(image => (
+					<div key={image.file.url}>
+						<figure className="image centered product-feature-image">
+						<img
+							src={image.file.url}
+							className="cover"
+							alt={image.file.url}
+							height="559"
+							width="566"
+						/>
+						</figure>
+					</div>
+				))}
+				</Slider>
+			</div>
+		</Layout>
+
+	  );
+	}
+  }
+
+export const query = graphql`
+ query {
+  allContentfulPhotoGallery {
+    edges {
+      node {
+        photo {
+          file {
+            url
+            fileName
+          }
+        }
+      }
+    }
+  }
+}
+`
+
+PhotoGalleryPage.propTypes = {
+  data: PropTypes.object,
+}

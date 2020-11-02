@@ -95,15 +95,15 @@ class Header extends Component {
 					<nav
 						className="w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
 						<ul className="md:flex items-center">
-							<li><Link to="/about" className="py-2 inline-block md:text-black lg:block font-semibold" >About Us</Link></li>
-							<li className="md:ml-4"><Link to="/services" className="py-2 inline-block md:text-black md:px-2 font-semibold"
+							<li><Link to="/about" className="py-2 inline-block md:text-black lg:block font-semibold hover:text-gray-800" >About Us</Link></li>
+							<li className="md:ml-4"><Link to="/services" className="py-2 inline-block md:text-black md:px-2 font-semibold hover:text-gray-800"
 									>Servivces</Link></li>
-							<li className="md:ml-4"><Link to="/photo-gallery" className="py-2 inline-block md:text-black md:px-2 font-semibold"
+							<li className="md:ml-4"><Link to="/photo-gallery" className="py-2 inline-block md:text-black md:px-2 font-semibold hover:text-gray-800"
 									>Photo Gallery</Link></li>
 
 							<li className="md:ml-6 mt-3 md:mt-0">
 								<Link to="/contact" 
-								className="inline-block font-semibold px-8 py-4 bg-white text-black border border-black border-solid hover:bg-gray-100 hover:text-black"
+								className="inline-block font-bold px-8 py-4 bg-black text-white border border-black border-solid hover:bg-white hover:text-black"
 								> Contact Us</Link>
 							</li>
 						</ul>
