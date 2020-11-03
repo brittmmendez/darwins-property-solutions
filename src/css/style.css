@@ -1,16 +1,15 @@
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-/* purgecss end ignore */
 @tailwind utilities;
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+/* purgecss end ignore */
 
 /* for background hero photo and action background on homepage*/
 .gradient {
   background-image: url(https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=2100);
 }
-
 
 /* for header */
 #menu-toggle:checked+#menu {
