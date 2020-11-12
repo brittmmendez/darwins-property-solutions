@@ -9,11 +9,11 @@
 :root {
   --primaryGrey: #222222;
   --primaryLightBlue: #0F8FDC;
+  --primarylighGrey: #393A3C;
   --white: #ffffff;
   --secondaryGrey: #DBDADB;
   --warning: #de3618;
   --success: #4BB543;
-  --text: #393A3C;
   /* --white: #ffffff;
   --primaryGrey: #535152;
   --primaryDarkBlue: #242444;
@@ -25,12 +25,20 @@
   --text: #393A3C; */
 }
 
-h2, h3 {
-  color: var(--text);
+body{
+  background-color: var(--primaryGrey);
+}
+
+h2 {
+  color: var(--white);
+}
+
+h3, h5 {
+  color: var(--primaryLightBlue);
 }
 
 p {
-  color: var(--text);
+  color: var(--white);
 }
 /* for background hero photo and action background on homepage*/
 .gradient {
@@ -51,8 +59,24 @@ p {
   left: 0;
 }
 
+header, nav {
+  background-color: var(--primaryGrey);
+}
+
 .header-logo{
-    max-width: 180px;
+    max-width: 150px;
+}
+
+a.nav:hover{
+  color: var(--primaryLightBlue);
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondaryGrey);
+}
+.gradient {
+  background-image: linear-gradient(180deg,rgba(233, 214, 214, 0.71) 0%,rgba(205,205,205,0.26) 100%),url(https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=2100)!important;
 }
 
 .primary-btn {

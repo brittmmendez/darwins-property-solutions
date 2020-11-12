@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-import Header from "./header";
+import Header from "./headerDarkHeader";
 import Footer from "./footer";
 
 function Layout({ children }) {

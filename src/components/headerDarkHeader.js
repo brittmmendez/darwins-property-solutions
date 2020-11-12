@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from "gatsby"
-import logo from "../images/logo.jpg"
+import logo from "../images/logo2.png"
 
 class Header extends Component {
 	render() {
 		return (
-			<header className="w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 text-black">
+			<header className="w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 text-white">
 			<div className="hidden md:flex justify-between items-center py-2 border-b text-sm py-3">
 				<div className="">
-					<ul className="flex text-black">
+					<ul className="flex text-white">
 						<li>
 							<div className="flex items-center">
-								<svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 fill-current text-black" viewBox="0 0 24 24">
+								<svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 fill-current text-white" viewBox="0 0 24 24">
 									<path
 										d="M12,2C7.589,2,4,5.589,4,9.995C3.971,16.44,11.696,21.784,12,22c0,0,8.029-5.56,8-12C20,5.589,16.411,2,12,2z M12,14 c-2.21,0-4-1.79-4-4s1.79-4,4-4s4,1.79,4,4S14.21,14,12,14z" />
 								</svg>
@@ -21,7 +21,7 @@ class Header extends Component {
 						</li>
 						<li className="ml-6">
 							<div className="flex items-center">
-								<svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 fill-current text-black" viewBox="0 0 24 24">
+								<svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 fill-current text-white" viewBox="0 0 24 24">
 									<path
 										d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z" />
 								</svg>
@@ -33,7 +33,7 @@ class Header extends Component {
 				</div>
 
 				<div className="">
-					<ul className="flex justify-end text-black">
+					<ul className="flex justify-end text-white">
 						<li>
 							<a href="#" target="_blank" title="">
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current">
@@ -79,7 +79,7 @@ class Header extends Component {
 			</div>
 			<div className="flex flex-wrap items-center justify-between pb-2 border-top border-gray-400">
 				<div className="w-1/2 md:w-auto">
-					<Link to="/" className="text-black font-bold text-2xl">
+					<Link to="/" className="text-white font-bold text-2xl">
 						<img
 							alt="logo"
 							  className="header-logo"
@@ -88,7 +88,7 @@ class Header extends Component {
 					</Link>
 				</div>
 
-				<label htmlFor="menu-toggle" className="pointer-cursor md:hidden block"><svg className="fill-current text-black"
+				<label htmlFor="menu-toggle" className="pointer-cursor md:hidden block"><svg className="fill-current text-white"
 						xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
 						<title>menu</title>
 						<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -100,17 +100,13 @@ class Header extends Component {
 					<nav
 						className="w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
 						<ul className="md:flex items-center">
-							<li><Link to="/about" className="py-2 inline-block md:text-black lg:block font-semibold hover:text-gray-800" >About Us</Link></li>
-							<li className="md:ml-4"><Link to="/services" className="py-2 inline-block md:text-black md:px-2 font-semibold hover:text-gray-800"
+							<li><Link to="/about" className="nav py-2 inline-block md:text-white lg:block font-semibold" >About Us</Link></li>
+							<li className="md:ml-4"><Link to="/services" className="nav py-2 inline-block md:text-white md:px-2 font-semibold"
 									>Servivces</Link></li>
-							<li className="md:ml-4"><Link to="/photo-gallery" className="py-2 inline-block md:text-black md:px-2 font-semibold hover:text-gray-800"
+							<li className="md:ml-4"><Link to="/photo-gallery" className="nav  py-2 inline-block md:text-white md:px-2 font-semibold"
 									>Photo Gallery</Link></li>
-
-							<li className="md:ml-6 mt-3 md:mt-0">
-								<Link to="/contact" 
-								className="primary-btn px-8 py-4"
-								> Contact Us</Link>
-							</li>
+							<li className="md:ml-4"><Link to="/contact" className="nav py-2 inline-block md:text-white md:px-2 font-semibold"
+									>Contact Us</Link></li>
 						</ul>
 					</nav>
 				</div>
