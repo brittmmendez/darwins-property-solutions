@@ -8,7 +8,7 @@ function ServicesPage() {
     <Layout>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="About"
+        title="Services"
       />
       <div className="w-full py-24 px-6 bg-fixed gradient bg-no-repeat bg-bottom relative z-10 h-lg">
         <div className="container max-w-4xl mx-auto text-center">
@@ -21,8 +21,8 @@ function ServicesPage() {
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left flex flex-wrap items-start md:flex-no-wraps">
           <div className="flex flex-wrap my-8">
             <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
               </p>
               
             </div>
@@ -38,8 +38,8 @@ function ServicesPage() {
             </div>
             <div className="w-full sm:w-1/2 p-2 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+                <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+                <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
                 </p>
               </div>
             </div>
@@ -47,8 +47,8 @@ function ServicesPage() {
 
           <div className="flex flex-wrap my-8">
             <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
               </p>
               
             </div>
@@ -64,8 +64,8 @@ function ServicesPage() {
             </div>
             <div className="w-full sm:w-1/2 p-2 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+                <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+                <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
                 </p>
               </div>
             </div>
@@ -73,8 +73,8 @@ function ServicesPage() {
 
           <div className="flex flex-wrap my-8">
             <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
               </p>
               
             </div>
@@ -90,8 +90,8 @@ function ServicesPage() {
             </div>
             <div className="w-full sm:w-1/2 p-2 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+                <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+                <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
                 </p>
               </div>
             </div>
@@ -99,8 +99,8 @@ function ServicesPage() {
 
           <div className="flex flex-wrap my-8">
             <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
               </p>
               
             </div>
@@ -116,8 +116,8 @@ function ServicesPage() {
             </div>
             <div className="w-full sm:w-1/2 p-2 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+                <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+                <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
                 </p>
               </div>
             </div>
@@ -125,8 +125,8 @@ function ServicesPage() {
 
           <div className="flex flex-wrap my-8">
             <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
               </p>
               
             </div>
@@ -146,8 +146,8 @@ function ServicesPage() {
 					<h3 className="my-4 text-3xl leading-tight text-white">Main Hero Message to sell yourself!</h3>	
 
 					<button 
-					className="mx-2 my-6 bg-black text-white border border-black border-solid px-8 py-4 font-semibold hover:bg-white hover:text-black">Call Us</button>
-					<button className="mx-2 my-6 bg-black text-white border border-black border-solid px-8 py-4 font-semibold hover:bg-white hover:text-black">Email Us</button>
+					className="primary-btn mx-2 my-6 px-8 py-4">Call Us</button>
+					<button className="primary-btn mx-2 my-6 px-8 py-4">Email Us</button>
 				</section>
 			</div>
 			{/* <!--/Action Area--> */}

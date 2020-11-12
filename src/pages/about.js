@@ -22,10 +22,10 @@ function AboutPage({ data }) {
       {/* <!--Services Section--> */}
       <section className="bg-white border-b py-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<h2 className="w-full my-8 text-4xl font-bold leading-tight text-gray-800">Our Team</h2>
+					<h2 className="w-full my-8 text-4xl leading-tight">Our Team</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+          <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
@@ -52,27 +52,27 @@ function AboutPage({ data }) {
       {/* <!--Services Section--> */}
       <section className="bg-white border-b py-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<h2 className="w-full my-2 text-4xl font-bold leading-tight text-gray-800">Our Values</h2>
+					<h2 className="w-full my-2 text-4xl leading-tight">Our Values</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <div className="flex flex-wrap my-8">
             <div className="w-full sm:w-1/3 px-3">
-              <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              <h3 className="text-2xl font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
             </div>
             <div className="w-full sm:w-1/3 px-3">
-              <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              <h3 className="text-2xl font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
             </div>
             <div className="w-full sm:w-1/3 pl-3 px-3">
-            <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+            <h3 className="text-2xl font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
+              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
@@ -84,7 +84,7 @@ function AboutPage({ data }) {
       {/* <!--Reviews Section--> */}
       <section className="bg-white border-b py-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<h2 className="w-full text-center my-2 text-4xl font-bold leading-tight text-gray-800">What customers are saying!</h2>
+					<h2 className="w-full text-center my-2 text-4xl font-bold leading-tight">What customers are saying!</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps my-8">
           <Reviews data={data}/>

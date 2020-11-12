@@ -1,13 +1,20 @@
 import React from "react";
 import { Link } from "gatsby"
+import logo from "../images/logo.jpg"
 
 function Footer() {
   return (
     <footer className="relative bg-white text-gray-800 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
       <div className="flex flex-col md:flex-row">
         <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-          <Link to="/" title="" className="opacity-75 hover:opacity-100"><h3 className="font-bold text-2xl">CompanyName</h3></Link>
-          <p className="text-gray-400">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+          <Link to="/" title="" className="opacity-75 hover:opacity-100">
+          <img
+							alt="logo"
+							  className="logo"
+							src={logo}
+						/>
+            </Link>
+          {/* <p className="text-gray-400">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p> */}
         </div>
 
         <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
@@ -122,10 +129,10 @@ function Footer() {
             </li>
           </ul>
 
-          <p className="text-sm text-gray-400 mt-12">© 2020 CompanyName. <br className="hidden lg:block" />All Rights Reserved.
-          </p>
         </div>
       </div>
+          <p className="text-sm text-gray-400 mt-12">© 2020 Darwins Property Solutions. All Rights Reserved.
+          </p>
     </footer>
   );
 }

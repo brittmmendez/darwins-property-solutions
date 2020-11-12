@@ -1,8 +1,7 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "darwins-property-solutions",
+  "description": "Darwins Property Solutions",
   "version": "4.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
     "gatsby": "^2.24.91",
     "gatsby-plugin-manifest": "2.2.40",

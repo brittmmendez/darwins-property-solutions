@@ -6,6 +6,10 @@ module.exports = {
      xl: '550px',
     }
   },
+  extend: {
+    colors: {
+    }
+  },
   variants: {},
   // https://github.com/tailwindcss/custom-forms
   plugins: [require("@tailwindcss/custom-forms")]

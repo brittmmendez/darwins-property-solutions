@@ -72,7 +72,7 @@ export default class ContactPage extends React.Component {
               <div className="h-screen w-full fixed flex items-center justify-center bg-modal z-10">
                     <div className="bg-white shadow p-8 m-4 max-h-full text-center overflow-y-scroll">
                         <div className="mb-4">
-                          <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Submitted!</h3>
+                          <h3 className="text-3xl font-bold leading-none mb-3">Submitted!</h3>
                         </div>
                         <div className="mb-8">
                             <p>Thank you for reaching out. We will be in touch with you shortly!</p>
@@ -89,8 +89,8 @@ export default class ContactPage extends React.Component {
           <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left flex flex-wrap items-start md:flex-no-wraps relative">
             <div className="flex flex-wrap my-8">
               <div className="p-2">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Get In Touch</h3>
-                <p className="text-gray-600 mb-2">Please fill out our form below and we will be in touch to answer any questions you have.<br /><br />
+                <h3 className="text-3xl font-bold leading-none mb-3">Get In Touch</h3>
+                <p className="mb-2">Please fill out our form below and we will be in touch to answer any questions you have.<br /><br />
                 </p>
                 <form
                 name="contact"
@@ -155,7 +155,7 @@ export default class ContactPage extends React.Component {
                     </div>
                   </div>
                   <div className="field">
-                    <button className="button is-link inline-block bg-black text-white border border-black border-solid px-8 py-4 font-semibold hover:bg-white hover:text-black" type="submit">
+                    <button className="primary-btn button is-link inline-block px-8 py-4" type="submit">
                       Submit
                     </button>
                   </div>

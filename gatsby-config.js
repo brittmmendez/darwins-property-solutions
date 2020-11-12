@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `Brittany Morris`
+    title: `Darwins Property Solutions`,
+    description: `Darwins Property Solutions`,
+    author: `Darwins Property Solutions`
   },
   plugins: [
     "gatsby-plugin-eslint",
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `darwins-property-solutions`,
+        short_name: `darwins-property-solutions`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.svg`
+        icon: `src/images/home.svg`
       }
     },
     {

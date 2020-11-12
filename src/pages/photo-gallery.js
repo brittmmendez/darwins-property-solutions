@@ -40,7 +40,7 @@ export default class PhotoGalleryPage extends React.Component {
 		<Layout>
 		<SEO
 		  keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-		  title="Contact"
+		  title="Photo Gallery"
 		/>
       		<div className="container product-image-array m-auto">
 				<Slider {...settings}>

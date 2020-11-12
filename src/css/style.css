@@ -6,9 +6,35 @@
 @import "~slick-carousel/slick/slick-theme.css";
 /* purgecss end ignore */
 
+:root {
+  --primaryGrey: #222222;
+  --primaryLightBlue: #0F8FDC;
+  --white: #ffffff;
+  --secondaryGrey: #DBDADB;
+  --warning: #de3618;
+  --success: #4BB543;
+  --text: #393A3C;
+  /* --white: #ffffff;
+  --primaryGrey: #535152;
+  --primaryDarkBlue: #242444;
+  --primaryLightBlue: #058AC4;
+  --secondaryGrey: #DBDADB;
+  --secondaryBlue: #79B9DF;
+  --warning: #de3618;
+  --success: #4BB543;
+  --text: #393A3C; */
+}
+
+h2, h3 {
+  color: var(--text);
+}
+
+p {
+  color: var(--text);
+}
 /* for background hero photo and action background on homepage*/
 .gradient {
-  background-image: url(https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=2100);
+  background-image: linear-gradient(180deg,rgba(233, 214, 214, 0.71) 0%,rgba(205,205,205,0.26) 100%),url(https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=2100)!important;
 }
 
 /* for header */
@@ -25,11 +51,45 @@
   left: 0;
 }
 
+.header-logo{
+    max-width: 180px;
+}
+
+.primary-btn {
+  background-color: white;
+  color: var(--primaryLightBlue);
+  border: 1px solid var(--primaryLightBlue);
+  font-weight: bold;
+}
+
+.primary-btn:hover {
+  background-color: var(--primaryLightBlue);
+  color: white;
+}
+
+.secodary-btn {
+  color: white;
+  font-weight: bold;
+  background-color: var(--primaryLightBlue);
+  border: 1px solid var(--primaryLightBlue);
+}
+
+.secodary-btn:hover {
+  background-color: white;
+  color: var(--primaryLightBlue);
+}
+
+.color-background {
+  background-color: var(--secondaryBlue);
+}
+
+/* services page */
 .services-page img{
   height: 350px;
   object-fit: cover;
 }
 
+/* photo gallery */
 .product-image-array .slick-prev {
   left: 25px;
   z-index: 50;
