@@ -131,7 +131,7 @@ function Footer() {
 
         </div>
       </div>
-          <p className="text-sm text-gray-400 mt-12">© 2020 Darwins Property Solutions. All Rights Reserved.
+          <p className="text-sm mt-12">© 2020 Darwins Property Solutions. All Rights Reserved.
           </p>
     </footer>
   );
