@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "gatsby"
-import logo from "../images/logo.jpg"
+import logo from "../images/logo2.png"
 
 function Footer() {
   return (
-    <footer className="relative bg-white text-gray-800 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
+    <footer className="relative text-gray-800 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
       <div className="flex flex-col md:flex-row">
         <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
           <Link to="/" title="" className="opacity-75 hover:opacity-100">
@@ -18,16 +18,16 @@ function Footer() {
         </div>
 
         <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
-          <h5 className="uppercase tracking-wider font-semibold text-gray-500">Learn More</h5>
+          <h5 className="uppercase tracking-wider font-semibold ">Learn More</h5>
           <ul className="mt-4">
-            <li className="mt-2"><Link to="/about" title="" className="opacity-75 hover:opacity-100">About Us</Link></li>
-            <li className="mt-2"><Link to="/services" title="" className="opacity-75 hover:opacity-100">Our Services</Link></li>
-            <li className="mt-2"><Link to="/photo-gallery" title="" className="opacity-75 hover:opacity-100">Photo Gallery</Link></li>
+            <li className="mt-2"><Link to="/about" title="About" className="opacity-75 hover:opacity-100">About Us</Link></li>
+            <li className="mt-2"><Link to="/services" title="Services" className="opacity-75 hover:opacity-100">Our Services</Link></li>
+            <li className="mt-2"><Link to="/photo-gallery" title="Photo Gallery" className="opacity-75 hover:opacity-100">Photo Gallery</Link></li>
           </ul>
         </div>
 
         <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
-          <h5 className="uppercase tracking-wider font-semibold text-gray-500">Contact Details</h5>
+          <h5 className="uppercase tracking-wider font-semibold ">Contact Details</h5>
           <ul className="mt-4">
             <li>
               <a href="#" title="" className="block flex items-center opacity-75 hover:opacity-100">
@@ -90,7 +90,7 @@ function Footer() {
         </div>
 
         <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
-          <h5 className="uppercase tracking-wider font-semibold text-gray-500">Social</h5>
+          <h5 className="uppercase tracking-wider font-semibold ">Social</h5>
           <ul className="mt-4 flex">
             <li>
               <a href="#" target="_blank" title="">
