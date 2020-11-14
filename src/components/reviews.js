@@ -25,7 +25,7 @@ export default class Reviews extends React.Component {
 				<Slider {...settings}>
 				{reviews.map(review => (
 					<div key={review.contact} className="w-20 text-center">
-						<h3 className="italic"> {review.review.review}</h3>
+						<p className="italic"> {review.review.review}</p>
 						<p> - {review.contact}</p>
 					</div>
 				))}

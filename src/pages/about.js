@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Reviews from "../components/reviews";
+import Header from "../components/header";
 
 function AboutPage({ data }) {
   return (
@@ -13,14 +14,10 @@ function AboutPage({ data }) {
         title="About"
       />
 
-      <div className="w-full py-24 px-6 bg-fixed gradient bg-no-repeat bg-bottom relative z-10 h-lg">
-        <div className="container max-w-4xl mx-auto text-center">
-          <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-100">About Us</h1>
-        </div>
-      </div>
+      <Header title="About Us"/>
 
       {/* <!--Services Section--> */}
-      <section className="bg-white border-b py-12">
+      <section className="py-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<h2 className="w-full my-8 text-4xl leading-tight">Our Team</h2>
 				</div>
@@ -50,7 +47,7 @@ function AboutPage({ data }) {
       </section>
 
       {/* <!--Services Section--> */}
-      <section className="bg-white border-b py-12">
+      <section className="border-b py-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<h2 className="w-full my-2 text-4xl leading-tight">Our Values</h2>
 				</div>
@@ -82,9 +79,9 @@ function AboutPage({ data }) {
       </section>
 
       {/* <!--Reviews Section--> */}
-      <section className="bg-white border-b py-12">
+      <section className="border-b py-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<h2 className="w-full text-center my-2 text-4xl font-bold leading-tight">What customers are saying!</h2>
+					<h3 className="w-full text-center my-2 text-4xl font-bold leading-tight">Customer Reviews</h3>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps my-8">
           <Reviews data={data}/>

@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import PropTypes from "prop-types"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Header from "../components/header";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -42,6 +43,8 @@ export default class PhotoGalleryPage extends React.Component {
 		  keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
 		  title="Photo Gallery"
 		/>
+			<Header title="Photo Gallery"/>
+			
       		<div className="container product-image-array m-auto">
 				<Slider {...settings}>
 				{photos.map(image => (

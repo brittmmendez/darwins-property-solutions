@@ -2,6 +2,7 @@ import React from "react";
 import { navigate } from 'gatsby-link'
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Header from "../components/header";
 
 function encode(data) {
   return Object.keys(data)
@@ -60,12 +61,8 @@ export default class ContactPage extends React.Component {
           title="Contact"
         />
 
-        <div className="w-full py-24 px-6 bg-fixed gradient bg-no-repeat bg-bottom z-10 h-lg">
-          <div className="container max-w-4xl mx-auto text-center">
-            <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-100">Contact Us</h1>
-          </div>
-        </div>
-
+        <Header title="Contact Us"/>
+        
         <section className="services-page bg-white border-b py-12">
           {this.state.toggleModal &&
             <div className="h-screen w-full flex flex-col items-center justify-center">
@@ -89,8 +86,8 @@ export default class ContactPage extends React.Component {
           <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left flex flex-wrap items-start md:flex-no-wraps relative">
             <div className="flex flex-wrap my-8">
               <div className="p-2">
-                <h3 className="text-3xl font-bold leading-none mb-3">Get In Touch</h3>
-                <p className="mb-2">Please fill out our form below and we will be in touch to answer any questions you have.<br /><br />
+                <h3 className="text-3xl font-bold leading-none mb-3">Schedule your free Consultation</h3>
+                <p className="mb-2">Please fill out our form below and we will be in touch to answer any questions or schedule a consultation.<br /><br />
                 </p>
                 <form
                 name="contact"
@@ -135,6 +132,22 @@ export default class ContactPage extends React.Component {
                         name={'email'}
                         onChange={this.handleChange}
                         id={'email'}
+                        required={true}
+                      />
+                    </div>
+                  </div>
+                  <div className="field mb-6">
+                    <label className="label hidden" htmlFor={'phone'}>
+                      Phone
+                    </label>
+                    <div className="control">
+                      <input
+                        className="input border-solid border-gray-400 border-2 p-3 md:text-xl w-full"
+                        placeholder="Phone"
+                        type={'phone'}
+                        name={'phone'}
+                        onChange={this.handleChange}
+                        id={'phone'}
                         required={true}
                       />
                     </div>
