@@ -127,17 +127,25 @@ class Header extends Component {
 
 				<div className="w-full pb-24 px-6 bg-fixed h-2">
 					<div className="container max-w-4xl mx-auto text-center">
+						{!this.props.showImg &&
 						<h1 className=" pt-12 text-5xl font-bold leading-tight text-center text-gray-100 mb-3">
 							{this.props.title}
-						</h1>
+						</h1>}
+						
+						{this.props.showImg &&
+						<img
+							alt="logo"
+							className="large-header-logo"
+							src={logo}
+						/>}
 						
 						{this.props.showTagline &&
 							<p className="text-md md:text-lg text-center text-white ">
 								Serving the construction industry of Ohio and Kentucky since 2011.
 							</p>}	
 						{this.props.showBtn && 
-							<Link to="/services" className="primary-btn inline-block mt-8 px-8 py-4">
-								Our Services
+							<Link to="/contact" className="primary-btn inline-block mt-8 px-8 py-4">
+								Schedule a Consultation
 							</Link>
 						}
 				</div>
@@ -152,12 +160,14 @@ export default Header;
 Header.propTypes = {
 	title: PropTypes.string,
 	showTagline: PropTypes.bool,
-	showBtn: PropTypes.bool
+	showBtn: PropTypes.bool,
+	showImg: PropTypes.bool
 }
 
 
 Header.defaultProps = {
 	title: "",
 	showTagline: false,
+	showImg: false,
 	showBtn: false
 }

@@ -146,6 +146,7 @@ function Footer() {
           </div>
         </div>
             <p className="text-sm mt-12">© 2020 Darwins Property Solutions. All Rights Reserved.
+            Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
             </p>
       </footer>
     </div>

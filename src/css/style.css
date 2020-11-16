@@ -10,10 +10,9 @@
   --primaryGrey: #222222;
   --primaryLightBlue: #0F8FDC;
   --primarylighGrey: #393A3C;
+  /* --primarylighGrey: #393a3cd9; */
   --white: #ffffff;
   --secondaryGrey: #DBDADB;
-  --warning: #de3618;
-  --success: #4BB543;
 }
 
 body{
@@ -59,6 +58,11 @@ nav {
     max-width: 150px;
 }
 
+.large-header-logo{
+  max-width: 440.031px;
+  margin: auto;
+}
+
 a.nav:hover{
   color: var(--primaryLightBlue);
 }
@@ -81,10 +85,78 @@ footer {
   color: var(--primaryLightBlue);
 }
 
+/* service homepage section */
+.title-overlay{
+  background: #393a3cd6;
+  opacity: .95;
+  padding-top: 15px;
+  padding-bottom: 15px;  
+  width: 100%;
+}
+
+/* Team member */
+.team-member{
+  width: 60%;
+  margin: auto;
+}
+
 /* services page */
-.services-page img{
-  height: 350px;
-  object-fit: cover;
+div.box_service {
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 30px 30px 5px;
+  background-color: #fff;
+  position: relative;
+  display: block;
+  color: #555;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.box_service span {
+  background-color: #ccc;
+  width: 20px;
+  height: 20px;
+  display: block;
+  top: 15px;
+  right: 15px;
+  position: absolute;
+  line-height: 1;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+}
+
+.box_service div{
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  margin: auto;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 60px;
+  color: #3cb878;
+  background-color: rgba(121,184,151,.15);
+}
+
+.box_service div img {
+  width: 75px;
+  margin: auto;
+  padding-top: 9px;
+}
+
+.box_service h3 {
+  font-size: 21px;
+}
+
+.box_service p {
+  margin-bottom: 25px;
+  color: #222222
 }
 
 /* photo gallery */
@@ -167,4 +239,16 @@ img.sm-img-cover {
   top: 85%;
   right: 20px;
   z-index: 10;
+}
+
+
+
+@media only screen and (max-width: 769px) {
+  .large-header-logo{
+    max-width: 100%
+  }
+  
+  nav {
+    color: #222222;
+  }
 }

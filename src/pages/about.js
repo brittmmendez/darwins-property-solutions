@@ -17,9 +17,9 @@ function AboutPage({ data }) {
       <Header title="About Us"/>
 
       {/* <!--Services Section--> */}
-      <section className="py-12">
+      <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<h2 className="w-full my-8 text-4xl leading-tight">Our Team</h2>
+					<h2 className="w-full my-8 text-4xl leading-tight">Our Approach</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
@@ -46,8 +46,8 @@ function AboutPage({ data }) {
         </div>  
       </section>
 
-      {/* <!--Services Section--> */}
-      <section className="border-b py-12">
+      {/* <!--Values Section--> */}
+      <section className="border-b py-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<h2 className="w-full my-2 text-4xl leading-tight">Our Values</h2>
 				</div>
@@ -79,7 +79,7 @@ function AboutPage({ data }) {
       </section>
 
       {/* <!--Reviews Section--> */}
-      <section className="border-b py-12">
+      <section className="border-b py-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<h3 className="w-full text-center my-2 text-4xl font-bold leading-tight">Customer Reviews</h3>
 				</div>

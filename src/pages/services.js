@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Header from "../components/header";
+import helmet from "../images/svg/014-helmet.svg"
 
 function ServicesPage() {
   return (
@@ -13,125 +14,202 @@ function ServicesPage() {
       
       <Header title="Our Services"/>
 
-      {/* <!--Services Section--> */}
-      <section className="services-page border-b py-12">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left flex flex-wrap items-start md:flex-no-wraps">
-          <div className="flex flex-wrap my-8">
-            <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-              </p>
-              
+      {/* <!--Industrial Services--> */}
+      <section className="border-b pt-6 pb-20">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h2 className="w-full my-8 text-4xl leading-tight">Industrial Services</h2>
+				</div>
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <div className="flex flex-wrap">
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
-            <div className="w-full sm:w-1/2 p-2">
-              <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
-          </div>
-          
-          
-          <div className="flex flex-wrap flex-col-reverse sm:flex-row my-8">	
-            <div className="w-full sm:w-1/2 p-2 mt-6">
-              <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
-            </div>
-            <div className="w-full sm:w-1/2 p-2 mt-6">
-              <div className="align-middle">
-                <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-                </p>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
             </div>
           </div>
-
-          <div className="flex flex-wrap my-8">
-            <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-              </p>
-              
+         
+          <div className="flex flex-wrap">
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
-            <div className="w-full sm:w-1/2 p-2">
-              <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
-          </div>
-
-          
-          <div className="flex flex-wrap flex-col-reverse sm:flex-row my-8">	
-            <div className="w-full sm:w-1/2 p-2 mt-6">
-              <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
-            </div>
-            <div className="w-full sm:w-1/2 p-2 mt-6">
-              <div className="align-middle">
-                <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-                </p>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
             </div>
           </div>
-
-          <div className="flex flex-wrap my-8">
-            <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-              </p>
-              
+        </div>  
+      </section>
+      
+      {/* Commercial Services */}
+      <section className="border-b py-20">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h2 className="w-full my-8 text-4xl leading-tight">Commercial Services</h2>
+				</div>
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <div className="flex flex-wrap">
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
-            <div className="w-full sm:w-1/2 p-2">
-              <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
-          </div>
-
-          
-          <div className="flex flex-wrap flex-col-reverse sm:flex-row my-8">	
-            <div className="w-full sm:w-1/2 p-2 mt-6">
-              <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
-            </div>
-            <div className="w-full sm:w-1/2 p-2 mt-6">
-              <div className="align-middle">
-                <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-                </p>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
             </div>
           </div>
-
-          <div className="flex flex-wrap my-8">
-            <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-              </p>
-              
+         
+          <div className="flex flex-wrap">
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
-            <div className="w-full sm:w-1/2 p-2">
-              <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
-          </div>
-
-          
-          <div className="flex flex-wrap flex-col-reverse sm:flex-row my-8">	
-            <div className="w-full sm:w-1/2 p-2 mt-6">
-              <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
-            </div>
-            <div className="w-full sm:w-1/2 p-2 mt-6">
-              <div className="align-middle">
-                <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-                </p>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
             </div>
           </div>
-
-          <div className="flex flex-wrap my-8">
-            <div className="w-5/6 sm:w-1/2 p-2">
-              <h3 className="text-3xl leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-              </p>
-              
+        </div>  
+      </section>
+      
+      {/* Ressidential Services */}
+      <section className="border-b py-20">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h2 className="w-full my-8 text-4xl leading-tight">Ressidential Services</h2>
+				</div>
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <div className="flex flex-wrap">
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
-            <div className="w-full sm:w-1/2 p-2">
-              <img className="w-full mx-auto" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800"/>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
+            </div>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
             </div>
           </div>
-        </div>
+         
+          <div className="flex flex-wrap">
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
+            </div>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
+            </div>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={helmet} /></div>
+                <h3>Quality Services</h3>
+                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
+              </div>
+            </div>
+          </div>
+        </div>  
       </section>
     </Layout>
   );

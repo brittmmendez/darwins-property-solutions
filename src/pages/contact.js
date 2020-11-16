@@ -63,7 +63,7 @@ export default class ContactPage extends React.Component {
 
         <Header title="Contact Us"/>
         
-        <section className="services-page bg-white border-b py-12">
+        <section className="services-page bg-white border-b py-6">
           {this.state.toggleModal &&
             <div className="h-screen w-full flex flex-col items-center justify-center">
               <div className="h-screen w-full fixed flex items-center justify-center bg-modal z-10">
@@ -85,10 +85,8 @@ export default class ContactPage extends React.Component {
           }
           <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left flex flex-wrap items-start md:flex-no-wraps relative">
             <div className="flex flex-wrap my-8">
-              <div className="p-2">
+              <div>
                 <h3 className="text-3xl font-bold leading-none mb-3">Schedule your free Consultation</h3>
-                <p className="mb-2">Please fill out our form below and we will be in touch to answer any questions or schedule a consultation.<br /><br />
-                </p>
                 <form
                 name="contact"
                 method="post"
