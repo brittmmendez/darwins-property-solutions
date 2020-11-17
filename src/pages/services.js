@@ -3,6 +3,11 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Header from "../components/header";
 import helmet from "../images/svg/014-helmet.svg"
+import screwdriver from "../images/svg/024-screwdriver.svg"
+import shovel from "../images/svg/029-shovel-1.svg"
+import paintroller from "../images/svg/018-paint-roller.svg"
+import measuringtape from "../images/svg/016-measuring-tape.svg"
+import doublewrench from "../images/svg/008-double-wrench.svg"
 
 function ServicesPage() {
   return (
@@ -17,14 +22,15 @@ function ServicesPage() {
       {/* <!--Industrial Services--> */}
       <section className="border-b pt-6 pb-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 className="w-full my-8 text-4xl leading-tight">Industrial Services</h2>
+          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Industrial Services</h2>
 				</div>
+        
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <div className="flex flex-wrap">
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
+              <div className="box_service ">
                 <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
+                <div> <img src={screwdriver} /></div>
                 <h3>Quality Services</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
@@ -33,7 +39,7 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
+                <div> <img src={shovel} /></div>
                 <h3>Quality Services</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
@@ -42,7 +48,7 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
+                <div> <img src={paintroller} /></div>
                 <h3>Quality Services</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
@@ -53,7 +59,7 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
+                <div> <img src={measuringtape} /></div>
                 <h3>Quality Services</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
@@ -62,8 +68,8 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
-                <h3>Quality Services</h3>
+                <div> <img src={doublewrench} /></div>
+                <h3>Quality</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
             </div>
@@ -83,7 +89,7 @@ function ServicesPage() {
       {/* Commercial Services */}
       <section className="border-b py-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 className="w-full my-8 text-4xl leading-tight">Commercial Services</h2>
+          <h2 id="commercial" className="w-full my-8 text-4xl leading-tight">Commercial Services</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <div className="flex flex-wrap">
@@ -149,7 +155,7 @@ function ServicesPage() {
       {/* Ressidential Services */}
       <section className="border-b py-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 className="w-full my-8 text-4xl leading-tight">Ressidential Services</h2>
+          <h2 id="ressidential" className="w-full my-8 text-4xl leading-tight">Ressidential Services</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <div className="flex flex-wrap">

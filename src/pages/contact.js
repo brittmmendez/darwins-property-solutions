@@ -86,7 +86,7 @@ export default class ContactPage extends React.Component {
           <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left flex flex-wrap items-start md:flex-no-wraps relative">
             <div className="flex flex-wrap my-8">
               <div>
-                <h3 className="text-3xl font-bold leading-none mb-3">Schedule your free Consultation</h3>
+                <h3 className="text-3xl font-bold leading-none mb-3">Request a free Consultation</h3>
                 <form
                 name="contact"
                 method="post"
