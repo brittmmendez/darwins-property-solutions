@@ -22,26 +22,13 @@ function AboutPage({ data }) {
 					<h2 className="w-full my-8 text-4xl leading-tight">Our Approach</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-          </p>
-       
+          <p className="mb-8">As a full service construction provider, Darwins Property Solutions understands how important it is for projects to be completed successfully, on time, and on budget.  Our company was founded on the commitment to excellence that we bring to each project. We communicate thoroughly throughout our project in order to provide timely, accurate, and high quality solutions. Our hands-on approach sets us apart from other construction companies in the area and helps us to reach our goal of delivering best in class construction projects.</p>
+
           <div className="flex flex-wrap m-auto">
-          <div className="h-auto md:w-1/3 px-4 mb-8">
+          <div className="h-auto md:w-1/2 px-4 mb-8">
             <div className="mb-8"><img className="rounded shadow-md" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800" alt=""/></div>
-            <div><img className="rounded shadow-md" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800" alt=""/></div>
           </div>
-          <div className="hidden md:block md:w-1/3 px-4 mb-8">
-            <div className="bg-cover gradient bg-no-repeat rounded shadow-md" style={{height: "100%"}}></div>
-          </div>
-          <div className="h-auto md:w-1/3 px-4 mb-8">
-            <div className="mb-8"><img className="rounded shadow-md" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800" alt=""/></div>
-            <div><img className="rounded shadow-md" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800" alt=""/></div>
-          </div>
+           
           </div>
         </div>  
       </section>
@@ -49,32 +36,39 @@ function AboutPage({ data }) {
       {/* <!--Values Section--> */}
       <section className="border-b py-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<h2 className="w-full my-2 text-4xl leading-tight">Our Values</h2>
+					<h2 className="w-full my-2 text-4xl leading-tight">Our Projects</h2>
 				</div>
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <div className="flex flex-wrap my-8">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap md:flex-no-wraps">
+          <div className="our-projects flex flex-wrap w-full my-8">
             <div className="w-full sm:w-1/3 px-3">
-              <h3 className="text-2xl font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              </p>
+              <h3 className="text-2xl font-bold leading-none mb-3">Industrial</h3>
+                <ul className="mb-8 text-white">
+                  <li>Senior living and independent living</li>
+                  <li>Senior care and nursing facilities</li>
+                  <li>Commercial construction</li>
+                  <li>Institutional construction</li>
+                </ul>
             </div>
             <div className="w-full sm:w-1/3 px-3">
-              <h3 className="text-2xl font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              </p>
+              <h3 className="text-2xl font-bold leading-none mb-3">Commercial</h3>
+                <ul className="mb-8 text-white">
+                  <li>Senior living and independent living</li>
+                  <li>Senior care and nursing facilities</li>
+                  <li>Commercial construction</li>
+                  <li>Institutional construction</li>
+                  <li>Student housing and facilities</li>
+                </ul>
             </div>
             <div className="w-full sm:w-1/3 pl-3 px-3">
-            <h3 className="text-2xl font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-              <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              </p>
+            <h3 className="text-2xl font-bold leading-none mb-3">Residential</h3>
+                <ul className="mb-8 text-white">
+                  <li>Mixed-use residential and commercial construction</li>
+                  <li>Multi-family residential housing</li>
+                  <li>Single-family residential housing</li>
+                </ul>
             </div>
           </div>
+          <p className="mb-8">Darwins Property Solutions can begin at any phase of a project. See a full list of our services here or call us to get started today at: 555-555-5555</p>
         </div>  
       </section>
 

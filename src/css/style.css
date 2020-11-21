@@ -131,6 +131,11 @@ footer {
   margin: auto;
 }
 
+/* about page */
+.our-projects li {
+  list-style-type: square;
+}
+
 /* services page */
 div.box_service {
   text-align: center;

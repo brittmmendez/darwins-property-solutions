@@ -141,7 +141,7 @@ class Header extends Component {
 						
 						{this.props.showTagline &&
 							<p className="text-md md:text-lg text-center text-white ">
-								Serving the construction industry of Ohio and Kentucky since 2011.
+								Serving the construction industry of Ohio, Kentucky, and Indianna since 2011.
 							</p>}	
 						{this.props.showBtn && 
 							<Link to="/contact" className="primary-btn inline-block mt-8 px-8 py-4">

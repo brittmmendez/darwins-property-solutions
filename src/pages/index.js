@@ -63,15 +63,17 @@ function IndexPage() {
 			{/* <!--End All Services Section--> */}
 			
 			{/* <!--About Section--> */}
-			<div className="w-full py-12  color-background">
+			<div className="w-full pt-6 pb-12  color-background">
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
 						<div data-sal="slide-right" data-sal-delay="200" data-sal-duration="500">
 						<h3 className="text-3xl mb-8 leading-tight">
-								Providing the best services in the construction industry since 2011.
+								Over a Decade of Experience
 							</h3>
 							
-							<p className="mb-5">Established in 2011, Darwins Property Solutions has been dedicated to providing the best services in the construction industry in Ohio and Kentucky. We specialize in roofing and landscaping for commercial and residential properties as well as landscaping services. Our mission is to provide the best quality service you deserve. </p>
+							<p className="mb-5">Established in 2011, Darwins Property Solutions has been dedicated to providing best in class services to the construction industry of the Ohio, Kentucky and Indiana area.  With over a decade of experience, we have grown into one of the most trusted and well respected full service construction companies in the area. We are committed to providing high quality solutions and customer satisfaction.</p>
+ 
+							<p className="mb-5">We specialize in a wide range of services for industrial, commercial, and residential projects</p>
 							<Link to="/contact" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">
 								<button className="primary-btn inline-block mt-8 px-8 py-4"> Schedule a Consultation</button>
 							</Link>
