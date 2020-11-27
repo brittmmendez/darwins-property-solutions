@@ -71,7 +71,10 @@ function AboutPage({ data }) {
                 </ul>
             </div>
           </div>
-          <p className="mb-8">Darwins Property Solutions can begin at any phase of a project. See a full list of our services here or call us to get started today at: 555-555-5555</p>
+          <h3 className="my-4 text-3xl leading-tight text-white">
+            Darwins Property Solutions can begin at any phase of a project. See a full list of our services here or call us to get started today at: 
+            <a href="tel:5135632100" title="phone number"> 513-563-2100</a>
+          </h3>
         </div>  
       </section>
 
@@ -92,14 +95,14 @@ export default AboutPage;
 
 export const query = graphql`
  query {
-	allContentfulReviewCarousel {
+	allContentfulReviewGallery {
     edges {
       node {
         review {
-          contact
           review {
             review
           }
+          customer
         }
       }
     }

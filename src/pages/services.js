@@ -8,7 +8,7 @@ import shovel from "../images/svg/029-shovel-1.svg"
 import paintroller from "../images/svg/018-paint-roller.svg"
 import measuringtape from "../images/svg/016-measuring-tape.svg"
 import doublewrench from "../images/svg/008-double-wrench.svg"
-import wrench from "../images/svg/033-wrench.svg"
+import wrench from "../images/svg/006-plier.svg"
 
 function ServicesPage() {
   return (

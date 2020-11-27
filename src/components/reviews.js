@@ -8,8 +8,7 @@ import Slider from "react-slick";
 
 export default class Reviews extends React.Component {
 	render() {
-		const reviews = this.props.data.allContentfulReviewCarousel.edges[0].node.review
-		
+		const reviews = this.props.data.allContentfulReviewGallery.edges[0].node.review
 	  	const settings = {
 		dots: true,
 		dotsClass: 'slick-dots slick-thumb',

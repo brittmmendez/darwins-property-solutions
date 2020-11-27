@@ -13,8 +13,6 @@ import Slider from "react-slick";
 export default class PhotoGalleryPage extends React.Component {
 	render() {
 		const photos = this.props.data.allContentfulPhotoGallery.edges[0].node.photo
-		console.log(photos)
-
 	  	const settings = {
 		customPaging: function(i) {
 		  return (

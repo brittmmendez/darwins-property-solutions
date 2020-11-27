@@ -92,7 +92,7 @@ class Header extends Component {
 										<Link to="/about" className="nav py-2 inline-block md:text-white lg:block font-semibold" >About Us</Link>
 									</li>
 									<li className="md:ml-4">
-										<Link to="/services" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">Servivces</Link>
+										<Link to="/services" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">Services</Link>
 									</li>
 									<li className="md:ml-4">
 										<Link to="/photo-gallery" className="nav  py-2 inline-block md:text-white md:px-2 font-semibold">Photo Gallery</Link>
