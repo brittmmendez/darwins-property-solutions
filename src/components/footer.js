@@ -8,7 +8,7 @@ function Footer() {
       {/* <!--Action Area--> */}
         <div className="py-16" >
         <section className="container mx-auto text-center py-6 mb-12">
-          <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">CALL US TODAY FOR A FREE QUOTE</h1>
+          <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">CALL US TODAY FOR A FREE QUOTE</h2>
           <div className="w-full mb-4">	
             <div className="h-1 mx-auto  w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
           </div>

@@ -8,6 +8,7 @@ import shovel from "../images/svg/029-shovel-1.svg"
 import paintroller from "../images/svg/018-paint-roller.svg"
 import measuringtape from "../images/svg/016-measuring-tape.svg"
 import doublewrench from "../images/svg/008-double-wrench.svg"
+import wrench from "../images/svg/033-wrench.svg"
 
 function ServicesPage() {
   return (
@@ -30,7 +31,7 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service ">
                 <span className="icon_info">i</span>
-                <div> <img src={screwdriver} /></div>
+                <div> <img src={screwdriver} alt="screwdriver icon"/></div>
                 <h3>Quality Services</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
@@ -39,7 +40,7 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={shovel} /></div>
+                <div> <img src={shovel} alt="shovel icon" /></div>
                 <h3>Quality Services</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
@@ -48,7 +49,7 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={paintroller} /></div>
+                <div> <img src={paintroller} alt="paintroller icon"/></div>
                 <h3>Quality Services</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
@@ -59,7 +60,7 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={measuringtape} /></div>
+                <div> <img src={measuringtape} alt="measuringtape icon"/></div>
                 <h3>Quality Services</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
@@ -68,7 +69,7 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={doublewrench} /></div>
+                <div> <img src={doublewrench} alt="doublewrench icon"/></div>
                 <h3>Quality</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>
@@ -77,7 +78,7 @@ function ServicesPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
+                <div> <img src={wrench} doublewrench/></div>
                 <h3>Quality Services</h3>
                 <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
               </div>

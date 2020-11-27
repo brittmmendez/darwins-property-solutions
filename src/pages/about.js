@@ -26,7 +26,10 @@ function AboutPage({ data }) {
 
           <div className="flex flex-wrap m-auto">
           <div className="h-auto md:w-1/2 px-4 mb-8">
-            <div className="mb-8"><img className="rounded shadow-md" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800" alt=""/></div>
+            <div className="mb-8"><img className="rounded shadow-md" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800" alt="sidewalk"/></div>
+          </div>
+          <div className="h-auto md:w-1/2 px-4 mb-8">
+            <div className="mb-8"><img className="rounded shadow-md" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800" alt="rooding project"/></div>
           </div>
            
           </div>
