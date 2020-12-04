@@ -16,7 +16,8 @@
 }
 
 body{
-  background-color: var(--primarylighGrey);
+  background-color: black;
+  font-family: Helvetica, sans-serif;
 }
 
 h2 {
@@ -33,7 +34,13 @@ p {
 }
 /* for background hero photo and action background on homepage*/
 .gradient {
-  background-image: linear-gradient(to bottom, rgba(57 58 60 / 92%), rgba(245, 246, 252, 0.52)),url(https://images.ctfassets.net/1qq6mgrp27zi/1wHldEvE4A8AFGzU9LoAYL/88aeb966edb3ff2856e5dfb83e14d100/Image__7_.jpeg?w=2100)!important;
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.19), rgba(245, 246, 252, 0.52)),url(https://images.ctfassets.net/1qq6mgrp27zi/1wHldEvE4A8AFGzU9LoAYL/88aeb966edb3ff2856e5dfb83e14d100/Image__7_.jpeg?w=2100)!important; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.19) 0%, rgba(0, 0, 0, 0.19) 100%), url("https://images.ctfassets.net/1qq6mgrp27zi/1wHldEvE4A8AFGzU9LoAYL/88aeb966edb3ff2856e5dfb83e14d100/Image__7_.jpeg?w=2100")
+  /* linear-gradient(rgba(0, 0, 0, 0.19) 0%, rgba(0, 0, 0, 0.19) 100%) */
+}
+
+.main-header{
+  min-height: 80vh;;
 }
 
 /* for header */
@@ -55,7 +62,7 @@ nav {
 }
 
 .header-logo{
-    max-width: 150px;
+  max-width: 196px;
 }
 
 .large-header-logo{
@@ -291,4 +298,10 @@ img.sm-img-cover {
   nav {
     color: #222222;
   }
+}
+
+.about-img{
+  height: 395.625px;
+  object-fit: cover;
+  width: 100%;
 }

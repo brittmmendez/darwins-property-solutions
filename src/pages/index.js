@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Header from "../components/header";
+import Header from "../components/mainHeader";
 import helmet from "../images/svg/014-helmet.svg"
 import logotruck from "../images/logotruck.png"
 
@@ -14,7 +14,8 @@ function IndexPage() {
         title="Home"
       />
 
-			<Header showImg showBtn showTagline/>
+			{/* <Header showImg showBtn showTagline/> */}
+			<Header title="Serving the construction industry of Ohio, Kentucky, and Indianna since 2011." showBtn/>
 
 			{/* Services Section */}
 			<div className="w-full py-12 ">

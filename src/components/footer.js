@@ -13,7 +13,7 @@ function Footer() {
             <div className="h-1 mx-auto  w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
           <h3 className="my-4 text-3xl leading-tight text-white">
-          <a href="tel:5135632100" title="phone number">513-563-2100</a>
+          <a href="tel:5134886021" title="phone number">513-488-6021</a>
           </h3>	
         </section>
       </div>
@@ -73,7 +73,7 @@ function Footer() {
                 </div>
               </li>
               <li className="mt-4">
-                <a href="tel:5135632100" title="phone number" className="block flex items-center opacity-75 hover:opacity-100">
+                <a href="tel:5134886021" title="phone number" className="block flex items-center opacity-75 hover:opacity-100">
                   <span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                       className="fill-current">
@@ -82,7 +82,7 @@ function Footer() {
                     </svg>
                   </span>
                   <span className="ml-3">
-                  513-563-2100
+                  513-488-6021
                   </span>
                 </a>
               </li>
@@ -128,7 +128,7 @@ function Footer() {
           </div>
         </div>
             <p className="text-sm mt-12">© 2020 Darwins Property Solutions. All Rights Reserved.
-            Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+            Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip" target="_blank" rel="noopener noreferrer">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer"> www.flaticon.com</a>
             </p>
       </footer>
     </div>
