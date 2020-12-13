@@ -6,7 +6,7 @@ import logo from "../images/logo2.png"
 class Header extends Component {
 	render() {
 		return (
-			<div className="gradient bg-no-repeat bg-center relative z-10">
+			<div className="gradient-light bg-no-repeat bg-center relative z-10">
 				<header className="w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 text-white">
 					<div className="hidden md:flex justify-between items-center py-2 border-b text-sm py-3">
 						<div className="">

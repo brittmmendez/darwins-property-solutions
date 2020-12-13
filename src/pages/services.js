@@ -23,7 +23,7 @@ function ServicesPage() {
       {/* <!--Industrial Services--> */}
       <section className="border-b pt-6 pb-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Industrial Services</h2>
+          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Industrial</h2>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
@@ -90,7 +90,7 @@ function ServicesPage() {
       {/* Commercial Services */}
       <section className="border-b py-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 id="commercial" className="w-full my-8 text-4xl leading-tight">Commercial Services</h2>
+          <h2 id="commercial" className="w-full my-8 text-4xl leading-tight">Commercial</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <div className="flex flex-wrap">
@@ -156,7 +156,7 @@ function ServicesPage() {
       {/* Ressidential Services */}
       <section className="border-b py-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 id="ressidential" className="w-full my-8 text-4xl leading-tight">Ressidential Services</h2>
+          <h2 id="ressidential" className="w-full my-8 text-4xl leading-tight">Ressidential</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <div className="flex flex-wrap">

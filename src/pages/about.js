@@ -5,6 +5,12 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Reviews from "../components/reviews";
 import Header from "../components/header";
+import screwdriver from "../images/svg/024-screwdriver.svg"
+import shovel from "../images/svg/029-shovel-1.svg"
+import paintroller from "../images/svg/018-paint-roller.svg"
+import measuringtape from "../images/svg/016-measuring-tape.svg"
+import doublewrench from "../images/svg/008-double-wrench.svg"
+import wrench from "../images/svg/006-plier.svg"
 
 function AboutPage({ data }) {
   return (
@@ -15,67 +21,86 @@ function AboutPage({ data }) {
       />
 
       <Header title="About Us"/>
-
-      {/* <!--Services Section--> */}
+      
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<h2 className="w-full my-8 text-4xl leading-tight">Our Approach</h2>
 				</div>
-        
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <p className="mb-8">As a full service construction provider, Darwins Property Solutions understands how important it is for projects to be completed successfully, on time, and on budget.  Our company was founded on the commitment to excellence that we bring to each project. We communicate thoroughly throughout our project in order to provide timely, accurate, and high quality solutions. Our hands-on approach sets us apart from other construction companies in the area and helps us to reach our goal of delivering best in class construction projects.</p>
-
+          <p className="mb-8">As a full service construction provider, Darwins Property Solutions understands how important it is for projects to be completed successfully, on time, and on budget. Our company was founded on the commitment to excellence that we bring to each project. We communicate thoroughly throughout our project in order to provide timely, accurate, and high quality solutions. Our hands-on approach sets us apart from other construction companies in the area and helps us to reach our goal of delivering best in class construction projects.</p>
+          <p className="mb-8">From residential, commercial, to industrial, Darwins Property Solutions has a track record of successful construction projects throughout the Ohio, Kentucky, and Indianna area. We are proud to feature photos of our recent projects in our photo gallary.</p>
+        </div>
+      
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap md:flex-no-wraps">
+          <div className="flex flex-wrap m-auto">
+            <div className="h-auto md:w-1/2 px-4 mb-8">
+              <div className="mb-8"><img className="rounded shadow-md about-img" src="http://images.ctfassets.net/1qq6mgrp27zi/6UfqkZHP807tesjdVVnt0B/52fbec4b77280f04e6aed0dbd312caa2/Image__1_.jpeg?w=800" alt="sidewalk"/></div>
+            </div>
+            <div className="h-auto md:w-1/2 px-4 mb-8">
+              <div className="mb-8"><img className="rounded shadow-md about-img" src="//images.ctfassets.net/1qq6mgrp27zi/3BTseMMYTxFKwFXPQ8J8Fm/503fd6e72bfc3599e4dd04e88b625b18/Image-5.jpeg?w=800" alt="rooding project"/></div>
+            </div>
+          </div>
+       
           <div className="flex flex-wrap m-auto">
           <div className="h-auto md:w-1/2 px-4 mb-8">
-            <div className="mb-8"><img className="rounded shadow-md about-img" src="http://images.ctfassets.net/1qq6mgrp27zi/6UfqkZHP807tesjdVVnt0B/52fbec4b77280f04e6aed0dbd312caa2/Image__1_.jpeg?w=800" alt="sidewalk"/></div>
+              <div className="mb-8"><img className="rounded shadow-md about-img" src="//images.ctfassets.net/1qq6mgrp27zi/3BTseMMYTxFKwFXPQ8J8Fm/503fd6e72bfc3599e4dd04e88b625b18/Image-5.jpeg?w=800" alt="rooding project"/></div>
+            </div>
+            <div className="h-auto md:w-1/2 px-4 mb-8">
+              <div className="mb-8"><img className="rounded shadow-md about-img" src="http://images.ctfassets.net/1qq6mgrp27zi/6UfqkZHP807tesjdVVnt0B/52fbec4b77280f04e6aed0dbd312caa2/Image__1_.jpeg?w=800" alt="sidewalk"/></div>
+            </div>
           </div>
-          <div className="h-auto md:w-1/2 px-4 mb-8">
-            <div className="mb-8"><img className="rounded shadow-md about-img" src="//images.ctfassets.net/1qq6mgrp27zi/3BTseMMYTxFKwFXPQ8J8Fm/503fd6e72bfc3599e4dd04e88b625b18/Image-5.jpeg?w=800" alt="rooding project"/></div>
-          </div>
-           
-          </div>
-        </div>  
+        </div>
       </section>
 
-      {/* <!--Values Section--> */}
-      <section className="border-b pb-20">
+      <section className="border-b pt-6 pb-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<h2 className="w-full my-2 text-4xl leading-tight">Our Projects</h2>
+          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Projects</h2>
 				</div>
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap md:flex-no-wraps">
-          <div className="our-projects flex flex-wrap w-full my-8">
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <div className="about-us flex flex-wrap w-full">
             <div className="w-full sm:w-1/3 px-3">
-              <h3 className="text-2xl font-bold leading-none mb-3">Industrial</h3>
-                <ul className="mb-8 text-white">
+              <div className="box_service ">
+                <span className="icon_info">i</span>
+                <div> <img src={screwdriver} alt="screwdriver icon"/></div>
+                <h3 className="m-2">Industrial</h3>
+                <ul className="mb-8 text-left">
                   <li>Senior living and independent living</li>
                   <li>Senior care and nursing facilities</li>
                   <li>Commercial construction</li>
                   <li>Institutional construction</li>
                 </ul>
+              </div>
             </div>
+           
             <div className="w-full sm:w-1/3 px-3">
-              <h3 className="text-2xl font-bold leading-none mb-3">Commercial</h3>
-                <ul className="mb-8 text-white">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={shovel} alt="shovel icon" /></div>
+                <h3 className="m-2">Commercial</h3>
+                <ul className="mb-8 text-left">
                   <li>Senior living and independent living</li>
                   <li>Senior care and nursing facilities</li>
                   <li>Commercial construction</li>
                   <li>Institutional construction</li>
                   <li>Student housing and facilities</li>
                 </ul>
+              </div>
             </div>
-            <div className="w-full sm:w-1/3 pl-3 px-3">
-            <h3 className="text-2xl font-bold leading-none mb-3">Residential</h3>
-                <ul className="mb-8 text-white">
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service">
+                <span className="icon_info">i</span>
+                <div> <img src={paintroller} alt="paintroller icon"/></div>
+                <h3 className="m-2">Residential</h3>
+                <ul className="mb-8 text-left">
                   <li>Mixed-use residential and commercial construction</li>
                   <li>Multi-family residential housing</li>
                   <li>Single-family residential housing</li>
                 </ul>
+              </div>
             </div>
           </div>
-          <h3 className="my-4 text-2xl font-bold leading-none mb-3">
-            Darwins Property Solutions can begin at any phase of a project. See a full list of our services here or call us to get started today at: 
-            <a href="tel:5134886021" title="phone number"> 513-488-6021</a>
-          </h3>
         </div>  
       </section>
 

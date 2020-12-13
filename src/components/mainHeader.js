@@ -106,11 +106,11 @@ class Header extends Component {
 					</div>
 				</header>
 
-				<div className="w-full pb-24 px-6 bg-fixed h-2">
-					<div className="container max-w-4xl mx-auto text-center">
+				<div className="w-full px-6 bg-fixed h-2">
+					<div className="container header-box max-w-4xl mx-auto text-center">
 						{!this.props.showImg &&
-						<h1 className=" pt-12 text-5xl font-bold leading-tight text-center text-gray-100 mb-3">
-							{this.props.title}
+						<h1 className="text-5xl font-bold leading-tight text-center text-black mb-3">
+							Darwins Property Solutions
 						</h1>}
 						
 						{this.props.showImg &&
@@ -121,7 +121,7 @@ class Header extends Component {
 						/>}
 						
 						{this.props.showTagline &&
-							<p className="text-md md:text-lg text-center text-white ">
+							<p className="text-lg text-center text-black ">
 								Serving the construction industry of Ohio, Kentucky, and Indianna since 2011.
 							</p>}	
 						{this.props.showBtn && 

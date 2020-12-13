@@ -15,7 +15,7 @@ function IndexPage() {
       />
 
 			{/* <Header showImg showBtn showTagline/> */}
-			<Header title="Serving the construction industry of Ohio, Kentucky, and Indianna since 2011." showBtn/>
+			<Header title="Darwins Property Solutions" showTagline="Serving the construction industry of Ohio, Kentucky, and Indianna since 2011." showBtn/>
 
 			{/* Services Section */}
 			<div className="w-full py-12 ">
@@ -68,22 +68,24 @@ function IndexPage() {
 			<div className="w-full pt-6 pb-12  color-background">
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
-						<div data-sal="slide-right" data-sal-delay="200" data-sal-duration="500">
-						<h3 className="text-3xl mb-8 leading-tight">
+						<div>
+						<h3 className="text-center md:text-left text-3xl mb-8 leading-tight">
 								Over a Decade of Experience
 							</h3>
 							
 							<p className="mb-5">Established in 2011, Darwins Property Solutions has been dedicated to providing best in class services to the construction industry of the Ohio, Kentucky and Indiana area.  With over a decade of experience, we have grown into one of the most trusted and well respected full service construction companies in the area. We are committed to providing high quality solutions and customer satisfaction.</p>
  
 							<p className="mb-5">We specialize in a wide range of services for industrial, commercial, and residential projects</p>
-							<Link to="/contact" title="contact page link" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">
-								<button className="primary-btn inline-block mt-8 px-8 py-4"> Schedule a Consultation</button>
-							</Link>
+							<div className="text-center md:text-left">
+								<Link to="/contact" title="contact page link" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">
+									<button className="primary-btn inline-block mt-8 px-8 py-4"> Schedule a Consultation</button>
+								</Link>
+							</div>
 						</div>
 					</div>
 					
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
-						<div data-sal="slide-left" data-sal-delay="200" data-sal-duration="500">
+						<div>
 							<img src={logotruck} className="w-full h-auto rounded shadow-md" alt="Vehicle with logo"/>
 						</div>
 					</div>
@@ -101,7 +103,7 @@ function IndexPage() {
 				
 								<div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 						<div className="flex- overflow-hidden text-center">
-							<div className="team-member-box">
+							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
 								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Construction Manager Helmet"/>
 								<h3 className="w-full font-bold text-xl px-6 pt-4">Darwin Paredes </h3>
 								<h3 className="w-full font-bold text-l px-6 pb-2">Construction Manager </h3>
@@ -116,7 +118,7 @@ function IndexPage() {
 					
 					<div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink text-center">
 						<div className="flex-1 overflow-hidden">
-							<div className="team-member-box">
+							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
 								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Office Manager Helmet"/>
 								<h3 className="w-full font-bold text-xl px-6 pt-4">Yayna Almonte </h3>
 								<h3 className="w-full font-bold text-l px-6 pb-2">Office Manager </h3>
@@ -131,7 +133,7 @@ function IndexPage() {
 					
 					<div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink text-center">
 						<div className="flex-1 overflow-hidden">
-							<div className="team-member-box">
+							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
 								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Sales Representative Helmet"/>
 								<h3 className="w-full font-bold text-xl px-6 pt-4">Don Morris </h3>
 								<h3 className="w-full font-bold text-l px-6 pb-2">Sales Representative </h3>
