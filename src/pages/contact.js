@@ -65,17 +65,17 @@ export default class ContactPage extends React.Component {
         
         <section className="services-page bg-white border-b py-6">
           {this.state.toggleModal &&
-            <div className="h-screen w-full flex flex-col items-center justify-center">
+            <div className="services-page-success-modal h-screen w-full flex flex-col items-center justify-center">
               <div className="h-screen w-full fixed flex items-center justify-center bg-modal z-10">
                     <div className="bg-white shadow p-8 m-4 max-h-full text-center overflow-y-scroll">
                         <div className="mb-4">
                           <h3 className="text-3xl font-bold leading-none mb-3">Submitted!</h3>
                         </div>
                         <div className="mb-8">
-                            <p>Thank you for reaching out. We will be in touch with you shortly!</p>
+                            <p className="text-black">Thank you for reaching out. We will be in touch with you shortly!</p>
                         </div>
                         <div className="flex justify-center">
-                          <button onClick={() => this.handleClick()} className="inline-block bg-black text-white border border-black border-solid px-8 py-4 font-semibold hover:bg-white hover:text-black"
+                          <button onClick={() => this.handleClick()} className="inline-block primary-btn button px-8 py-4"
                             >Close
                           </button>
                         </div>
