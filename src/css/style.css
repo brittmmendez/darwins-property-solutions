@@ -146,6 +146,11 @@ footer {
   transform: scale(1.2);
 }
 
+.vehicle-img{
+  max-height: 435px;
+  object-fit: cover;
+}
+
 
 /* Team member */
 .team-member{
@@ -334,4 +339,5 @@ img.sm-img-cover {
   height: 395.625px;
   object-fit: cover;
   width: 100%;
+  object-position: 5px 10%;
 }

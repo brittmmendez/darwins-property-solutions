@@ -86,7 +86,7 @@ function IndexPage() {
 					
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
 						<div>
-							<img src={logotruck} className="w-full h-auto rounded shadow-md" alt="Vehicle with logo"/>
+							<img src="http://images.ctfassets.net/1qq6mgrp27zi/4yo8K5n6kdRAQY37DKS5Vd/bf27379515642bc9eb4eaca289d27dfc/Image__1__copy.jpeg" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
 						</div>
 					</div>
 				</div>

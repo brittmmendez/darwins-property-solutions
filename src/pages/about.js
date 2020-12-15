@@ -34,19 +34,19 @@ function AboutPage({ data }) {
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap md:flex-no-wraps">
           <div className="flex flex-wrap m-auto">
             <div className="h-auto md:w-1/2 px-4 mb-8">
-              <div className="mb-8"><img className="rounded shadow-md about-img" src="http://images.ctfassets.net/1qq6mgrp27zi/6UfqkZHP807tesjdVVnt0B/52fbec4b77280f04e6aed0dbd312caa2/Image__1_.jpeg?w=800" alt="sidewalk"/></div>
+              <div className="mb-8"><img className="rounded shadow-md about-img" src="https://images.ctfassets.net/1qq6mgrp27zi/2MAG8U1OyyuQ4eTAUvOdCI/780fb8b19771294f460d877bd4519a15/Image__2_.jpeg?w=800" alt="sidewalk"/></div>
             </div>
             <div className="h-auto md:w-1/2 px-4 mb-8">
-              <div className="mb-8"><img className="rounded shadow-md about-img" src="//images.ctfassets.net/1qq6mgrp27zi/3BTseMMYTxFKwFXPQ8J8Fm/503fd6e72bfc3599e4dd04e88b625b18/Image-5.jpeg?w=800" alt="rooding project"/></div>
+              <div className="mb-8"><img className="rounded shadow-md about-img" src="https://images.ctfassets.net/1qq6mgrp27zi/6FC6fUVErdNCRn1MMbWeAX/1cc4ed85d7336a1a351ed47fa0b9dbaf/Image__2_.jpeg?w=800" alt="rooding project"/></div>
             </div>
           </div>
        
           <div className="flex flex-wrap m-auto">
           <div className="h-auto md:w-1/2 px-4 mb-8">
-              <div className="mb-8"><img className="rounded shadow-md about-img" src="//images.ctfassets.net/1qq6mgrp27zi/3BTseMMYTxFKwFXPQ8J8Fm/503fd6e72bfc3599e4dd04e88b625b18/Image-5.jpeg?w=800" alt="rooding project"/></div>
+              <div className="mb-8"><img className="rounded shadow-md about-img" src="https://images.ctfassets.net/1qq6mgrp27zi/7ukV4Fa6sr0hxTrvGeRC7a/450bd1cb3f7a225cec440c530bea77a7/Image__6_.jpeg?w=800" alt="rooding project"/></div>
             </div>
             <div className="h-auto md:w-1/2 px-4 mb-8">
-              <div className="mb-8"><img className="rounded shadow-md about-img" src="http://images.ctfassets.net/1qq6mgrp27zi/6UfqkZHP807tesjdVVnt0B/52fbec4b77280f04e6aed0dbd312caa2/Image__1_.jpeg?w=800" alt="sidewalk"/></div>
+              <div className="mb-8"><img className="rounded shadow-md about-img" src="https://images.ctfassets.net/1qq6mgrp27zi/365B0z5qTsfLIkUpT7jf9D/6e63bd2119c43310585f5f153a31110b/Image__1_.jpeg?w=800" alt="sidewalk"/></div>
             </div>
           </div>
         </div>
