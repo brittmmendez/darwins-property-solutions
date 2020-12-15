@@ -23,10 +23,11 @@ function ServicesPage() {
       {/* <!--Industrial Services--> */}
       <section className="border-b pt-6 pb-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Industrial</h2>
+          <h2 id="roofing" className="w-full my-8 text-4xl leading-tight">Roofing Services</h2>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+        <p className="mb-5"> Darwins Property Solutions will work with you to create a plan that fits your budget and needs to replace, repair, inspect and maintain your roof. </p>
           <div className="flex flex-wrap">
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service ">
@@ -55,42 +56,13 @@ function ServicesPage() {
               </div>
             </div>
           </div>
-         
-          <div className="flex flex-wrap">
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <div> <img src={measuringtape} alt="measuringtape icon"/></div>
-                <h3>Quality Services</h3>
-                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
-              </div>
-            </div>
-           
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <div> <img src={doublewrench} alt="doublewrench icon"/></div>
-                <h3>Quality</h3>
-                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
-              </div>
-            </div>
-           
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <div> <img src={wrench} doublewrench/></div>
-                <h3>Quality Services</h3>
-                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
-              </div>
-            </div>
-          </div>
         </div>  
       </section>
       
       {/* Commercial Services */}
       <section className="border-b py-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 id="commercial" className="w-full my-8 text-4xl leading-tight">Commercial</h2>
+          <h2 id="interior" className="w-full my-8 text-4xl leading-tight">Interior Remodeling</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <div className="flex flex-wrap">
@@ -121,73 +93,15 @@ function ServicesPage() {
               </div>
             </div>
           </div>
-         
-          <div className="flex flex-wrap">
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
-                <h3>Quality Services</h3>
-                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
-              </div>
-            </div>
-           
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
-                <h3>Quality Services</h3>
-                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
-              </div>
-            </div>
-           
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
-                <h3>Quality Services</h3>
-                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
-              </div>
-            </div>
-          </div>
-        </div>  
+         </div>
       </section>
       
       {/* Ressidential Services */}
       <section className="border-b py-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 id="ressidential" className="w-full my-8 text-4xl leading-tight">Ressidential</h2>
+          <h2 id="exterior" className="w-full my-8 text-4xl leading-tight">Exterior Services</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <div className="flex flex-wrap">
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
-                <h3>Quality Services</h3>
-                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
-              </div>
-            </div>
-           
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
-                <h3>Quality Services</h3>
-                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
-              </div>
-            </div>
-           
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <div> <img src={helmet} /></div>
-                <h3>Quality Services</h3>
-                <p>Augue honestatis vis no, ius quot mazim forensibus in</p>
-              </div>
-            </div>
-          </div>
-         
           <div className="flex flex-wrap">
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">

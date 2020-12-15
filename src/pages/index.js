@@ -24,35 +24,38 @@ function IndexPage() {
 				</div>
 				
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-						<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
+				<p className="mb-5">Darwins Property Solutions is a full service construction company for all your roof, window, interior, and exterior needs. We can begin at any phase of a project and work with residential, industrial, and commercial projetcs.
+					We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more. 
+					 </p>
+					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
+					<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
+						<Link to="/services#roofing" title="roofing link">
+							<img src="https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/4/88/48853d48-2779-5d88-910a-78444ed1ee76/5eac868f709e9.image.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
+						</Link>
+					</div>
+						<Link to="/services#roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">Roofing Services
+						</Link>
+					</div>
+					
+					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
+						<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
+							<Link to="/services#interior" title="interior link">
+								<img src="https://media.istockphoto.com/photos/small-business-building-exterior-picture-id1167235640?k=6&m=1167235640&s=612x612&w=0&h=WFtGAbugL2fZx5x98O3R_btGzd1xDrj-hyhOd7VjQMo=" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
+							</Link>
+						</div>
+						<Link to="/services#interior" title="interior link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Interior Remodeling
+						</Link>
+					</div>
+
+					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 							<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500" >
-								<Link to="/services#industrial"  title="industrial link">
+								<Link to="/services#exterior"  title="industrial link">
 									<img src="https://image.freepik.com/free-photo/interior-new-warehouse_1385-443.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Indestrial property"/>
 								</Link>
 							</div>
 
-							<Link to="/services#industrial" title="industrial link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Industrial</Link>
+							<Link to="/services#exterior" title="industrial link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Exterior Services</Link>
 						</div>
-					
-					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
-						<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
-							<Link to="/services#commercial" title="commercial link">
-								<img src="https://media.istockphoto.com/photos/small-business-building-exterior-picture-id1167235640?k=6&m=1167235640&s=612x612&w=0&h=WFtGAbugL2fZx5x98O3R_btGzd1xDrj-hyhOd7VjQMo=" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
-							</Link>
-						</div>
-						<Link to="/services#commercial" title="commercial link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Commercial
-						</Link>
-					</div>
-					
-					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
-					<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
-						<Link to="/services#ressidential" title="ressidential link">
-							<img src="https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/4/88/48853d48-2779-5d88-910a-78444ed1ee76/5eac868f709e9.image.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
-						</Link>
-					</div>
-						<Link to="/services#ressidential" title="ressidential link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">Residential
-						</Link>
-					</div>
 				</div>
 
 				<div className="container max-w-4xl mx-auto text-center pt-12 pb-10">

@@ -58,6 +58,9 @@ function AboutPage({ data }) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.
+					</p>
+
           <div className="about-us flex flex-wrap w-full">
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service ">
@@ -109,9 +112,14 @@ function AboutPage({ data }) {
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<h3 className="w-full text-center my-2 text-4xl font-bold leading-tight">Customer Reviews</h3>
 				</div>
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps my-8">
+        <div className="text-center px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps my-8">
           <Reviews data={data}/>
-        </div>  
+        </div> 
+          <div className="text-center">
+              <a href="https://g.page/DarwinsPropertySolutions/review?rc" target="_blank" rel="noopener noreferrer" title="google-reviews">
+                <button className="primary-btn inline-block mt-8 px-8 py-4"> Write a Review </button>
+              </a>
+            </div> 
       </section>
     </Layout>
   );
