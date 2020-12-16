@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from 'gatsby'
 import PropTypes from "prop-types"
+import { Link } from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Reviews from "../components/reviews";
@@ -52,9 +53,58 @@ function AboutPage({ data }) {
         </div>
       </section>
 
+      <section className="pt-6 pb-12">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Services</h2>
+				</div>
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+				<p className="mb-5"> We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more.  We can begin at any phase of a project and work on residential, industrial, and commercial projetcs year round.</p>
+					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
+					<div className="parent">
+						<Link to="/services#roofing" title="roofing link">
+							<img src="https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/4/88/48853d48-2779-5d88-910a-78444ed1ee76/5eac868f709e9.image.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
+						</Link>
+					</div>
+						<Link to="/services#roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">Roofing Services
+						</Link>
+					</div>
+					
+					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
+						<div className="parent">
+							<Link to="/services#interior" title="interior link">
+								<img src="https://media.istockphoto.com/photos/small-business-building-exterior-picture-id1167235640?k=6&m=1167235640&s=612x612&w=0&h=WFtGAbugL2fZx5x98O3R_btGzd1xDrj-hyhOd7VjQMo=" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
+							</Link>
+						</div>
+						<Link to="/services#interior" title="interior link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Interior Remodeling
+						</Link>
+					</div>
+
+					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
+							<div className="parent">
+								<Link to="/services#exterior"  title="industrial link">
+									<img src="https://image.freepik.com/free-photo/interior-new-warehouse_1385-443.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Indestrial property"/>
+								</Link>
+							</div>
+
+							<Link to="/services#exterior" title="industrial link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Exterior Services</Link>
+						</div>
+				</div>
+
+				<div className="container max-w-4xl mx-auto text-center pt-12 pb-10">
+					<Link to="/services" 
+					title="all services link"
+					className="primary-btn inline-block px-8 py-4"
+					>See All Services</Link>
+				</div>
+     
+     
+      </section>
+
+
       <section className="border-b pt-6 pb-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Projects</h2>
+          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Project Types</h2>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">

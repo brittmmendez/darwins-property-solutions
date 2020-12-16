@@ -6,7 +6,7 @@ import logo from "../images/logo2.png"
 class Header extends Component {
 	render() {
 		return (
-			<div className="gradient-light bg-no-repeat bg-center relative z-10">
+			<div className="gradient bg-no-repeat bg-center relative z-10 main-header">
 				<header className="w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 text-white">
 					<div className="hidden md:flex justify-between items-center py-2 border-b text-sm py-3">
 						<div className="">
@@ -106,24 +106,18 @@ class Header extends Component {
 					</div>
 				</header>
 
-				<div className="w-full pb-24 px-6 bg-fixed h-2">
-					<div className="container max-w-4xl mx-auto text-center">
-						{!this.props.showImg &&
-						<h1 className=" pt-12 text-5xl font-bold leading-tight text-center text-gray-100 mb-3">
+				<div className="w-full px-6 bg-fixed h-2">
+					<div className="container header-box max-w-4xl mx-auto text-center">
+						
+						<h1 className="text-5xl font-bold leading-tight text-center text-black mb-3">
 							{this.props.title}
-						</h1>}
-						
-						{this.props.showImg &&
-						<img
-							alt="logo"
-							className="large-header-logo"
-							src={logo}
-						/>}
-						
+						</h1>
+												
 						{this.props.showTagline &&
-							<p className="text-md md:text-lg text-center text-white ">
+							<p className="text-lg text-center text-black ">
 								Serving the construction industry of Ohio, Kentucky, and Indianna since 2011.
-							</p>}	
+							</p>
+						}	
 						{this.props.showBtn && 
 							<Link to="/contact" className="primary-btn inline-block mt-8 px-8 py-4">
 								Schedule a Consultation

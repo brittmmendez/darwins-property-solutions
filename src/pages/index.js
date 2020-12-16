@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Header from "../components/mainHeader";
+import Header from "../components/header";
 import helmet from "../images/svg/014-helmet.svg"
 import logotruck from "../images/logotruck.png"
 
@@ -15,8 +15,9 @@ function IndexPage() {
       />
 
 			{/* <Header showImg showBtn showTagline/> */}
-			<Header title="Darwins Property Solutions" showTagline="Serving the construction industry of Ohio, Kentucky, and Indianna since 2011." showBtn/>
-
+			<div className = "home">
+				<Header title="Darwins Property Solutions" showTagline="Serving the construction industry of Ohio, Kentucky, and Indianna since 2011." showBtn/>
+			</div>
 			{/* Services Section */}
 			<div className="w-full py-12 ">
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-center pb-10"> 
