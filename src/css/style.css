@@ -35,15 +35,34 @@ p {
 }
 /* for background hero photo and action background on homepage*/
 .gradient {
-    background-image: url("https://images.ctfassets.net/1qq6mgrp27zi/1wHldEvE4A8AFGzU9LoAYL/88aeb966edb3ff2856e5dfb83e14d100/Image__7_.jpeg?w=2100")
-}
-
-.gradient-light {
-    background-image: linear-gradient(180deg,rgba(57 58 60/92%),rgba(245,246,252,.52)), url("https://images.ctfassets.net/1qq6mgrp27zi/1wHldEvE4A8AFGzU9LoAYL/88aeb966edb3ff2856e5dfb83e14d100/Image__7_.jpeg?w=2100")
+    background-image: url("https://images.ctfassets.net/1qq6mgrp27zi/1wHldEvE4A8AFGzU9LoAYL/88aeb966edb3ff2856e5dfb83e14d100/Image__7_.jpeg?w=2100");
+    background-position-x: 37%;
+    background-position-y: 33%;
 }
 
 .main-header{
+  min-height: 50vh;;
+}
+
+.header-box{
+  z-index: 6;
+  background-color: rgba(255, 255, 255, 0.65);
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  border-width: 0px;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  padding: 50px 15px;
+  margin-top: 45px;
+}
+
+.home .main-header{
   min-height: 87vh;;
+}
+
+.home .header-box{
+  margin-top: 100px;
 }
 
 /* for header */
@@ -75,19 +94,6 @@ nav {
 
 a.nav:hover{
   color: var(--primaryLightBlue);
-}
-
-.header-box{
-  z-index: 6;
-  background-color: rgba(255, 255, 255, 0.65);
-  visibility: inherit;
-  transition: none 0s ease 0s;
-  border-width: 0px;
-  opacity: 1;
-  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transform-origin: 50% 50% 0px;
-  padding: 50px 15px;
-  margin-top: 100px;
 }
 
 /* Footer */
@@ -311,8 +317,8 @@ img.sm-img-cover {
 
 
 @media only screen and (max-width: 769px) {
-  .gradient-light {
-    background-image: linear-gradient(to bottom, rgba(57 58 60 / 92%), rgba(245, 246, 252, 0.52)),url(https://images.ctfassets.net/1qq6mgrp27zi/1wHldEvE4A8AFGzU9LoAYL/88aeb966edb3ff2856e5dfb83e14d100/Image__7_.jpeg?w=1100)!important;
+  .gradient {
+    background-position: 50%;
   }
 
   .header-box{

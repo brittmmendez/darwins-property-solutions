@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Header from "../components/header";
 import helmet from "../images/svg/014-helmet.svg"
-import logotruck from "../images/logotruck.png"
+import exterior from "../images/exterior.png"
 
 function IndexPage() {
   return (
@@ -31,7 +31,7 @@ function IndexPage() {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 					<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
 						<Link to="/services#roofing" title="roofing link">
-							<img src="https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/4/88/48853d48-2779-5d88-910a-78444ed1ee76/5eac868f709e9.image.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
+							<img src="http://images.ctfassets.net/1qq6mgrp27zi/5xivQAx3FhYLSLBAhmAbM3/d03fa5f5796852bd6adb01d66764c9dd/Image__9_.jpeg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
 						</Link>
 					</div>
 						<Link to="/services#roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">Roofing Services
@@ -41,7 +41,7 @@ function IndexPage() {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 						<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
 							<Link to="/services#interior" title="interior link">
-								<img src="https://media.istockphoto.com/photos/small-business-building-exterior-picture-id1167235640?k=6&m=1167235640&s=612x612&w=0&h=WFtGAbugL2fZx5x98O3R_btGzd1xDrj-hyhOd7VjQMo=" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
+								<img src="http://images.ctfassets.net/1qq6mgrp27zi/5CxQQq1YI7gDcPPR98fOec/42e1360f2a811813e4c372d9f2b59117/Image__1_.jpeg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
 							</Link>
 						</div>
 						<Link to="/services#interior" title="interior link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Interior Remodeling
@@ -51,7 +51,7 @@ function IndexPage() {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 							<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500" >
 								<Link to="/services#exterior"  title="industrial link">
-									<img src="https://image.freepik.com/free-photo/interior-new-warehouse_1385-443.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Indestrial property"/>
+									<img src={exterior} className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Indestrial property"/>
 								</Link>
 							</div>
 

@@ -12,6 +12,7 @@ import paintroller from "../images/svg/018-paint-roller.svg"
 import measuringtape from "../images/svg/016-measuring-tape.svg"
 import doublewrench from "../images/svg/008-double-wrench.svg"
 import wrench from "../images/svg/006-plier.svg"
+import exterior from "../images/exterior.png"
 
 function AboutPage({ data }) {
   return (
@@ -34,15 +35,6 @@ function AboutPage({ data }) {
       
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap md:flex-no-wraps">
           <div className="flex flex-wrap m-auto">
-            <div className="h-auto md:w-1/2 px-4 mb-8">
-              <div className="mb-8"><img className="rounded shadow-md about-img" src="https://images.ctfassets.net/1qq6mgrp27zi/2MAG8U1OyyuQ4eTAUvOdCI/780fb8b19771294f460d877bd4519a15/Image__2_.jpeg?w=800" alt="sidewalk"/></div>
-            </div>
-            <div className="h-auto md:w-1/2 px-4 mb-8">
-              <div className="mb-8"><img className="rounded shadow-md about-img" src="https://images.ctfassets.net/1qq6mgrp27zi/6FC6fUVErdNCRn1MMbWeAX/1cc4ed85d7336a1a351ed47fa0b9dbaf/Image__2_.jpeg?w=800" alt="rooding project"/></div>
-            </div>
-          </div>
-       
-          <div className="flex flex-wrap m-auto">
           <div className="h-auto md:w-1/2 px-4 mb-8">
               <div className="mb-8"><img className="rounded shadow-md about-img" src="https://images.ctfassets.net/1qq6mgrp27zi/7ukV4Fa6sr0hxTrvGeRC7a/450bd1cb3f7a225cec440c530bea77a7/Image__6_.jpeg?w=800" alt="rooding project"/></div>
             </div>
@@ -63,7 +55,7 @@ function AboutPage({ data }) {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 					<div className="parent">
 						<Link to="/services#roofing" title="roofing link">
-							<img src="https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/4/88/48853d48-2779-5d88-910a-78444ed1ee76/5eac868f709e9.image.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
+							<img src="http://images.ctfassets.net/1qq6mgrp27zi/5xivQAx3FhYLSLBAhmAbM3/d03fa5f5796852bd6adb01d66764c9dd/Image__9_.jpeg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
 						</Link>
 					</div>
 						<Link to="/services#roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">Roofing Services
@@ -73,7 +65,7 @@ function AboutPage({ data }) {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 						<div className="parent">
 							<Link to="/services#interior" title="interior link">
-								<img src="https://media.istockphoto.com/photos/small-business-building-exterior-picture-id1167235640?k=6&m=1167235640&s=612x612&w=0&h=WFtGAbugL2fZx5x98O3R_btGzd1xDrj-hyhOd7VjQMo=" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
+								<img src="http://images.ctfassets.net/1qq6mgrp27zi/5CxQQq1YI7gDcPPR98fOec/42e1360f2a811813e4c372d9f2b59117/Image__1_.jpeg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
 							</Link>
 						</div>
 						<Link to="/services#interior" title="interior link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Interior Remodeling
@@ -83,7 +75,7 @@ function AboutPage({ data }) {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 							<div className="parent">
 								<Link to="/services#exterior"  title="industrial link">
-									<img src="https://image.freepik.com/free-photo/interior-new-warehouse_1385-443.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Indestrial property"/>
+									<img src={exterior} className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Indestrial property"/>
 								</Link>
 							</div>
 
