@@ -6,12 +6,6 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Reviews from "../components/reviews";
 import Header from "../components/header";
-import screwdriver from "../images/svg/024-screwdriver.svg"
-import shovel from "../images/svg/029-shovel-1.svg"
-import paintroller from "../images/svg/018-paint-roller.svg"
-import measuringtape from "../images/svg/016-measuring-tape.svg"
-import doublewrench from "../images/svg/008-double-wrench.svg"
-import wrench from "../images/svg/006-plier.svg"
 import exterior from "../images/exterior.png"
 
 function AboutPage({ data }) {
@@ -52,34 +46,35 @@ function AboutPage({ data }) {
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 				<p className="mb-5"> We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more.  We can begin at any phase of a project and work on residential, industrial, and commercial projetcs year round.</p>
+				<p className="mb-5"> Darwins Property Solutions is committed to working with you in order to find the best solution and budget for your project</p>
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 					<div className="parent">
-						<Link to="/services#roofing" title="roofing link">
+						<Link to="/roofing" title="roofing link">
 							<img src="http://images.ctfassets.net/1qq6mgrp27zi/5xivQAx3FhYLSLBAhmAbM3/d03fa5f5796852bd6adb01d66764c9dd/Image__9_.jpeg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
 						</Link>
 					</div>
-						<Link to="/services#roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">Roofing Services
+						<Link to="/roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">Roofing Services
 						</Link>
 					</div>
 					
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 						<div className="parent">
-							<Link to="/services#interior" title="interior link">
+							<Link to="/interior-remodeling" title="interior link">
 								<img src="http://images.ctfassets.net/1qq6mgrp27zi/5CxQQq1YI7gDcPPR98fOec/42e1360f2a811813e4c372d9f2b59117/Image__1_.jpeg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
 							</Link>
 						</div>
-						<Link to="/services#interior" title="interior link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Interior Remodeling
+						<Link to="/interior-remodeling" title="interior link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Interior Remodeling
 						</Link>
 					</div>
 
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 							<div className="parent">
-								<Link to="/services#exterior"  title="industrial link">
+								<Link to="/exterior-services"  title="industrial link">
 									<img src={exterior} className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Indestrial property"/>
 								</Link>
 							</div>
 
-							<Link to="/services#exterior" title="industrial link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Exterior Services</Link>
+							<Link to="/exterior-services" title="industrial link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Exterior Services</Link>
 						</div>
 				</div>
 
@@ -107,8 +102,7 @@ function AboutPage({ data }) {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service ">
                 <span className="icon_info">i</span>
-                <div> <img src={screwdriver} alt="screwdriver icon"/></div>
-                <h3 className="m-2">Industrial</h3>
+                <h3 className="m-2 text-center text-3xl">Industrial</h3>
                 <ul className="mb-8 text-left">
                   <li>Senior living and independent living</li>
                   <li>Senior care and nursing facilities</li>
@@ -121,8 +115,7 @@ function AboutPage({ data }) {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={shovel} alt="shovel icon" /></div>
-                <h3 className="m-2">Commercial</h3>
+                <h3 className="m-2 text-center text-3xl">Commercial</h3>
                 <ul className="mb-8 text-left">
                   <li>Senior living and independent living</li>
                   <li>Senior care and nursing facilities</li>
@@ -136,8 +129,7 @@ function AboutPage({ data }) {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
                 <span className="icon_info">i</span>
-                <div> <img src={paintroller} alt="paintroller icon"/></div>
-                <h3 className="m-2">Residential</h3>
+                <h3 className="m-2 text-center text-3xl">Residential</h3>
                 <ul className="mb-8 text-left">
                   <li>Mixed-use residential and commercial construction</li>
                   <li>Multi-family residential housing</li>

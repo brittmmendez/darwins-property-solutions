@@ -25,7 +25,7 @@ function IndexPage() {
 				</div>
 				
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-				<p className="mb-5">Darwins Property Solutions is a full service construction company for all your roof, window, interior, and exterior needs. We can begin at any phase of a project and work with residential, industrial, and commercial projetcs.
+				<p className="mb-5">Darwins Property Solutions is a full service construction company for all your roofing, interior, and exterior needs. We can begin at any phase of a project and work with residential, commercial, and industrial customers.
 					We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more. 
 					 </p>
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
@@ -79,7 +79,7 @@ function IndexPage() {
 							
 							<p className="mb-5">Established in 2011, Darwins Property Solutions has been dedicated to providing best in class services to the construction industry of the Ohio, Kentucky and Indiana area.  With over a decade of experience, we have grown into one of the most trusted and well respected full service construction companies in the area. We are committed to providing high quality solutions and customer satisfaction.</p>
  
-							<p className="mb-5">We specialize in a wide range of services for industrial, commercial, and residential projects</p>
+							<p className="mb-5">We specialize in a wide range of services for industrial, commercial, and residential projects.</p>
 							<div className="text-center md:text-left">
 								<Link to="/contact" title="contact page link" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">
 									<button className="primary-btn inline-block mt-8 px-8 py-4"> Schedule a Consultation</button>

@@ -92,13 +92,16 @@ class Header extends Component {
 										<Link to="/about" className="nav py-2 inline-block md:text-white lg:block font-semibold" >About Us</Link>
 									</li>
 									<li className="md:ml-4">
-										<Link to="/services" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">Services</Link>
+										<Link to="/roofing" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">Roofing</Link>
+									</li>
+									<li className="md:ml-4">
+										<Link to="/interior-remodeling" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">Interior Remodeling</Link>
+									</li>
+									<li className="md:ml-4">
+										<Link to="/exterior-services" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">Exterior Services</Link>
 									</li>
 									<li className="md:ml-4">
 										<Link to="/photo-gallery" className="nav  py-2 inline-block md:text-white md:px-2 font-semibold">Photo Gallery</Link>
-									</li>
-									<li className="md:ml-4">
-										<Link to="/contact" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">Contact Us</Link>
 									</li>
 								</ul>
 							</nav>
@@ -109,7 +112,7 @@ class Header extends Component {
 				<div className="w-full px-6 bg-fixed h-2">
 					<div className="container header-box max-w-4xl mx-auto text-center">
 						
-						<h1 className="text-5xl font-bold leading-tight text-center text-black mb-3">
+						<h1 className="text-5xl font-bold leading-tight text-center text-black">
 							{this.props.title}
 						</h1>
 												
