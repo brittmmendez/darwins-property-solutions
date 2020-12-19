@@ -38,7 +38,7 @@ function RoofingPage() {
 					</div>
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
 						<div>
-							<img src="http://images.ctfassets.net/1qq6mgrp27zi/4yo8K5n6kdRAQY37DKS5Vd/bf27379515642bc9eb4eaca289d27dfc/Image__1__copy.jpeg" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
+							<img src="https://images.ctfassets.net/1qq6mgrp27zi/7ukV4Fa6sr0hxTrvGeRC7a/450bd1cb3f7a225cec440c530bea77a7/Image__6_.jpeg?w=600" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
 						</div>
 					</div>
 				</div>
@@ -69,8 +69,7 @@ function RoofingPage() {
               <div className="box_service">
               <span className="icon_info">i</span>
               <h3 className="text-center text-3xl mb-6">Replace</h3>
-                <p className="text-left"> We use asphalt shingles. </p>
-                <p className="text-left">Asphalt shingles are the most popular type of residential roof material because they are affordable, durable, easily maintained, and recyclable. </p>
+                <p className="text-left"> Not sure if you need a replacement or a repair? Call Darwins Property Solutions now for a free and trustworthy quote from one of our experts.</p>
               </div>
             </div>
            
@@ -98,7 +97,7 @@ function RoofingPage() {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
+          <p className="mb-5"> We use asphalt shingles. Asphalt shingles are the most popular type of residential roof material because they are affordable, durable, easily maintained, and recyclable. </p>
 				</div>
       </section>
       
