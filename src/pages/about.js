@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { graphql } from 'gatsby'
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
@@ -9,6 +9,11 @@ import Header from "../components/header";
 import exterior from "../images/exterior.png"
 
 function AboutPage({ data }) {
+
+  const status = useScript(
+    'https://apps.elfsight.com/p/platform.js'
+  );
+
   return (
     <Layout>
       <SEO
@@ -145,14 +150,16 @@ function AboutPage({ data }) {
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<h3 className="w-full text-center my-2 text-4xl font-bold leading-tight">Customer Reviews</h3>
 				</div>
-        <div className="text-center px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps my-8">
+
+        <div className="elfsight-app-ea49b8b7-fe5c-44e6-b54e-668a6e503a08"></div>
+        {/* <div className="text-center px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps my-8">
           <Reviews data={data}/>
         </div> 
           <div className="text-center">
               <a href="https://g.page/DarwinsPropertySolutions/review?rc" target="_blank" rel="noopener noreferrer" title="google-reviews">
                 <button className="primary-btn inline-block mt-8 px-8 py-4"> Write a Review </button>
               </a>
-            </div> 
+            </div>  */}
       </section>
     </Layout>
   );
@@ -179,4 +186,73 @@ export const query = graphql`
 
 AboutPage.propTypes = {
   data: PropTypes.object,
+}
+
+
+// Hook
+function useScript(src) {
+  // Keep track of script status ("idle", "loading", "ready", "error")
+  const [status, setStatus] = useState(src ? "loading" : "idle");
+debugger
+  useEffect(
+    () => {
+      // Allow falsy src value if waiting on other data needed for
+      // constructing the script URL passed to this hook.
+      if (!src) {
+        setStatus("idle");
+        return;
+      }
+
+      // Fetch existing script element by src
+      // It may have been added by another intance of this hook
+      let script = document.querySelector(`script[src="${src}"]`);
+
+      if (!script) {
+        // Create script
+        script = document.createElement("script");
+        script.src = src;
+        script.async = true;
+        script.setAttribute("data-status", "loading");
+        // Add script to document body
+        document.body.appendChild(script);
+
+        // Store status in attribute on script
+        // This can be read by other instances of this hook
+        const setAttributeFromEvent = (event) => {
+          script.setAttribute(
+            "data-status",
+            event.type === "load" ? "ready" : "error"
+          );
+        };
+
+        script.addEventListener("load", setAttributeFromEvent);
+        script.addEventListener("error", setAttributeFromEvent);
+      } else {
+        // Grab existing script status from attribute and set to state.
+        setStatus(script.getAttribute("data-status"));
+      }
+
+      // Script event handler to update status in state
+      // Note: Even if the script already exists we still need to add
+      // event handlers to update the state for *this* hook instance.
+      const setStateFromEvent = (event) => {
+        setStatus(event.type === "load" ? "ready" : "error");
+      };
+
+      // Add event listeners
+      script.addEventListener("load", setStateFromEvent);
+      script.addEventListener("error", setStateFromEvent);
+
+      // Remove event listeners on cleanup
+      return () => {
+        if (script) {
+          script.removeEventListener("load", setStateFromEvent);
+          script.removeEventListener("error", setStateFromEvent);
+        }
+      };
+    },
+    [src] // Only re-run effect if script src changes
+  );
+
+  return status;
 }
