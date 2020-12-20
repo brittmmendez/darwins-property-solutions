@@ -23,8 +23,7 @@ function AboutPage({ data }) {
 					<h2 className="w-full my-8 text-4xl leading-tight">Our Approach</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <p className="mb-8">As a full service construction provider, Darwins Property Solutions understands how important it is for projects to be completed successfully, on time, and on budget. Our company was founded on the commitment to excellence that we bring to each project. We communicate thoroughly throughout our project in order to provide timely, accurate, and high quality solutions. Our hands-on approach sets us apart from other construction companies in the area and helps us to reach our goal of delivering best in class construction projects.</p>
-          <p className="mb-8">From residential, commercial, to industrial, Darwins Property Solutions has a track record of successful construction projects throughout the Ohio, Kentucky, and Indianna area. We are proud to feature photos of our recent projects in our photo gallary.</p>
+          <p className="mb-8">As a full service construction provider for residential, commercial, to industrial projects, Darwins Property Solutions understands how important it is for projects to be completed successfully, on time, and on budget. Our company was founded on the commitment to excellence that we bring to each project. We communicate thoroughly throughout our project in order to provide timely, accurate, and high quality solutions. Our hands-on approach sets us apart from other construction companies in the area and helps us to reach our goal of delivering best in class construction projects.</p>
         </div>
       
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap md:flex-no-wraps">

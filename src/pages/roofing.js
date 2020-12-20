@@ -76,7 +76,7 @@ function RoofingPage() {
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
               <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Maintain</h3>
+              <h3 className="text-center text-3xl mb-6">Maintenance</h3>
                 <p className="text-left"> Performing maintenance on your roof routinely will help you avoid costly repairs in the future. Let us help yiou prolong the life of your roof with an inspection today.</p>
               </div>
             </div>
@@ -91,7 +91,7 @@ function RoofingPage() {
       </section>
 
 
-      <section className="pt-6 pb-20">
+      <section className="py">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <h3 className="text-center text-3xl mb-6">Residential Roofing Services</h3>
 				</div>
@@ -107,7 +107,7 @@ function RoofingPage() {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
+          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions.</p>
 				</div>
       </section>
 
