@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
     title: `Darwins Property Solutions`,
@@ -8,6 +10,17 @@ module.exports = {
     "gatsby-plugin-eslint",
     `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-cloudinary`,
+      options: {
+        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+        apiKey: process.env.CLOUDINARY_API_KEY,
+        apiSecret: process.env.CLOUDINARY_API_SECRET,
+        resourceType: `image`,
+        prefix: `photos/`,
+        maxResults: 1000
+      }
+    },
     {
       resolve: `gatsby-source-contentful`,
       options: {

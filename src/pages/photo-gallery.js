@@ -12,15 +12,15 @@ import Slider from "react-slick";
 
 export default class PhotoGalleryPage extends React.Component {
 	render() {
-		const photos = this.props.data.allContentfulPhotoGallery.edges[0].node.photo
+		const photos = this.props.data.allCloudinaryMedia.edges
 	  	const settings = {
 		customPaging: function(i) {
 		  return (
 			<a>
 			   <img
-                src={photos[i].file.url}
+                src={photos[i].node.url}
                 className="sm-img-cover"
-                alt={photos[i].file.url}
+                alt={photos[i].node.url}
                 width="120"
                 height="120" />
 			</a>
@@ -46,12 +46,12 @@ export default class PhotoGalleryPage extends React.Component {
       		<div className="container product-image-array m-auto">
 				<Slider {...settings}>
 				{photos.map(image => (
-					<div key={image.file.url}>
+					<div key={image.node.url}>
 						<figure className="image centered product-feature-image">
 						<img
-							src={image.file.url}
+							src={image.node.url}
 							className="cover"
-							alt={image.file.url}
+							alt={image.node.url}
 							height="559"
 							width="566"
 						/>
@@ -68,15 +68,11 @@ export default class PhotoGalleryPage extends React.Component {
 
 export const query = graphql`
  query {
-  allContentfulPhotoGallery {
+	allCloudinaryMedia {
+    totalCount
     edges {
       node {
-        photo {
-          file {
-            url
-            fileName
-          }
-        }
+        url
       }
     }
   }
