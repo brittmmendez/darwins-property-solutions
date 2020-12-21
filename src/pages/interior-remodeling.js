@@ -12,8 +12,8 @@ function InteriorRemodeling({data}) {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Services"
+        title="Interior Services"
+        keywords={[`construction`, 'home remodeling', `interior`, "commericial services", "industrial services", "reseindential services", "painting", "flooring", "window installation", "Skylight","Basement Renovations" ]}
       />
       
       <Header title="Interior Remodeling"/>

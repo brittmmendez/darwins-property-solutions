@@ -11,8 +11,8 @@ function ExteriorServices({data}) {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Services"
+        title="Exterior Services"
+        keywords={[`construction`, 'home remodeling', `roofing`, `exterior`, "commericial services", "industrial services", "reseindential services", "painting"," landscaping",  "window installation", "Vinyl Siding", "Insulation", "Gutter", "Chimney Repair", "Cement", "Snow Removal"]}
       />
       
       <Header title="Exterior Services"/>

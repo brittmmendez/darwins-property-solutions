@@ -38,7 +38,7 @@ export default class PhotoGalleryPage extends React.Component {
 	  return (
       <Layout>
         <SEO
-          keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+          keywords={['Photos', `construction`, 'home remodeling', `roofing`, `interior`, `exterior`, "commericial services", "industrial services", "reseindential services", "painting"," landscaping", "flooring", "window installation"]}
           title="Photo Gallery"
         />
 

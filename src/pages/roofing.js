@@ -13,8 +13,8 @@ function RoofingPage({data}) {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Services"
+        keywords={[`construction`, `roofing`, `exterior`, "commericial roofing services", "industrial roofing services", "reseindential roofing services" ]}
+        title="Roofing Services"
       />
       
       <Header title="Roofing Services"/>

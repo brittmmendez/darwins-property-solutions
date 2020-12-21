@@ -57,7 +57,8 @@ export default class ContactPage extends React.Component {
     return (
       <Layout>
         <SEO
-          keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+          keywords={[`construction`, 'home remodeling', `roofing`, `interior`, `exterior`, "commericial services", "industrial services", "reseindential services", "painting"," landscaping", "flooring", "window installation"]}
+          description ="Full service construction provider for residential, commercial, to industrial projects, contact page." 
           title="Contact"
         />
 
