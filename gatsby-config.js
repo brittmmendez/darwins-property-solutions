@@ -17,16 +17,9 @@ module.exports = {
         apiKey: process.env.CLOUDINARY_API_KEY,
         apiSecret: process.env.CLOUDINARY_API_SECRET,
         resourceType: `image`,
-        prefix: `photos/`,
+        prefix: `samples/`,
         maxResults: 1000
       }
-    },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `1qq6mgrp27zi`,
-        accessToken: `TJ8fupuhUoQU8t1QerFrg2MYhJihXJU23hyJDAJewro`,
-      },
     },
     {
       resolve: `gatsby-plugin-manifest`,

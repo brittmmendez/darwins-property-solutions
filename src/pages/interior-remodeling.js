@@ -101,7 +101,7 @@ function InteriorRemodeling() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Flooring</h3>
+          <h3 className="text-3xl mb-6">Flooring</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -111,7 +111,7 @@ function InteriorRemodeling() {
       
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Painting</h3>
+          <h3 className="text-3xl mb-6">Painting</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -121,7 +121,7 @@ function InteriorRemodeling() {
   
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Fireplaces</h3>
+          <h3 className="text-3xl mb-6">Fireplaces</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -131,7 +131,7 @@ function InteriorRemodeling() {
     
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Bookshelves and cabinets</h3>
+          <h3 className="text-3xl mb-6">Bookshelves & cabinets</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -141,7 +141,7 @@ function InteriorRemodeling() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Lighting</h3>
+          <h3 className="text-3xl mb-6">Lighting</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -151,7 +151,7 @@ function InteriorRemodeling() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Basement Renovations</h3>
+          <h3 className="text-3xl mb-6">Basement Renovations</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -159,19 +159,10 @@ function InteriorRemodeling() {
 				</div>
       </section>
 
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Door Repair and Installations</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. </p>
-				</div>
-      </section>
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Window and Skylight Installations</h3>
+          <h3 className="text-3xl mb-6">Skylight Installations</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">

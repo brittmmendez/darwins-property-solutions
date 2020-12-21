@@ -229,6 +229,10 @@ div.box_service {
 }
 
 /* photo gallery */
+/* .product-image-array {
+  max-width: 620px;
+} */
+
 .product-image-array .slick-prev {
   left: 25px;
   z-index: 50;
@@ -243,9 +247,9 @@ div.box_service {
 
 .product-feature-image .cover {
   -o-object-fit: cover;
-  object-fit: scale-down;
-  max-height: 650px;
   padding: 40px;
+  object-fit: cover;
+  max-height: 450px;
 
 }
 
@@ -351,4 +355,8 @@ img.sm-img-cover {
 
 .eapps-widget-toolbar {
   display: none !important;
+}
+
+.kJrSTW {
+  max-width: 1600px !important;
 }

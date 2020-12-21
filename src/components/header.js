@@ -103,6 +103,9 @@ class Header extends Component {
 									<li className="md:ml-4">
 										<Link to="/photo-gallery" className="nav  py-2 inline-block md:text-white md:px-2 font-semibold">Photo Gallery</Link>
 									</li>
+									<li className="md:ml-4">
+										<Link to="/reviews" className="nav  py-2 inline-block md:text-white md:px-2 font-semibold">Reviews</Link>
+									</li>
 								</ul>
 							</nav>
 						</div>

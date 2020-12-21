@@ -4,11 +4,10 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Reviews from "../components/reviews";
 import Header from "../components/header";
 import exterior from "../images/exterior.png"
 
-function AboutPage({ data }) {
+function AboutPage() {
 
   const status = useScript(
     'https://apps.elfsight.com/p/platform.js'
@@ -50,7 +49,6 @@ function AboutPage({ data }) {
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 				<p className="mb-5"> We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more.  We can begin at any phase of a project and work on residential, industrial, and commercial projetcs year round.</p>
-				<p className="mb-5"> Darwins Property Solutions is committed to working with you in order to find the best solution and budget for your project</p>
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 					<div className="parent">
 						<Link to="/roofing" title="roofing link">
@@ -93,7 +91,7 @@ function AboutPage({ data }) {
       </section>
 
 
-      <section className="border-b pt-6 pb-20">
+      <section className="pt-6 pb-20">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Project Types</h2>
 				</div>
@@ -144,50 +142,11 @@ function AboutPage({ data }) {
           </div>
         </div>  
       </section>
-
-      {/* <!--Reviews Section--> */}
-      <section className="border-b py-20">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-					<h3 className="w-full text-center my-2 text-4xl font-bold leading-tight">Customer Reviews</h3>
-				</div>
-
-        <div className="elfsight-app-ea49b8b7-fe5c-44e6-b54e-668a6e503a08"></div>
-        {/* <div className="text-center px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps my-8">
-          <Reviews data={data}/>
-        </div> 
-          <div className="text-center">
-              <a href="https://g.page/DarwinsPropertySolutions/review?rc" target="_blank" rel="noopener noreferrer" title="google-reviews">
-                <button className="primary-btn inline-block mt-8 px-8 py-4"> Write a Review </button>
-              </a>
-            </div>  */}
-      </section>
     </Layout>
   );
 }
 
 export default AboutPage;
-
-export const query = graphql`
- query {
-	allContentfulReviewGallery {
-    edges {
-      node {
-        review {
-          review {
-            review
-          }
-          customer
-        }
-      }
-    }
-  }
-}
-`
-
-AboutPage.propTypes = {
-  data: PropTypes.object,
-}
-
 
 // Hook
 function useScript(src) {

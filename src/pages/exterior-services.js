@@ -102,7 +102,7 @@ function ExteriorServices() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Vinyl Siding</h3>
+          <h3 className="text-3xl mb-6">Vinyl Siding</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -112,7 +112,7 @@ function ExteriorServices() {
       
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Window Replacement & Skylight Installation</h3>
+          <h3 className="text-3xl mb-6">Window Replacement & Skylight Installation</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -122,7 +122,7 @@ function ExteriorServices() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Insulation</h3>
+          <h3 className="text-3xl mb-6">Insulation</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -132,7 +132,7 @@ function ExteriorServices() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Painting</h3>
+          <h3 className="text-3xl mb-6">Painting</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -142,7 +142,7 @@ function ExteriorServices() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Downspout & Gutter Installation & Repair</h3>
+          <h3 className="text-3xl mb-6">Downspout & Gutter Installation & Repair</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -152,7 +152,7 @@ function ExteriorServices() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Chimney Repair</h3>
+          <h3 className="text-3xl mb-6">Chimney Repair</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -162,7 +162,7 @@ function ExteriorServices() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Cement Slabs and Sidewalks</h3>
+          <h3 className="text-3xl mb-6">Cement Slabs & Sidewalks</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -172,7 +172,7 @@ function ExteriorServices() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Landscaping</h3>
+          <h3 className="text-3xl mb-6">Landscaping</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
@@ -182,7 +182,7 @@ function ExteriorServices() {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Snow Removal</h3>
+          <h3 className="text-3xl mb-6">Snow Removal</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">

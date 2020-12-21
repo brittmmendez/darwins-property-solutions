@@ -2,9 +2,12 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Header from "../components/header";
+import PhotoSlider from "../components/PhotoSlider";
+import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import remondeling from "../images/remondeling.png"
 
-function RoofingPage() {
+function RoofingPage({data}) {
   return (
     <Layout>
       <SEO
@@ -21,7 +24,7 @@ function RoofingPage() {
             Residential <span>&#183;</span> 
             {" "} Commericial <span>&#183;</span> 
             {" "} Industrial 
-            </h2>
+          </h2>
 				</div>
 				
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
@@ -37,9 +40,7 @@ function RoofingPage() {
 						</div>
 					</div>
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
-						<div>
-							<img src="https://images.ctfassets.net/1qq6mgrp27zi/7ukV4Fa6sr0hxTrvGeRC7a/450bd1cb3f7a225cec440c530bea77a7/Image__6_.jpeg?w=600" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
-						</div>
+            <PhotoSlider data={data}/>
 					</div>
 				</div>
 			</section>
@@ -61,7 +62,6 @@ function RoofingPage() {
               <span className="icon_info">i</span>
               <h3 className="text-center text-3xl mb-6">Repair</h3>
                 <p className="text-left"> Our goal is to provide the best roof repair services we can. If you notice a leaking roof, don’t wait to take action.</p>
-                <p className="text-left"> Schedule an inspection or contact us to find the most cost-effective solution for your needs.</p>
               </div>
             </div>
            
@@ -90,38 +90,54 @@ function RoofingPage() {
         </div>
       </section>
 
-
-      <section className="py">
+      <section className="py-6">
+        <h3 className="text-center text-3xl p-4">Residential Roofing</h3>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Residential Roofing Services</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> We use asphalt shingles. Asphalt shingles are the most popular type of residential roof material because they are affordable, durable, easily maintained, and recyclable. </p>
-				</div>
+          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+            <p className="mb-5">
+              Whether you are looking to do a minor repair or major interior renovation, Darwins Property Solutions offers a comprehensive list of services that will meet your needs, budget, and timeline.  
+              We offer floor-to-cieling remodeling services in Ohio, Kentucky, and Indiana areas.  
+            </p>
+          </div>
+          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+            <img src={remondeling} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
+          </div>
+        </div>
       </section>
       
-      <section className="pt-6 pb-20">
+      <section className="py-6">
+        <h3 className="text-center text-3xl mb-6">Commericial Roofing</h3>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-center text-3xl mb-6">Commercial and Industrial Roofing Services</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions.</p>
-				</div>
+          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+            <p className="mb-5">
+              Whether you are looking to do a minor repair or major interior renovation, Darwins Property Solutions offers a comprehensive list of services that will meet your needs, budget, and timeline.  
+              We offer floor-to-cieling remodeling services in Ohio, Kentucky, and Indiana areas.  
+            </p>
+          </div>
+          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+            <img src={remondeling} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
+          </div>
+        </div>
       </section>
 
-      <div className="container max-w-4xl mx-auto text-center pt-12 pb-10">
-        <Link to="/services" 
-          title="all services link"
-          className="primary-btn inline-block px-8 py-4"
-					>See All Services
-        </Link>
-			</div>
-
-      
+       
     </Layout>
   );
+}
+
+export const query = graphql`
+ query {
+	allCloudinaryMedia{
+    nodes {
+      secure_url
+      public_id
+    }
+  }
+}
+`
+
+RoofingPage.propTypes = {
+  data: PropTypes.object,
 }
 
 export default RoofingPage;

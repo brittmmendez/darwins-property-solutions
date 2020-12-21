@@ -17,7 +17,7 @@ function RoofingPage() {
 
       {/* <!--Intro Section--> */}
 			<section className="py-6">
-        <div className=" text-center px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+        <div className=" text-center px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start flex-col-reverse md:flex-no-wraps">
 					<h2 className="w-full my-8 text-l md:text-4xl leading-tight">
             Residential <span>&#183;</span> 
             {" "} Commericial <span>&#183;</span> 

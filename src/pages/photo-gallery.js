@@ -18,9 +18,9 @@ export default class PhotoGalleryPage extends React.Component {
 		  return (
 			<a>
 			   <img
-                src={photos[i].node.url}
+                src={photos[i].node.secure_url}
                 className="sm-img-cover"
-                alt={photos[i].node.url}
+                alt={photos[i].node.secure_url}
                 width="120"
                 height="120" />
 			</a>
@@ -46,12 +46,12 @@ export default class PhotoGalleryPage extends React.Component {
       		<div className="container product-image-array m-auto">
 				<Slider {...settings}>
 				{photos.map(image => (
-					<div key={image.node.url}>
+					<div key={image.node.secure_url}>
 						<figure className="image centered product-feature-image">
 						<img
-							src={image.node.url}
+							src={image.node.secure_url}
 							className="cover"
-							alt={image.node.url}
+							alt={image.node.secure_url}
 							height="559"
 							width="566"
 						/>
@@ -72,7 +72,8 @@ export const query = graphql`
     totalCount
     edges {
       node {
-        url
+        secure_url
+		public_id
       }
     }
   }
