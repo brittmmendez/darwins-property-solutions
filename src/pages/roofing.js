@@ -102,7 +102,7 @@ function RoofingPage({data}) {
             </p>
           </div>
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
-            <img src={remondeling} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
+            <img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433975/Photos/roofing/Image_6_npfbhg.jpg" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
           </div>
         </div>
       </section>
@@ -117,7 +117,7 @@ function RoofingPage({data}) {
             </p>
           </div>
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
-            <img src={remondeling} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
+            <img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433950/Photos/roofing/Image_2_bwjpnh.jpg" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
           </div>
         </div>
       </section>
