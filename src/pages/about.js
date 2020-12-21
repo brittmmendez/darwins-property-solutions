@@ -9,7 +9,7 @@ import exterior from "../images/exterior.png"
 import PhotoSlider from "../components/PhotoSlider";
 
 function AboutPage({data}) {
-
+  let images = data.allCloudinaryMedia.nodes;
   return (
     <Layout>
       <SEO
@@ -28,11 +28,63 @@ function AboutPage({data}) {
         </div>
       
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto">
-          <PhotoSlider data={data}/>
+          <PhotoSlider data={images}/>
         </div>
       </section>
 
-      <section className="py-6 md:pb-12">
+      <section className="pt-6 pb-12">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Project Types</h2>
+				</div>
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.
+					</p>
+
+          <div className="about-us flex flex-wrap w-full">
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service rounded">
+                <span className="icon_info">i</span>
+                <h3 className="m-2 text-center text-3xl">Industrial</h3>
+                <ul className="mb-8 text-left">
+                  <li>Senior living and independent living</li>
+                  <li>Senior care and nursing facilities</li>
+                  <li>Commercial construction</li>
+                  <li>Institutional construction</li>
+                </ul>
+              </div>
+            </div>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service rounded">
+                <span className="icon_info">i</span>
+                <h3 className="m-2 text-center text-3xl">Commercial</h3>
+                <ul className="mb-8 text-left">
+                  <li>Senior living and independent living</li>
+                  <li>Senior care and nursing facilities</li>
+                  <li>Commercial construction</li>
+                  <li>Institutional construction</li>
+                  <li>Student housing and facilities</li>
+                </ul>
+              </div>
+            </div>
+           
+            <div className="w-full sm:w-1/3 px-3">
+              <div className="box_service rounded">
+                <span className="icon_info">i</span>
+                <h3 className="m-2 text-center text-3xl">Residential</h3>
+                <ul className="mb-8 text-left">
+                  <li>Mixed-use residential and commercial construction</li>
+                  <li>Multi-family residential housing</li>
+                  <li>Single-family residential housing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+    
+      <section className="py-8 md:pb-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Services</h2>
 				</div>
@@ -78,58 +130,6 @@ function AboutPage({data}) {
 					  >See All Services
           </Link>
 				</div>
-      </section>
-
-      <section className="pt-6 pb-12">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Project Types</h2>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.
-					</p>
-
-          <div className="about-us flex flex-wrap w-full">
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service ">
-                <span className="icon_info">i</span>
-                <h3 className="m-2 text-center text-3xl">Industrial</h3>
-                <ul className="mb-8 text-left">
-                  <li>Senior living and independent living</li>
-                  <li>Senior care and nursing facilities</li>
-                  <li>Commercial construction</li>
-                  <li>Institutional construction</li>
-                </ul>
-              </div>
-            </div>
-           
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <h3 className="m-2 text-center text-3xl">Commercial</h3>
-                <ul className="mb-8 text-left">
-                  <li>Senior living and independent living</li>
-                  <li>Senior care and nursing facilities</li>
-                  <li>Commercial construction</li>
-                  <li>Institutional construction</li>
-                  <li>Student housing and facilities</li>
-                </ul>
-              </div>
-            </div>
-           
-            <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-                <span className="icon_info">i</span>
-                <h3 className="m-2 text-center text-3xl">Residential</h3>
-                <ul className="mb-8 text-left">
-                  <li>Mixed-use residential and commercial construction</li>
-                  <li>Multi-family residential housing</li>
-                  <li>Single-family residential housing</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>  
       </section>
     </Layout>
   );

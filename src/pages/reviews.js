@@ -4,7 +4,6 @@ import SEO from "../components/seo";
 import Header from "../components/header";
 
 function AboutPage() {
-
   const status = useScript(
     'https://apps.elfsight.com/p/platform.js'
   );

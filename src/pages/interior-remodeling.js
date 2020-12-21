@@ -7,6 +7,8 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 function InteriorRemodeling({data}) {
+  let images = data.allCloudinaryMedia.nodes.filter((p) =>p.public_id.includes("interior"));
+
   return (
     <Layout>
       <SEO
@@ -23,13 +25,13 @@ function InteriorRemodeling({data}) {
             Residential <span>&#183;</span> 
             {" "} Commericial <span>&#183;</span> 
             {" "} Industrial 
-            </h2>
+          </h2>
 				</div>
 				
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
 						<div>
-						<h3 className="text-center md:text-left text-3xl mb-8 leading-tight">
+						  <h3 className="text-center md:text-left text-3xl mb-8 leading-tight">
 								Looking to update or create a completely new environment in your home or building?
 							</h3>
 							
@@ -37,12 +39,10 @@ function InteriorRemodeling({data}) {
                 Whether you are looking to do a minor repair or major interior renovation, Darwins Property Solutions offers a comprehensive list of services that will meet your needs, budget, and timeline.  
                 We offer floor-to-cieling remodeling services in Ohio, Kentucky, and Indiana areas.  
               </p>
- 
-							
 						</div>
 					</div>
           <div className="services my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
-            <PhotoSlider data={data}/>
+            <PhotoSlider data={images}/>
 					</div>
 				</div>
 			</section>
@@ -61,18 +61,18 @@ function InteriorRemodeling({data}) {
 
           <div className="about-us flex flex-wrap w-full">
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service ">
-              <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Repair</h3>
+              <div className="box_service rounded ">
+                <span className="icon_info">i</span>
+                <h3 className="text-center text-3xl mb-6">Repair</h3>
                 <p className="text-left"> Taking care of the small problems when you see them makes it so you do not have the problem worsen and develop into a bigger issue over time.
                 </p>
               </div>
             </div>
            
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-              <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Replace</h3>
+              <div className="box_service rounded">
+                <span className="icon_info">i</span>
+                <h3 className="text-center text-3xl mb-6">Replace</h3>
                 <p className="text-left">
                   Not sure if you need a replacement or a repair? Call Darwins Property Solutions now for a free and trustworthy quote from one of our experts. 
                 </p>
@@ -80,9 +80,9 @@ function InteriorRemodeling({data}) {
             </div>
            
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-              <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Maintenance</h3>
+              <div className="box_service rounded">
+                <span className="icon_info">i</span>
+                <h3 className="text-center text-3xl mb-6">Maintenance</h3>
                 <p className="text-left"> 
                   Performing routine maintenance on your home now helps you avoid costly repairs in the future.
                 </p>
@@ -175,8 +175,6 @@ function InteriorRemodeling({data}) {
 					>See All Services
         </Link>
 			</div>
-
-      
     </Layout>
   );
 }

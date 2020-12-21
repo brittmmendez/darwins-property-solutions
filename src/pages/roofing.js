@@ -8,6 +8,8 @@ import { Link } from "gatsby"
 import remondeling from "../images/remondeling.png"
 
 function RoofingPage({data}) {
+  let images = data.allCloudinaryMedia.nodes.filter((p) =>p.public_id.includes("roofing"));
+
   return (
     <Layout>
       <SEO
@@ -40,7 +42,7 @@ function RoofingPage({data}) {
 						</div>
 					</div>
           <div className="services my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
-            <PhotoSlider data={data}/>
+            <PhotoSlider data={images}/>
 					</div>
 				</div>
 			</section>
@@ -58,7 +60,7 @@ function RoofingPage({data}) {
 
           <div className="about-us flex flex-wrap w-full">
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service ">
+              <div className="box_service rounded">
                 <span className="icon_info">i</span>
                 <h3 className="text-center text-3xl mb-6">Repair</h3>
                 <p className="text-left"> Our goal is to provide the best roof repair services we can. If you notice a leaking roof, don’t wait to take action.</p>
@@ -66,7 +68,7 @@ function RoofingPage({data}) {
             </div>
            
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
+              <div className="box_service rounded">
                 <span className="icon_info">i</span>
                 <h3 className="text-center text-3xl mb-6">Replace</h3>
                 <p className="text-left"> Not sure if you need a replacement or a repair? Call Darwins Property Solutions now for a free and trustworthy quote from one of our experts.</p>
@@ -74,7 +76,7 @@ function RoofingPage({data}) {
             </div>
            
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
+              <div className="box_service rounded">
                 <span className="icon_info">i</span>
                 <h3 className="text-center text-3xl mb-6">Maintenance</h3>
                 <p className="text-left"> Performing maintenance on your roof routinely will help you avoid costly repairs in the future. Let us help yiou prolong the life of your roof with an inspection today.</p>

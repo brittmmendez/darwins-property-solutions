@@ -8,7 +8,7 @@ import Slider from "react-slick";
 
 export default class PhotoSlider extends React.Component {
 	render() {
-		const photos = this.props.data.allCloudinaryMedia.nodes
+		const photos = this.props.data
 	  	const settings = {
 		dots: false,
 		infinite: true,
@@ -17,7 +17,7 @@ export default class PhotoSlider extends React.Component {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 4000,
+		autoplaySpeed: 2000,
 		adaptiveHeight: true
 	  };
 

@@ -7,6 +7,7 @@ import PhotoSlider from "../components/PhotoSlider";
 import PropTypes from "prop-types"
 
 function ExteriorServices({data}) {
+  let images = data.allCloudinaryMedia.nodes.filter((p) =>p.public_id.includes("exterior"));
   return (
     <Layout>
       <SEO
@@ -23,13 +24,13 @@ function ExteriorServices({data}) {
             Residential <span>&#183;</span> 
             {" "} Commericial <span>&#183;</span> 
             {" "} Industrial 
-            </h2>
+          </h2>
 				</div>
 				
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
 						<div>
-						<h3 className="text-center md:text-left text-3xl mb-8 leading-tight">
+						  <h3 className="text-center md:text-left text-3xl mb-8 leading-tight">
 								Protect from the outside in.
 							</h3>
 							
@@ -38,12 +39,10 @@ function ExteriorServices({data}) {
                 Whether you need new siding, a fresh coat of paint, replacement windows, insulation, or other exterior upgrades, our we 
                 build with high quality products that fit the needs snd budget of any construction project.
               </p>
- 
-							
 						</div>
 					</div>
           <div className="services my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
-            <PhotoSlider data={data}/>
+            <PhotoSlider data={images}/>
 					</div>
 				</div>
 			</section>
@@ -62,18 +61,18 @@ function ExteriorServices({data}) {
 
           <div className="about-us flex flex-wrap w-full">
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service ">
-              <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Repair</h3>
+              <div className="box_service rounded ">
+                <span className="icon_info">i</span>
+                <h3 className="text-center text-3xl mb-6">Repair</h3>
                 <p className="text-left"> Taking care of the small problems when you see them makes it so you do not have the problem worsen and develop into a bigger issue over time.
                 </p>
               </div>
             </div>
            
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-              <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Replace</h3>
+              <div className="box_service rounded">
+                <span className="icon_info">i</span>
+                <h3 className="text-center text-3xl mb-6">Replace</h3>
                 <p className="text-left">
                   Not sure if you need a replacement or a repair? Call Darwins Property Solutions now for a free and trustworthy quote from one of our experts. 
                 </p>
@@ -81,9 +80,9 @@ function ExteriorServices({data}) {
             </div>
            
             <div className="w-full sm:w-1/3 px-3">
-              <div className="box_service">
-              <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Maintenance</h3>
+              <div className="box_service rounded">
+                <span className="icon_info">i</span>
+                <h3 className="text-center text-3xl mb-6">Maintenance</h3>
                 <p className="text-left"> 
                   Performing routine maintenance on your home now helps you avoid costly repairs in the future.
                 </p>
