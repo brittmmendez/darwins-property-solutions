@@ -6,12 +6,9 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Header from "../components/header";
 import exterior from "../images/exterior.png"
+import PhotoSlider from "../components/PhotoSlider";
 
-function AboutPage() {
-
-  const status = useScript(
-    'https://apps.elfsight.com/p/platform.js'
-  );
+function AboutPage({data}) {
 
   return (
     <Layout>
@@ -31,14 +28,7 @@ function AboutPage() {
         </div>
       
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap md:flex-no-wraps">
-          <div className="flex flex-wrap m-auto">
-          <div className="h-auto md:w-1/2 px-4 mb-8">
-              <div className="mb-8"><img className="rounded shadow-md about-img" src="https://images.ctfassets.net/1qq6mgrp27zi/7ukV4Fa6sr0hxTrvGeRC7a/450bd1cb3f7a225cec440c530bea77a7/Image__6_.jpeg?w=800" alt="rooding project"/></div>
-            </div>
-            <div className="h-auto md:w-1/2 px-4 mb-8">
-              <div className="mb-8"><img className="rounded shadow-md about-img" src="https://images.ctfassets.net/1qq6mgrp27zi/365B0z5qTsfLIkUpT7jf9D/6e63bd2119c43310585f5f153a31110b/Image__1_.jpeg?w=800" alt="sidewalk"/></div>
-            </div>
-          </div>
+        <PhotoSlider data={data}/>
         </div>
       </section>
 
@@ -146,72 +136,19 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
-
-// Hook
-function useScript(src) {
-  // Keep track of script status ("idle", "loading", "ready", "error")
-  const [status, setStatus] = useState(src ? "loading" : "idle");
-debugger
-  useEffect(
-    () => {
-      // Allow falsy src value if waiting on other data needed for
-      // constructing the script URL passed to this hook.
-      if (!src) {
-        setStatus("idle");
-        return;
-      }
-
-      // Fetch existing script element by src
-      // It may have been added by another intance of this hook
-      let script = document.querySelector(`script[src="${src}"]`);
-
-      if (!script) {
-        // Create script
-        script = document.createElement("script");
-        script.src = src;
-        script.async = true;
-        script.setAttribute("data-status", "loading");
-        // Add script to document body
-        document.body.appendChild(script);
-
-        // Store status in attribute on script
-        // This can be read by other instances of this hook
-        const setAttributeFromEvent = (event) => {
-          script.setAttribute(
-            "data-status",
-            event.type === "load" ? "ready" : "error"
-          );
-        };
-
-        script.addEventListener("load", setAttributeFromEvent);
-        script.addEventListener("error", setAttributeFromEvent);
-      } else {
-        // Grab existing script status from attribute and set to state.
-        setStatus(script.getAttribute("data-status"));
-      }
-
-      // Script event handler to update status in state
-      // Note: Even if the script already exists we still need to add
-      // event handlers to update the state for *this* hook instance.
-      const setStateFromEvent = (event) => {
-        setStatus(event.type === "load" ? "ready" : "error");
-      };
-
-      // Add event listeners
-      script.addEventListener("load", setStateFromEvent);
-      script.addEventListener("error", setStateFromEvent);
-
-      // Remove event listeners on cleanup
-      return () => {
-        if (script) {
-          script.removeEventListener("load", setStateFromEvent);
-          script.removeEventListener("error", setStateFromEvent);
-        }
-      };
-    },
-    [src] // Only re-run effect if script src changes
-  );
-
-  return status;
+export const query = graphql`
+ query {
+	allCloudinaryMedia{
+    nodes {
+      secure_url
+      public_id
+    }
+  }
 }
+`
+
+AboutPage.propTypes = {
+  data: PropTypes.object,
+}
+
+export default AboutPage;

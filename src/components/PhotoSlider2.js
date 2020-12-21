@@ -12,13 +12,9 @@ export default class PhotoSlider extends React.Component {
 	  	const settings = {
 		dots: false,
 		infinite: true,
-		fade: true,
 		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 4000,
-		adaptiveHeight: true
+		slidesToShow: 2,
+		slidesToScroll: 2,
 	  };
 
 	  return (

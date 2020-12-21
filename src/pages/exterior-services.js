@@ -3,8 +3,10 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Header from "../components/header";
 import { Link } from "gatsby"
+import PhotoSlider from "../components/PhotoSlider";
+import PropTypes from "prop-types"
 
-function ExteriorServices() {
+function ExteriorServices({data}) {
   return (
     <Layout>
       <SEO
@@ -41,9 +43,7 @@ function ExteriorServices() {
 						</div>
 					</div>
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
-						<div>
-							<img src="http://images.ctfassets.net/1qq6mgrp27zi/6mZmhgediYiydNo8VVGS9Z/33a7a626cf284fe2010b0238750d6f59/Image__1_.jpeg" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
-						</div>
+            <PhotoSlider data={data}/>
 					</div>
 				</div>
 			</section>
@@ -197,10 +197,23 @@ function ExteriorServices() {
 					>See All Services
         </Link>
 			</div>
-
-      
     </Layout>
   );
+}
+
+export const query = graphql`
+ query {
+	allCloudinaryMedia{
+    nodes {
+      secure_url
+      public_id
+    }
+  }
+}
+`
+
+ExteriorServices.propTypes = {
+  data: PropTypes.object,
 }
 
 export default ExteriorServices;

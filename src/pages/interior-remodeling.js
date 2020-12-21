@@ -2,10 +2,12 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Header from "../components/header";
+import PhotoSlider from "../components/PhotoSlider";
+import PropTypes from "prop-types"
 import remondeling from "../images/remondeling.png"
 import { Link } from "gatsby"
 
-function InteriorRemodeling() {
+function InteriorRemodeling({data}) {
   return (
     <Layout>
       <SEO
@@ -41,9 +43,7 @@ function InteriorRemodeling() {
 						</div>
 					</div>
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
-						<div>
-							<img src={remondeling} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
-						</div>
+            <PhotoSlider data={data}/>
 					</div>
 				</div>
 			</section>
@@ -180,6 +180,21 @@ function InteriorRemodeling() {
       
     </Layout>
   );
+}
+
+export const query = graphql`
+ query {
+	allCloudinaryMedia{
+    nodes {
+      secure_url
+      public_id
+    }
+  }
+}
+`
+
+InteriorRemodeling.propTypes = {
+  data: PropTypes.object,
 }
 
 export default InteriorRemodeling;
