@@ -39,7 +39,7 @@ function RoofingPage({data}) {
 							
 						</div>
 					</div>
-          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+          <div className="services my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
             <PhotoSlider data={data}/>
 					</div>
 				</div>
@@ -52,75 +52,73 @@ function RoofingPage({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> 
+          <p className="mb-12"> 
           If you need a new roof, have damage that needs to be repaired, or would like an inspection, our roofing experts are here to help. We can identify any signs of problems, recommend the best materials, and provide a variety of services to keep your roof functioning the way it should.
           </p>
 
           <div className="about-us flex flex-wrap w-full">
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service ">
-              <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Repair</h3>
+                <span className="icon_info">i</span>
+                <h3 className="text-center text-3xl mb-6">Repair</h3>
                 <p className="text-left"> Our goal is to provide the best roof repair services we can. If you notice a leaking roof, don’t wait to take action.</p>
               </div>
             </div>
            
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
-              <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Replace</h3>
+                <span className="icon_info">i</span>
+                <h3 className="text-center text-3xl mb-6">Replace</h3>
                 <p className="text-left"> Not sure if you need a replacement or a repair? Call Darwins Property Solutions now for a free and trustworthy quote from one of our experts.</p>
               </div>
             </div>
            
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service">
-              <span className="icon_info">i</span>
-              <h3 className="text-center text-3xl mb-6">Maintenance</h3>
+                <span className="icon_info">i</span>
+                <h3 className="text-center text-3xl mb-6">Maintenance</h3>
                 <p className="text-left"> Performing maintenance on your roof routinely will help you avoid costly repairs in the future. Let us help yiou prolong the life of your roof with an inspection today.</p>
               </div>
             </div>
           </div>
         </div>  
 
-        <div className="text-center">
+        <div className="text-center mt-6">
           <Link to="/contact" title="contact page link" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">
             <button className="primary-btn inline-block mt-8 px-8 py-4"> Schedule a Consultation</button>
           </Link>
         </div>
       </section>
 
-      <section className="py-6">
-        <h3 className="text-center text-3xl p-4">Residential Roofing</h3>
+      <section className="pt-6 pb-20">
+        <h3 className="text-center text-3xl pb-12">Residential Roofing</h3>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
             <p className="mb-5">
               Whether you are looking to do a minor repair or major interior renovation, Darwins Property Solutions offers a comprehensive list of services that will meet your needs, budget, and timeline.  
               We offer floor-to-cieling remodeling services in Ohio, Kentucky, and Indiana areas.  
             </p>
           </div>
-          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
             <img src={remondeling} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
           </div>
         </div>
       </section>
       
-      <section className="py-6">
-        <h3 className="text-center text-3xl mb-6">Commericial Roofing</h3>
+      <section className="pt-6 pb-20">
+        <h3 className="text-center text-3xl  pb-12">Commericial Roofing</h3>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
             <p className="mb-5">
               Whether you are looking to do a minor repair or major interior renovation, Darwins Property Solutions offers a comprehensive list of services that will meet your needs, budget, and timeline.  
               We offer floor-to-cieling remodeling services in Ohio, Kentucky, and Indiana areas.  
             </p>
           </div>
-          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
             <img src={remondeling} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
           </div>
         </div>
       </section>
-
-       
     </Layout>
   );
 }

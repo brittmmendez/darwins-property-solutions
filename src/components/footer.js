@@ -6,29 +6,29 @@ function Footer() {
   return (
     <div>
       {/* <!--Action Area--> */}
-        <div className="py-16" >
+      <div className="py-16" >
         <section className="container mx-auto text-center py-6 mb-12">
           <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">CALL US TODAY FOR A FREE QUOTE</h2>
           <div className="w-full mb-4">	
             <div className="h-1 mx-auto  w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
           <h3 className="my-4 text-3xl leading-tight text-white">
-          <a href="tel:5134886021" title="phone number">513-488-6021</a>
+            <a  href="tel:5134886021" title="phone number">513-488-6021</a>
           </h3>	
         </section>
       </div>
       {/* <!--/Action Area--> */}
+      
       <footer className="relative text-gray-800 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
         <div className="flex flex-col md:flex-row">
           <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
             <Link to="/" title="" className="opacity-75 hover:opacity-100">
             <img
-                alt="logo"
-                  className="logo"
-                src={logo}
-              />
-              </Link>
-            {/* <p className="text-gray-400">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p> */}
+              alt="logo"
+              className="logo"
+              src={logo}
+            />
+            </Link>
           </div>
 
           <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
@@ -127,9 +127,9 @@ function Footer() {
 
           </div>
         </div>
-            <p className="text-sm mt-12">© 2020 Darwins Property Solutions. All Rights Reserved.
-            Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip" target="_blank" rel="noopener noreferrer">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer"> www.flaticon.com</a>
-            </p>
+        <p className="text-sm mt-12">© 2020 Darwins Property Solutions. All Rights Reserved.
+        Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip" target="_blank" rel="noopener noreferrer">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer"> www.flaticon.com</a>
+        </p>
       </footer>
     </div>
   );

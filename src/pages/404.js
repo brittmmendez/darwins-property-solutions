@@ -11,9 +11,11 @@ function NotFoundPage() {
       <SEO title="404: Not found" />
       
       <Header title="DAWRINS PROPERTY SOLUTIONS"/>
+      
       <h2 className="bg-yellow-400 text-2xl font-bold text-center inline-block my-8 p-3">
           Page Not Found...
-        </h2>
+      </h2>
+      
       <div>
         <img
           alt="house icon"

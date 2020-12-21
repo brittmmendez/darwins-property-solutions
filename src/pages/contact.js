@@ -67,20 +67,20 @@ export default class ContactPage extends React.Component {
           {this.state.toggleModal &&
             <div className="services-page-success-modal h-screen w-full flex flex-col items-center justify-center">
               <div className="h-screen w-full fixed flex items-center justify-center bg-modal z-10">
-                    <div className="bg-white shadow p-8 m-4 max-h-full text-center overflow-y-scroll">
-                        <div className="mb-4">
-                          <h3 className="text-3xl font-bold leading-none mb-3">Submitted!</h3>
-                        </div>
-                        <div className="mb-8">
-                            <p className="text-black">Thank you for reaching out. We will be in touch with you shortly!</p>
-                        </div>
-                        <div className="flex justify-center">
-                          <button onClick={() => this.handleClick()} className="inline-block primary-btn button px-8 py-4"
-                            >Close
-                          </button>
-                        </div>
-                    </div>
+                <div className="bg-white shadow p-8 m-4 max-h-full text-center overflow-y-scroll">
+                  <div className="mb-4">
+                    <h3 className="text-3xl font-bold leading-none mb-3">Submitted!</h3>
+                  </div>
+                  <div className="mb-8">
+                    <p className="text-black">Thank you for reaching out. We will be in touch with you shortly!</p>
+                  </div>
+                  <div className="flex justify-center">
+                    <button onClick={() => this.handleClick()} className="inline-block primary-btn button px-8 py-4"
+                      >Close
+                    </button>
+                  </div>
                 </div>
+              </div>
             </div>
           }
           <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left relative">

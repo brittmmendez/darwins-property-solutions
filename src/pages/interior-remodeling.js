@@ -4,7 +4,6 @@ import SEO from "../components/seo";
 import Header from "../components/header";
 import PhotoSlider from "../components/PhotoSlider";
 import PropTypes from "prop-types"
-import remondeling from "../images/remondeling.png"
 import { Link } from "gatsby"
 
 function InteriorRemodeling({data}) {
@@ -42,7 +41,7 @@ function InteriorRemodeling({data}) {
 							
 						</div>
 					</div>
-          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+          <div className="services my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
             <PhotoSlider data={data}/>
 					</div>
 				</div>
@@ -55,7 +54,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> 
+          <p className="mb-12"> 
           Maintaining the interior of your home or building is just as important as it is to maintain the exterior. 
           In the long run, mainting the interior oh your home or bilding can lead to many benefits. It saves you money, keeps your home running efficiently, increases your homes value, and provides peace of mind knowing your taking care of your number one investment. 
           </p>
@@ -92,7 +91,7 @@ function InteriorRemodeling({data}) {
           </div>
         </div>  
 
-        <div className="text-center">
+        <div className="text-center mt-6">
           <Link to="/contact" title="contact page link" className="nav py-2 inline-block md:text-white md:px-2 font-semibold">
             <button className="primary-btn inline-block mt-8 px-8 py-4"> Schedule a Consultation</button>
           </Link>

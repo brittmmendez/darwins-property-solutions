@@ -145,7 +145,6 @@ Header.propTypes = {
 	showImg: PropTypes.bool
 }
 
-
 Header.defaultProps = {
 	title: "",
 	showTagline: false,

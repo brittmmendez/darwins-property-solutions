@@ -19,33 +19,34 @@ function AboutPage({data}) {
 
       <Header title="About Us"/>
       
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+      <section className="about-us py-6">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto">
 					<h2 className="w-full my-8 text-4xl leading-tight">Our Approach</h2>
 				</div>
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto">
           <p className="mb-8">As a full service construction provider for residential, commercial, to industrial projects, Darwins Property Solutions understands how important it is for projects to be completed successfully, on time, and on budget. Our company was founded on the commitment to excellence that we bring to each project. We communicate thoroughly throughout our project in order to provide timely, accurate, and high quality solutions. Our hands-on approach sets us apart from other construction companies in the area and helps us to reach our goal of delivering best in class construction projects.</p>
         </div>
       
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap md:flex-no-wraps">
-        <PhotoSlider data={data}/>
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto">
+          <PhotoSlider data={data}/>
         </div>
       </section>
 
-      <section className="pt-6 pb-12">
+      <section className="py-6 md:pb-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Services</h2>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-				<p className="mb-5"> We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more.  We can begin at any phase of a project and work on residential, industrial, and commercial projetcs year round.</p>
+				  <p className="mb-5"> We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more.  We can begin at any phase of a project and work on residential, industrial, and commercial projetcs year round.</p>
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
-					<div className="parent">
-						<Link to="/roofing" title="roofing link">
-							<img src="http://images.ctfassets.net/1qq6mgrp27zi/5xivQAx3FhYLSLBAhmAbM3/d03fa5f5796852bd6adb01d66764c9dd/Image__9_.jpeg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
-						</Link>
-					</div>
-						<Link to="/roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">Roofing Services
+            <div className="parent">
+              <Link to="/roofing" title="roofing link">
+                <img src="http://images.ctfassets.net/1qq6mgrp27zi/5xivQAx3FhYLSLBAhmAbM3/d03fa5f5796852bd6adb01d66764c9dd/Image__9_.jpeg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
+              </Link>
+            </div>
+						<Link to="/roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">
+              Roofing Services
 						</Link>
 					</div>
 					
@@ -60,28 +61,26 @@ function AboutPage({data}) {
 					</div>
 
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
-							<div className="parent">
-								<Link to="/exterior-services"  title="industrial link">
-									<img src={exterior} className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Indestrial property"/>
-								</Link>
-							</div>
+            <div className="parent">
+              <Link to="/exterior-services"  title="industrial link">
+                <img src={exterior} className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Indestrial property"/>
+              </Link>
+            </div>
 
-							<Link to="/exterior-services" title="industrial link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Exterior Services</Link>
-						</div>
+            <Link to="/exterior-services" title="industrial link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Exterior Services</Link>
+          </div>
 				</div>
 
-				<div className="container max-w-4xl mx-auto text-center pt-12 pb-10">
+				<div className="container max-w-4xl mx-auto text-center pt-12">
 					<Link to="/services" 
-					title="all services link"
-					className="primary-btn inline-block px-8 py-4"
-					>See All Services</Link>
+            title="all services link"
+            className="primary-btn inline-block px-8 py-4"
+					  >See All Services
+          </Link>
 				</div>
-     
-     
       </section>
 
-
-      <section className="pt-6 pb-20">
+      <section className="pt-6 pb-12">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Our Project Types</h2>
 				</div>
