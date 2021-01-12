@@ -304,6 +304,7 @@ img.sm-img-cover {
 
 .about-us .product-feature-image .cover {
   max-height: 700px;
+  min-height: 700px;
   width: 80%;
 }
 
@@ -364,6 +365,7 @@ img.sm-img-cover {
   .about-us .product-feature-image .cover {
     width: 100%;
     padding: initial;
+    max-height: 400px;
   }
 
   .services .product-feature-image .cover {

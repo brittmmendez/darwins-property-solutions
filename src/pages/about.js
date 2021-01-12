@@ -39,10 +39,10 @@ function AboutPage({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.
+          <p className="mb-8"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.
 					</p>
 
-          <div className="about-us flex flex-wrap w-full">
+          <div className="about-us flex flex-wrap w-full mt-4">
             <div className="w-full sm:w-1/3 px-3">
               <div className="box_service rounded">
                 <span className="icon_info">i</span>

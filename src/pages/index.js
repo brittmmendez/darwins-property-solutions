@@ -27,8 +27,8 @@ function IndexPage() {
 				</div>
 				
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-				<p className="mb-5">Darwins Property Solutions is a full service construction company for all your roofing, interior, and exterior needs. We can begin at any phase of a project and work with residential, commercial, and industrial customers.
-					We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more. 
+				<p className="mb-5">Darwins Property Solutions is a full service construction company for all your roofing, interior, and exterior needs. We have a Cohesive crew that has worked together for over 15 years and specialize on the building envelope. We can begin at any phase of a project and work with residential, commercial, and industrial customers.
+					We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more. Quality projects is our standard and we aim to delight our clients with the end results.
 					 </p>
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 					<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
@@ -70,6 +70,7 @@ function IndexPage() {
 			</div>
 			{/* <!--End All Services Section--> */}
 			
+			
 			{/* <!--About Section--> */}
 			<div className="w-full pt-6 pb-12  color-background">
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
@@ -79,7 +80,7 @@ function IndexPage() {
 								Over a Decade of Experience
 							</h3>
 							
-							<p className="mb-5">Established in 2011, Darwins Property Solutions has been dedicated to providing best in class services to the construction industry of the Ohio, Kentucky and Indiana area.  With over a decade of experience, we have grown into one of the most trusted and well respected full service construction companies in the area. We are committed to providing high quality solutions and customer satisfaction.</p>
+							<p className="mb-5">Established in 2011, Darwins Property Solutions has been dedicated to providing best in class services to the construction industry of the Ohio, Kentucky and Indiana area.  With over a decade of experience, we have grown into one of the most trusted and well respected full service construction companies specialized on the building envelope in the area. We are committed to providing high quality solutions, competitive pricing, and customer satisfaction.</p>
  
 							<p className="mb-5">We specialize in a wide range of services for industrial, commercial, and residential projects.</p>
 							<div className="text-center md:text-left">
@@ -111,11 +112,26 @@ function IndexPage() {
 						<div className="flex- overflow-hidden text-center">
 							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
 								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Construction Manager Helmet"/>
-								<h3 className="w-full font-bold text-xl px-6 pt-4">Darwin Paredes </h3>
-								<h3 className="w-full font-bold text-l px-6 pb-2">Construction Manager </h3>
+								<h3 className="w-full font-bold text-white text-xl px-6 pt-4">Darwin Paredes </h3>
+								<h3 className="w-full font-bold text-l px-6 pb-2">Construction Manager <br/> 33 years of experience </h3>
 								<p className="text-base px-6 mb-5">
 									<a href="mailto:darwin@darwinspropertysolutions.com" title="Construction Manager Email" className="items-center opacity-75 hover:opacity-100">
 										Darwin@darwinspropertysolutions.com
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink text-center">
+						<div className="flex-1 overflow-hidden">
+							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
+								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Sales Representative Helmet"/>
+								<h3 className="w-full font-bold text-white text-xl px-6 pt-4">Don Morris </h3>
+								<h3 className="w-full font-bold text-l px-6 pb-2">Certified Technical Consultant <br/> 33 years of experience </h3>
+								<p className="text-base px-6 mb-5">
+									<a href="mailto:darwin@darwinspropertysolutions.com" title="Sales Representative Email" className="items-center opacity-75 hover:opacity-100">
+										Don@darwinspropertysolutions.com
 									</a>
 								</p>
 							</div>
@@ -126,26 +142,11 @@ function IndexPage() {
 						<div className="flex-1 overflow-hidden">
 							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
 								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Office Manager Helmet"/>
-								<h3 className="w-full font-bold text-xl px-6 pt-4">Yayna Almonte </h3>
-								<h3 className="w-full font-bold text-l px-6 pb-2">Office Manager </h3>
+								<h3 className="w-full text-white font-bold text-xl px-6 pt-4">Bill Turner </h3>
+								<h3 className="w-full font-bold text-l px-6 pb-2">Archetect Engineer <br/> 40 years of experience </h3>
 								<p className="text-base px-6 mb-5">
 									<a href="mailto:darwin@darwinspropertysolutions.com" title="Office Manager Email" className="items-center opacity-75 hover:opacity-100">
-										Yayna@darwinspropertysolutions.com
-									</a>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink text-center">
-						<div className="flex-1 overflow-hidden">
-							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
-								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Sales Representative Helmet"/>
-								<h3 className="w-full font-bold text-xl px-6 pt-4">Don Morris </h3>
-								<h3 className="w-full font-bold text-l px-6 pb-2">Sales Representative </h3>
-								<p className="text-base px-6 mb-5">
-									<a href="mailto:darwin@darwinspropertysolutions.com" title="Sales Representative Email" className="items-center opacity-75 hover:opacity-100">
-										Don@darwinspropertysolutions.com
+										Bill@darwinspropertysolutions.com
 									</a>
 								</p>
 							</div>
@@ -154,6 +155,24 @@ function IndexPage() {
 				</div>
 			</section>
 			{/* <!--/Team Section--> */}
+
+			{/* <!--Safety Section--> */}
+			<div className="w-full py-12  color-background">
+			<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+				<div className="px-2">
+					<div>
+						<h2 className="w-full mt-4 mb-6 text-4xl leading-tight">
+							Safety is #1
+						</h2>
+						<h3 className="text-3xl mb-8 leading-tight italic">
+							We follow OSHA, NRCA, and AIA guidelines and regulations during every project, especially concerning health care facilities
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		{/* <!--End Safety Section--> */}
+
     </Layout>
   );
 }
