@@ -5,6 +5,9 @@ import SEO from "../components/seo";
 import Header from "../components/header";
 import helmet from "../images/svg/014-helmet.svg"
 import exterior from "../images/exterior.png"
+import interior from "../images/interior.jpeg"
+import roofing from "../images/roofing.jpeg"
+import truck from "../images/truck.jpeg"
 
 function IndexPage() {
   return (
@@ -33,7 +36,7 @@ function IndexPage() {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 					<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
 						<Link to="/services#roofing" title="roofing link">
-							<img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433927/Photos/roofing/Image_9_z9bbiq.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
+							<img src={roofing} className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
 						</Link>
 					</div>
 						<Link to="/services#roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">Roofing Services
@@ -43,7 +46,7 @@ function IndexPage() {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 						<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
 							<Link to="/services#interior" title="interior link">
-								<img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433969/Photos/interior/Image_1_wtm9h1.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
+								<img src={interior} className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
 							</Link>
 						</div>
 						<Link to="/services#interior" title="interior link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Interior Remodeling
@@ -93,7 +96,7 @@ function IndexPage() {
 					
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
 						<div>
-							<img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433988/Photos/exterior/Image_1_copy_df6msm.jpg" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
+							<img src={truck} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
 						</div>
 					</div>
 				</div>
@@ -112,13 +115,11 @@ function IndexPage() {
 						<div className="flex- overflow-hidden text-center">
 							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
 								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Construction Manager Helmet"/>
-								<h3 className="w-full font-bold text-white text-xl px-6 pt-4">Darwin Paredes </h3>
-								<h3 className="w-full font-bold text-l px-6 pb-2">Construction Manager <br/> 33 years of experience </h3>
-								<p className="text-base px-6 mb-5">
-									<a href="mailto:darwin@darwinspropertysolutions.com" title="Construction Manager Email" className="items-center opacity-75 hover:opacity-100">
+								<h4 className="w-full font-bold text-grey-600 text-xl px-6 pt-4">Darwin Paredes </h4>
+								<a href="mailto:darwin@darwinspropertysolutions.com" title="Construction Manager Email" className="items-center opacity-75 hover:opacity-100">
 										Darwin@darwinspropertysolutions.com
 									</a>
-								</p>
+								<h3 className="w-full font-bold text-l px-6 pb-2">Construction Manager <br/> 33 years of experience </h3>
 							</div>
 						</div>
 					</div>
@@ -127,13 +128,11 @@ function IndexPage() {
 						<div className="flex-1 overflow-hidden">
 							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
 								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Sales Representative Helmet"/>
-								<h3 className="w-full font-bold text-white text-xl px-6 pt-4">Don Morris </h3>
-								<h3 className="w-full font-bold text-l px-6 pb-2">Certified Technical Consultant <br/> 33 years of experience </h3>
-								<p className="text-base px-6 mb-5">
+								<h4 className="w-full font-bold text-grey-600 text-xl px-6 pt-4">Don Morris </h4>
 									<a href="mailto:darwin@darwinspropertysolutions.com" title="Sales Representative Email" className="items-center opacity-75 hover:opacity-100">
 										Don@darwinspropertysolutions.com
 									</a>
-								</p>
+								<h3 className="w-full font-bold text-l px-6 pb-2">Certified Technical Consultant <br/> 33 years of experience </h3>
 							</div>
 						</div>
 					</div>
@@ -142,13 +141,12 @@ function IndexPage() {
 						<div className="flex-1 overflow-hidden">
 							<div className="team-member-box"  data-sal="slide-up" data-sal-delay="100" data-sal-duration="500">
 								<img src={helmet} className="team-member w-full h-64 object-cover mb-6 rounded" alt="Office Manager Helmet"/>
-								<h3 className="w-full text-white font-bold text-xl px-6 pt-4">Bill Turner </h3>
-								<h3 className="w-full font-bold text-l px-6 pb-2">Archetect Engineer <br/> 40 years of experience </h3>
-								<p className="text-base px-6 mb-5">
-									<a href="mailto:darwin@darwinspropertysolutions.com" title="Office Manager Email" className="items-center opacity-75 hover:opacity-100">
+								<h4 className="w-full text-grey-600 font-bold text-xl px-6 pt-4">Bill Turner </h4>
+								<a href="mailto:darwin@darwinspropertysolutions.com" title="Office Manager Email" className="items-center opacity-75 hover:opacity-100">
 										Bill@darwinspropertysolutions.com
 									</a>
-								</p>
+								<h3 className="w-full font-bold text-l px-6 pb-2">Archetect Engineer <br/> 40 years of experience </h3>
+									
 							</div>
 						</div>
 					</div>
@@ -157,14 +155,14 @@ function IndexPage() {
 			{/* <!--/Team Section--> */}
 
 			{/* <!--Safety Section--> */}
-			<div className="w-full py-12  color-background">
+			<div className="w-full py-16  color-background">
 			<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
 				<div className="px-2">
 					<div>
 						<h2 className="w-full mt-4 mb-6 text-4xl leading-tight">
 							Safety is #1
 						</h2>
-						<h3 className="text-3xl mb-8 leading-tight italic">
+						<h3 className="text-3xl mb-8 leading-tight">
 							We follow OSHA, NRCA, and AIA guidelines and regulations during every project, especially concerning health care facilities
 						</h3>
 					</div>

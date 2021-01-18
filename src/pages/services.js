@@ -4,6 +4,8 @@ import SEO from "../components/seo";
 import Header from "../components/header";
 import { Link } from "gatsby"
 import exterior from "../images/exterior.png"
+import interior from "../images/interior.jpeg"
+import roofing from "../images/roofing.jpeg"
 
 function ServicesPage() {
   return (
@@ -32,7 +34,7 @@ function ServicesPage() {
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps mt-6 mb-20">
 		      <div className="block md:hidden my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
 						<div>
-							<img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433927/Photos/roofing/Image_9_z9bbiq.jpg" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
+							<img src={roofing} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
 						</div>
 					</div>
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
@@ -53,7 +55,7 @@ function ServicesPage() {
 					</div>
           <div className="hidden md:block my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
 						<div>
-							<img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433927/Photos/roofing/Image_9_z9bbiq.jpg" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
+							<img src={roofing} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
 						</div>
 					</div>
 				</div>
@@ -62,7 +64,7 @@ function ServicesPage() {
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps mt-6 mb-20">
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
 						<div>
-							<img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433969/Photos/interior/Image_1_wtm9h1.jpg" className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
+							<img src={interior} className="vehicle-img w-full rounded shadow-md" alt="Vehicle with logo"/>
 						</div>
 					</div>
 					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">

@@ -7,22 +7,26 @@
 /* purgecss end ignore */
 
 :root {
-  --primaryGrey: #222222;
+  /* --primaryGrey: #222222; */
+  --primaryGrey: #DBDADB;
+  --primaryDarkGrey: #393A3C;
   --primaryLightBlue: #0F8FDC;
-  --primarylighGrey: #393A3C;
-  /* --primarylighGrey: #393a3cd9; */
   --white: #ffffff;
-  --secondaryGrey: #DBDADB;
 }
 
 body{
-  background-color: black;
+  background-color: var(--primaryGrey);
+  color: var(--primaryDarkGrey);
   font-family: Helvetica, sans-serif;
   font-size: 18px;
 }
 
+h1 {
+  color: var(--primaryDarkGrey);
+}
+
 h2 {
-  color: var(--white);
+  color: var(--primaryDarkGrey);
   font-weight: 900;
 }
 
@@ -31,7 +35,7 @@ h3, h5 {
 }
 
 p {
-  color: var(--white);
+  color: var(--primaryDarkGrey);
 }
 /* for background hero photo and action background on homepage*/
 .gradient {
@@ -97,8 +101,13 @@ a.nav:hover{
 }
 
 /* Footer */
+
+.free-quote{
+  background-color: var(--primaryDarkGrey);
+}
+
 footer {
-  background-color: var(--secondaryGrey);
+  background-color: var(--primaryGrey);
 }
 
 /* Buttons */
@@ -116,7 +125,7 @@ footer {
 
 /* service homepage section */
 .title-overlay{
-  width: 95%;
+  width: 96.5%;
   background: hsla(0,0%,100%,.65);
   color: #0F8FDC;
   opacity: .95;
@@ -167,6 +176,10 @@ footer {
 
 /* about page */
 .our-projects li {
+  list-style-type: square;
+}
+
+.roofing-services li {
   list-style-type: square;
 }
 
@@ -251,9 +264,9 @@ div.box_service {
 .product-feature-image .slick-slider .slick-arrow {
   height: 35px;
   width: 35px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 1px;
-  background-color: white;
+  /* background-color: white; */
   margin-right: 22px;
   margin-left: 22px;
 }
@@ -261,7 +274,7 @@ div.box_service {
   box-sizing: border-box;
   height: 13.38px;
   width: 6.18px;
-  color: white;
+  /* color: white; */
   line-height: inherit;
 }
 .product-feature-image .slick-prev {
@@ -272,7 +285,7 @@ div.box_service {
   right: 10px;
 }
 .product-feature-image .slick-prev:hover, .product-feature-image .slick-next:hover {
-  border: 3px solid white;
+  /* border: 3px solid white; */
 }
 
 .slick-slide img {
@@ -280,11 +293,11 @@ div.box_service {
 }
 
 .slick-prev:before, .slick-next:before {
-  color: white;
+  /* color: white; */
 }
 
 .slick-next:focus:before, .slick-next:hover:before, .slick-prev:focus:before, .slick-prev:hover:before {
-  color: white;
+  /* color: white; */
 }
 
 ul.slick-dots.slick-thumb.product-thumbs {
@@ -303,8 +316,8 @@ img.sm-img-cover {
 
 
 .about-us .product-feature-image .cover {
-  max-height: 700px;
-  min-height: 700px;
+  max-height: 600px;
+  min-height: 600px;
   width: 80%;
 }
 
@@ -314,6 +327,12 @@ img.sm-img-cover {
 
 .about-us .product-image-array .slick-prev{
   display: none !important;
+}
+
+.services .product-feature-image .cover {
+  max-height: 400px;
+  min-height: 400px;
+  width: 80%;
 }
 
 .services .product-feature-image .cover {

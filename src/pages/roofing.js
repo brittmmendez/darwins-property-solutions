@@ -5,7 +5,6 @@ import Header from "../components/header";
 import PhotoSlider from "../components/PhotoSlider";
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import remondeling from "../images/remondeling.png"
 
 function RoofingPage({data}) {
   let images = data.allCloudinaryMedia.nodes.filter((p) =>p.public_id.includes("roofing"));
@@ -92,13 +91,23 @@ function RoofingPage({data}) {
         </div>
       </section>
 
-      <section className="pt-6 pb-20">
+      <section className="pt-6 pb-20 roofing-services">
         <h3 className="text-center text-3xl pb-12">Residential Roofing</h3>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
+            <p>We offer a vast array of residential roofing services that ranges from:</p>
             <p className="mb-5">
-              Whether you are looking to do a minor repair or major interior renovation, Darwins Property Solutions offers a comprehensive list of services that will meet your needs, budget, and timeline.  
-              We offer floor-to-cieling remodeling services in Ohio, Kentucky, and Indiana areas.  
+              <ul className="mb-8 text-left">
+                <li> Roof Ventilation Systems</li>
+                <li> Skylights</li>
+                <li> Gutter Covers</li>
+                <li> Replacement and repair of asphalt, shingles roofs, metal roofs, wood roofs and slate roofs.</li>
+                <li> Box Gutter Relining</li>
+                <li> Box Gutter Repair</li>
+                <li> Chimney Tuck Pointing</li>
+                <li> Hanging Gutters &amp; Downspouts</li>
+                <li> Custom Sheet Metal Work</li>
+              </ul> 
             </p>
           </div>
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
@@ -107,13 +116,20 @@ function RoofingPage({data}) {
         </div>
       </section>
       
-      <section className="pt-6 pb-20">
+      <section className="pt-6 pb-20 roofing-services">
         <h3 className="text-center text-3xl  pb-12">Commericial Roofing</h3>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
-            <p className="mb-5">
-              Whether you are looking to do a minor repair or major interior renovation, Darwins Property Solutions offers a comprehensive list of services that will meet your needs, budget, and timeline.  
-              We offer floor-to-cieling remodeling services in Ohio, Kentucky, and Indiana areas.  
+          <p>We offer different types of commercial roofing services ranging from: </p>
+          <p className="mb-5">
+              <ul className="mb-8 text-left">
+                <li> TPO, EPDM and PVC single-ply roofs systems</li>
+                <li> Effective roofing repairs (including contemporary and historic roofing materials)</li>
+                <li> Gutters and Gutter covers</li>
+                <li> Custom Sheet Metal work</li>
+                <li> A full range of repair and preventative maintenance services are also provided by Darwins Property
+                  Solutions.</li>
+              </ul> 
             </p>
           </div>
           <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">

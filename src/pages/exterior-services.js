@@ -98,54 +98,13 @@ function ExteriorServices({data}) {
         </div>
       </section>
 
-
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Vinyl Siding</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
-				</div>
-      </section>
-      
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Window Replacement & Skylight Installation</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
-				</div>
-      </section>
-
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <h3 className="text-3xl mb-6">Insulation</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
-				</div>
-      </section>
-
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Painting</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
-				</div>
-      </section>
-
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Downspout & Gutter Installation & Repair</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
+          <p className="mb-5"> Install and replace insulation material to save energy and reduce noise in buildings and around vats, vessels, boilers, steam pipes, and water pipes. Also install fire-stopping materials to prevent the spread  of a fire and smoke throughout building or property.</p>
 				</div>
       </section>
 
@@ -155,7 +114,7 @@ function ExteriorServices({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
+          <p className="mb-5"> Clean or sweep chimneys and make repairs including masonry work and relining. </p>
 				</div>
       </section>
 
@@ -165,29 +124,51 @@ function ExteriorServices({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
+          <p className="mb-5"> Align forms for sidewalks, curbs, or gutters. </p>
+				</div>
+      </section>
+
+
+      <section className="py-6">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h3 className="text-3xl mb-6">Vinyl Siding</h3>
+				</div>
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <p className="mb-5"> - - </p>
+				</div>
+      </section>
+      
+      <section className="py-6">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h3 className="text-3xl mb-6">Window Replacement & Skylight Installation</h3>
+				</div>
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <p className="mb-5"> - - </p>
 				</div>
       </section>
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Landscaping</h3>
+          <h3 className="text-3xl mb-6">Painting</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
+          <p className="mb-5"> - - </p>
 				</div>
       </section>
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Snow Removal</h3>
+          <h3 className="text-3xl mb-6">Downspout & Gutter Installation & Repair</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.</p>
+          <p className="mb-5"> - - </p>
 				</div>
       </section>
+
 
       <div className="container max-w-4xl mx-auto text-center pt-12 pb-10">
         <Link to="/services" 

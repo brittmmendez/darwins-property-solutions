@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Header from "../components/header";
 import exterior from "../images/exterior.png"
+import interior from "../images/interior.jpeg"
 import PhotoSlider from "../components/PhotoSlider";
 
 function AboutPage({data}) {
@@ -95,7 +96,7 @@ function AboutPage({data}) {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
             <div className="parent">
               <Link to="/roofing" title="roofing link">
-                <img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433927/Photos/roofing/Image_9_z9bbiq.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
+                <img src={roofing} className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Residential property"/>
               </Link>
             </div>
 						<Link to="/roofing" title="roofing link" className="title-overlay my-4 text-3xl flex flex-col items-center justify-center px-2 absolute">
@@ -106,7 +107,7 @@ function AboutPage({data}) {
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 						<div className="parent">
 							<Link to="/interior-remodeling" title="interior link">
-								<img src="https://res.cloudinary.com/dwk6itwu5/image/upload/v1608433969/Photos/interior/Image_1_wtm9h1.jpg" className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
+								<img src={interior} className="services-img w-full h-64 object-cover mb-6 rounded shadow-md" alt="Commercial property"/>
 							</Link>
 						</div>
 						<Link to="/interior-remodeling" title="interior link" className="title-overlay text-3xl my-4 flex flex-col items-center justify-center px-2 absolute">Interior Remodeling

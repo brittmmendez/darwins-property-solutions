@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div>
       {/* <!--Action Area--> */}
-      <div className="py-16" >
+      <div className="py-16 free-quote" >
         <section className="container mx-auto text-center py-6 mb-12">
           <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">CALL US TODAY FOR A FREE QUOTE</h2>
           <div className="w-full mb-4">	

@@ -115,12 +115,12 @@ class Header extends Component {
 				<div className="w-full px-6 bg-fixed h-2">
 					<div className="container header-box max-w-4xl mx-auto text-center">
 						
-						<h1 className="text-5xl font-bold leading-tight text-center text-black">
+						<h1 className="text-5xl font-bold leading-tight text-center">
 							{this.props.title}
 						</h1>
 												
 						{this.props.showTagline &&
-							<p className="text-lg text-center text-black ">
+							<p className="text-lg text-center">
 								Serving the construction industry of Ohio, Kentucky, and Indianna since 2011.
 							</p>
 						}	

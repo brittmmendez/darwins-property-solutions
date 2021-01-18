@@ -104,7 +104,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. </p>
+          <p className="mb-5"> Wood, carpeting tiles, concrete, and other types of flooring services.  </p>
 				</div>
       </section>
       
@@ -114,7 +114,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-        <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. </p>
+        <p className="mb-5"> Prepare painting surfaces by washing walls, repairing holes and/or removing old paint. Mix, match and apply paints and other finishes to various surfaces.  </p>
 				</div>
       </section>
   
@@ -124,7 +124,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. </p>
+          <p className="mb-5"> Clean, sweep and repair. Repairs include masonry work and relining. </p>
 				</div>
       </section>
     
@@ -134,7 +134,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. </p>
+          <p className="mb-5"> Cutting, fitting and cleaning and installation services for all types of bookshelves and cabinets.  </p>
 				</div>
       </section>
 
@@ -144,7 +144,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. </p>
+          <p className="mb-5"> Set up lighting equipment, assemble all the lighting and ensure everything works properly. </p>
 				</div>
       </section>
 
@@ -154,7 +154,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. </p>
+          <p className="mb-5"> Wall construction, electrical work planning, putting in insulation, installing gypsum walls, and others.  </p>
 				</div>
       </section>
 
@@ -165,7 +165,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs. </p>
+          <p className="mb-5"> All types of fixed skylights work. </p>
 				</div>
       </section>
       <div className="container max-w-4xl mx-auto text-center pt-12 pb-10">
