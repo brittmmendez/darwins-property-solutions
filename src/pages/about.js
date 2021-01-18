@@ -7,6 +7,7 @@ import SEO from "../components/seo";
 import Header from "../components/header";
 import exterior from "../images/exterior.png"
 import interior from "../images/interior.jpeg"
+import roofing from "../images/roofing.jpeg"
 import PhotoSlider from "../components/PhotoSlider";
 
 function AboutPage({data}) {
