@@ -14,8 +14,7 @@ function IndexPage() {
     <Layout>
       <SEO
 		title="Home"
-		description="Darwins Property Solutions is a full service construction company for all your roofing, interior, and exterior needs. We can begin at any phase of a project and work with residential, commercial, and industrial customers.
-		We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more."
+		description="Darwins Property Solutions is a full service construction company for all your roofing, interior, and exterior needs.  We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more."
         keywords={[`construction`, 'home remodeling', `roofing`, `interior`, `exterior`, "commericial services", "industrial services", "reseindential services", "painting"," landscaping", "flooring", "window installation"]}
       />
 

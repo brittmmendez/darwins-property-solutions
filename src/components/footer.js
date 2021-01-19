@@ -21,7 +21,7 @@ function Footer() {
       
       <footer className="relative text-gray-800 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
         <div className="flex flex-col md:flex-row">
-          <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
+          <div className="w-full lg:w-1/6 lg:mx-4 lg:pr-8">
             <Link to="/" title="" className="opacity-75 hover:opacity-100">
             <img
               alt="logo"
@@ -103,7 +103,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
+          <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4">
             <h5 className="uppercase tracking-wider font-semibold ">Social</h5>
             <ul className="mt-4 flex">
               <li>
@@ -124,6 +124,8 @@ function Footer() {
                 </a>
               </li>
             </ul>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12361.435347962435!2d-84.4607462!3d39.2347252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1372ecdc05fcdbd0!2sDarwins%20Property%20Solutions!5e0!3m2!1sen!2sus!4v1611084988178!5m2!1sen!2sus" style={{border:"0"}} aria-hidden="false" tabIndex="0"/>
 
           </div>
         </div>

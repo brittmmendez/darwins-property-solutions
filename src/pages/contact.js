@@ -64,7 +64,7 @@ export default class ContactPage extends React.Component {
 
         <Header title="Contact Us"/>
         
-        <section className="services-page bg-white border-b py-6">
+        <section className="services-page border-b py-6">
           {this.state.toggleModal &&
             <div className="services-page-success-modal h-screen w-full flex flex-col items-center justify-center">
               <div className="h-screen w-full fixed flex items-center justify-center bg-modal z-10">
@@ -84,9 +84,11 @@ export default class ContactPage extends React.Component {
               </div>
             </div>
           }
-          <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto text-left relative">
+
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+					<div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+          <div className="w-full mx-auto text-left relative">
             <div className="m-auto my-8 text-center">
-              <div className="m-auto">
                 <h3 className="text-3xl font-bold leading-none mb-3">Request a consultation</h3>
                 <form
                 name="contact"
@@ -172,9 +174,13 @@ export default class ContactPage extends React.Component {
                     </button>
                   </div>
                 </form>
-              </div>
             </div>
           </div>
+					</div>
+          <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12361.435347962435!2d-84.4607462!3d39.2347252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1372ecdc05fcdbd0!2sDarwins%20Property%20Solutions!5e0!3m2!1sen!2sus!4v1611084988178!5m2!1sen!2sus" height="450" style={{width:"100%", border:"0"}} aria-hidden="false" tabIndex="0"/>
+					</div>
+				</div>
         </section>
       </Layout>
     );

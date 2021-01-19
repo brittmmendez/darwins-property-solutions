@@ -181,6 +181,7 @@ footer {
 
 .roofing-services li {
   list-style-type: square;
+margin-left: 20px;
 }
 
 /* services page */

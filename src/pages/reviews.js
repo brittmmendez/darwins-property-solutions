@@ -11,8 +11,7 @@ function AboutPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="About"
+        title="Reviews"
       />
 
       <Header title="Customer Reviews"/>

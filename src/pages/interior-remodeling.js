@@ -12,7 +12,7 @@ function InteriorRemodeling({data}) {
   return (
     <Layout>
       <SEO
-        title="Interior Services"
+        title="Interior Remodeling Services"
         keywords={[`construction`, 'home remodeling', `interior`, "commericial services", "industrial services", "reseindential services", "painting", "flooring", "window installation", "Skylight","Basement Renovations" ]}
       />
       
