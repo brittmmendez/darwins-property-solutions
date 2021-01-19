@@ -105,7 +105,7 @@ function Footer() {
 
           <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4">
             <h5 className="uppercase tracking-wider font-semibold ">Social</h5>
-            <ul className="mt-4 flex">
+            <ul className="my-4 flex">
               <li>
                 <a href="https://www.facebook.com/Darwins-Property-Solutions-101514971798704" target="_blank" rel="noopener noreferrer" title="facebook">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current">
