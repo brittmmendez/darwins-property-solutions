@@ -169,10 +169,10 @@ class RoofingPage extends Component{
             <h3 className="text-left text-2xl">We offer different types of commercial roofing services ranging from:</h3>
             <p className="mb-5">
                 <ul className="mb-8 text-left">
-                  <li> Commercial Flat Roofs</li>
-                  <li> TPO Flat Roofs</li>
-                  <li> EPDM Flat Roofs</li>
-                  <li> PVC Flat Roofs</li>
+                  <li> Commercial Roof Systems</li>
+                  <li> TPO Roof Systems</li>
+                  <li> EPDM Roof Systems</li>
+                  <li> PVC Roof Systems</li>
                   <li> Effective roofing repairs (including contemporary and historic roofing materials)</li>
                   <li> Gutters and Gutter covers</li>
                   <li> Custom Sheet Metal work</li>
