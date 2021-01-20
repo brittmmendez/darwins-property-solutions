@@ -173,8 +173,12 @@ class RoofingPage extends Component{
                   <li> TPO Roof Systems</li>
                   <li> EPDM Roof Systems</li>
                   <li> PVC Roof Systems</li>
+                  <li> GE Silicone Roof Coating</li>
                   <li> Effective roofing repairs (including contemporary and historic roofing materials)</li>
-                  <li> Gutters and Gutter covers</li>
+                  <li> Install new Gutters &amp; Downspouts</li>
+                  <li> Gutter Covers</li>
+                  <li> Gutter Cleaning</li>
+                  <li> Roof </li>
                   <li> Custom Sheet Metal work</li>
                   <li> A full range of repair and preventative maintenance services are also provided by Darwins Property
                     Solutions.</li>
