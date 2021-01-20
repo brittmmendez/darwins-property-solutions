@@ -104,7 +104,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Wood, carpeting tiles, concrete, and other types of flooring services.  </p>
+          <p className="mb-5"> Wood flooring, laminate flooring, carpeting instalation, tile instalation, concrete, as well as other types of flooring services that you may need.  </p>
 				</div>
       </section>
       
