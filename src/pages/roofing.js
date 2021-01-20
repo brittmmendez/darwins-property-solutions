@@ -130,7 +130,7 @@ class RoofingPage extends Component{
                   <li> Replacement and repair of asphalt shingles </li>
                   <li> Replacement and repair metal roofs</li>
                   <li> Replacement and repair wood roofs</li>
-                  <li> Replacement and repair slate roofs.</li>
+                  <li> Replacement and repair slate roofs</li>
                   <li> Box Gutter Repair</li>
                   <li> Chimney Tuck Pointing</li>
                   <li> Install new Gutters &amp; Downspouts</li>
@@ -169,7 +169,10 @@ class RoofingPage extends Component{
             <h3 className="text-left text-2xl">We offer different types of commercial roofing services ranging from:</h3>
             <p className="mb-5">
                 <ul className="mb-8 text-left">
-                  <li> TPO, EPDM and PVC single-ply roofs systems</li>
+                  <li> Commercial Flat Roofs</li>
+                  <li> TPO Flat Roofs</li>
+                  <li> EPDM Flat Roofs</li>
+                  <li> PVC Flat Roofs</li>
                   <li> Effective roofing repairs (including contemporary and historic roofing materials)</li>
                   <li> Gutters and Gutter covers</li>
                   <li> Custom Sheet Metal work</li>
