@@ -101,7 +101,7 @@ function IndexPage() {
 			{/* <!--End About Section--> */}
 
 			{/* <!--Team Section--> */}
-			<section className=" pt-8">
+			{/* <section className=" pt-8">
 				<div className="container mx-auto flex flex-wrap pt-4 pb-12">
 					<h2 className="w-full my-2 text-4xl leading-tight text-center">Our Team</h2>
 					<div className="w-full mb-4">	
@@ -149,6 +149,8 @@ function IndexPage() {
 					</div>
 				</div>
 			</section>
+ */}
+
 			{/* <!--/Team Section--> */}
 
 			{/* <!--Safety Section--> */}
