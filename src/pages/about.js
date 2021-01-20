@@ -27,7 +27,7 @@ function AboutPage({data}) {
 					<h2 className="w-full my-8 text-4xl leading-tight">Our Approach</h2>
 				</div>
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto">
-          <p className="mb-8">As a full service construction provider for residential, commercial, to industrial projects, Darwins Property Solutions understands how important it is for projects to be completed successfully, on time, and on budget. Our company was founded on the commitment to excellence that we bring to each project. We communicate thoroughly throughout our project in order to provide timely, accurate, and high quality solutions. Our hands-on approach sets us apart from other construction companies in the area and helps us to reach our goal of delivering best in class construction projects.</p>
+          <p className="mb-8">As a full-service construction provider for residential, commercial, to industrial projects, Darwins Property Solutions understands how important it is for projects to be completed successfully, on time, and on budget. Our company was founded on the commitment to excellence that we bring to each project. We communicate thoroughly throughout our project in order to provide timely, accurate, and high-quality solutions. Our hands-on approach sets us apart from other construction companies in the area and helps us to reach our goal of delivering best in class construction projects.</p>
         </div>
       
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto">
@@ -41,7 +41,7 @@ function AboutPage({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-8"> No project is too big or too small for Darwins Property Solutions. We have worked with a veriety of customers on residential, industrial, and commercial projetcs.
+          <p className="mb-8"> No project is too big or too small for Darwins Property Solutions. We have worked with a variety  of customers on residential, industrial, and commercial projects.
 					</p>
 
           <div className="about-us flex flex-wrap w-full mt-4">
@@ -93,7 +93,7 @@ function AboutPage({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-				  <p className="mb-5"> We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more.  We can begin at any phase of a project and work on residential, industrial, and commercial projetcs year round.</p>
+				  <p className="mb-5"> We have trained specialists who are ready to provide you with high quality services that include interior remodeling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more. We can begin at any phase of a project and work on residential, industrial, and commercial projects year-round.</p>
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
             <div className="parent">
               <Link to="/roofing" title="roofing link">

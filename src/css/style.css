@@ -39,7 +39,7 @@ p {
 }
 /* for background hero photo and action background on homepage*/
 .gradient {
-    background-image: url("https://images.ctfassets.net/1qq6mgrp27zi/1wHldEvE4A8AFGzU9LoAYL/88aeb966edb3ff2856e5dfb83e14d100/Image__7_.jpeg?w=2100");
+    background-image: url("https://res.cloudinary.com/dwk6itwu5/image/upload/q_auto,f_auto/v1610936944/Photos/about/Image_2_jdlixi.jpg?w=2100");
     background-position-x: 37%;
     background-position-y: 33%;
 }

@@ -14,7 +14,7 @@ function IndexPage() {
     <Layout>
       <SEO
 		title="Home"
-		description="Darwins Property Solutions is a full service construction company for all your roofing, interior, and exterior needs.  We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more."
+		description="Darwins Property Solutions is a full-service construction company for all your roofing, interior, and exterior needs.  We have trained specialists who are ready to provide you with high quality services that include interior remodeling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more."
         keywords={[`construction`, 'home remodeling', `roofing`, `interior`, `exterior`, "commericial services", "industrial services", "reseindential services", "painting"," landscaping", "flooring", "window installation"]}
       />
 
@@ -29,9 +29,7 @@ function IndexPage() {
 				</div>
 				
 				<div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-				<p className="mb-5">Darwins Property Solutions is a full service construction company for all your roofing, interior, and exterior needs. We have a Cohesive crew that has worked together for over 15 years and specialize on the building envelope. We can begin at any phase of a project and work with residential, commercial, and industrial customers.
-					We have trained specialists who are ready to provide you with high quality services that include interior remodling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more. Quality projects is our standard and we aim to delight our clients with the end results.
-					 </p>
+					<p className="mb-5">Darwins Property Solutions is a full-service construction company for all your roofing, interior, and exterior needs. We have a cohesive crew that has worked together for over 15 years and specialize on the building envelope. We can begin at any phase of a project and work with residential, commercial, and industrial customers. We have trained specialists who are ready to provide you with high quality services that include interior remodeling, painting, exterior roofing repairs and replacements, replacement windows, siding, ventilation, insulation, chimney repairs, concrete slabs and more. Quality projects is our standard and we aim to delight our clients with the end results.</p>
 					<div className="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-2 relative">
 					<div className="parent" data-sal="slide-up" data-sal-delay="100" data-sal-duration="500"  >
 						<Link to="/services#roofing" title="roofing link">
@@ -82,7 +80,7 @@ function IndexPage() {
 								Over a Decade of Experience
 							</h3>
 							
-							<p className="mb-5">Established in 2011, Darwins Property Solutions has been dedicated to providing best in class services to the construction industry of the Ohio, Kentucky and Indiana area.  With over a decade of experience, we have grown into one of the most trusted and well respected full service construction companies specialized on the building envelope in the area. We are committed to providing high quality solutions, competitive pricing, and customer satisfaction.</p>
+							<p className="mb-5">Established in 2011, Darwins Property Solutions has been dedicated to providing best in class services to the construction industry of the Ohio, Kentucky and Indiana area.  With over a decade of experience, we have grown into one of the most trusted and well-respected full-service construction companies specialized on the building envelope in the area. We are committed to providing high quality solutions, competitive pricing, and customer satisfaction.</p>
  
 							<p className="mb-5">We specialize in a wide range of services for industrial, commercial, and residential projects.</p>
 							<div className="text-center md:text-left">

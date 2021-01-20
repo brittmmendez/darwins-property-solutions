@@ -60,7 +60,7 @@ class RoofingPage extends Component{
                   Over a Decade of Experience
                 </h3>
                 
-                <p className="mb-5">Whether you need roof replacement or an expert opinion on repairs and materials, our team is ready to help. The professionals at Darwins Property Solutions are backed by more than a decade of experience to provide expert roofing services for residential, commericial, and industrial properties in the Ohio, Kentucky, and Indianna area. If you think your roof is leaky, damaged, or worn out, we are ready to help.</p>
+                <p className="mb-5">Whether you need roof replacement or an expert opinion on repairs and materials, our team is ready to help. The professionals at Darwins Property Solutions are backed by more than a decade of experience to provide expert roofing services for residential, commercial, and industrial properties in the Ohio, Kentucky, and Indiana area. If you think your roof is leaky, damaged, or worn out, we are ready to help.</p>
   
                 
               </div>
@@ -127,12 +127,15 @@ class RoofingPage extends Component{
                 <ul className="mb-8 text-left">
                   <li> Roof Ventilation Systems</li>
                   <li> Skylights</li>
-                  <li> Gutter Covers</li>
-                  <li> Replacement and repair of asphalt, shingles roofs, metal roofs, wood roofs and slate roofs.</li>
-                  <li> Box Gutter Relining</li>
+                  <li> Replacement and repair of asphalt shingles </li>
+                  <li> Replacement and repair metal roofs</li>
+                  <li> Replacement and repair wood roofs</li>
+                  <li> Replacement and repair slate roofs.</li>
                   <li> Box Gutter Repair</li>
                   <li> Chimney Tuck Pointing</li>
-                  <li> Hanging Gutters &amp; Downspouts</li>
+                  <li> Install new Gutters &amp; Downspouts</li>
+                  <li> Gutter Covers</li>
+                  <li> Gutter Cleaning</li>
                   <li> Custom Sheet Metal Work</li>
                 </ul> 
               </p>
