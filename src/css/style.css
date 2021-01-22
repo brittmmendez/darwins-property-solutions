@@ -39,9 +39,11 @@ p {
 }
 /* for background hero photo and action background on homepage*/
 .gradient {
-    background-image: url("https://res.cloudinary.com/dwk6itwu5/image/upload/q_auto,f_auto/v1610936944/Photos/about/Image_2_jdlixi.jpg?w=2100");
-    background-position-x: 37%;
-    background-position-y: 33%;
+  background-image: linear-gradient(180deg,#1a1a1a,transparent,transparent),url(https://res.cloudinary.com/dwk6itwu5/image/upload/q_auto,f_auto/v1608433925/Photos/roofing/residential/Image_13_iin5jh.jpg?w=2100);
+  background-position-x: 12%;
+  background-position-y: 16%;
+    background-size: cover;
+    position: relative;
 }
 
 .main-header{

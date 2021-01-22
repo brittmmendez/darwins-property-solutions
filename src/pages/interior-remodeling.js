@@ -104,7 +104,7 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Wood flooring, laminate flooring, carpeting instalation, tile instalation, concrete, as well as other types of flooring services that you may need.  </p>
+          <p className="mb-5"> We replace and install wood flooring (solid or engineered), laminate flooring, vinyl flooring, carpeting, tile, and concrete.  </p>
 				</div>
       </section>
       
@@ -114,37 +114,37 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-        <p className="mb-5"> Prepare painting surfaces by washing walls, repairing holes and/or removing old paint. Mix, match and apply paints and other finishes to various surfaces.  </p>
+        <p className="mb-5"> We paint all types of interior walls from kicthes to bathrooms and everything inbetween. We prepare walls by repairing and patching of any holes and/or removing old paint.  </p>
 				</div>
       </section>
   
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Fireplaces</h3>
+          <h3 className="text-3xl mb-6">Bookshelves & Cabinetry</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Clean, sweep and repair. Repairs include masonry work and relining. </p>
-				</div>
-      </section>
-    
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Bookshelves & cabinets</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Cutting, fitting and cleaning and installation services for all types of bookshelves and cabinets.  </p>
+          <p className="mb-5"> We can install and build cabinetry to fit any custom space you may like. We design, measure, and build, to make sure we bring your custom vision to life. We can help with offices, living spaces, and kitchens. Whether its a complete rennovation or repair - we can help each step of the way.</p>
 				</div>
       </section>
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Lighting</h3>
+          <h3 className="text-3xl mb-6">Kitchen Renovations</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Set up lighting equipment, assemble all the lighting and ensure everything works properly. </p>
+          <p className="mb-5"> We can handle complete kitchen renovations, updates, and minore repairs including new cabinet installation, countertop and backsplash installation, cabinet door refacing, and custom cabinet painting.  </p>
+				</div>
+      </section>
+      
+      <section className="py-6">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h3 className="text-3xl mb-6">Bathroom Renovations</h3>
+				</div>
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <p className="mb-5"> We provide comeplete bathroom renovations through demolition, removal and clean-up. Once you have your bathroom design, we will frame, prepare your walls and floor, install tile or other flooring, install shower and baths, vanity and countertops, and make sure all of your finishing touches are installed like baseboards, trim, and lighting.  </p>
 				</div>
       </section>
 
@@ -154,20 +154,10 @@ function InteriorRemodeling({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Wall construction, electrical work planning, putting in insulation, installing gypsum walls, and others.  </p>
+          <p className="mb-5"> We can handle a complete basement renovation for unfinished areas. Wall construction, electrical work planning, putting in insulation, installing gypsum walls, and others.  </p>
 				</div>
       </section>
 
-
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Skylight Installations</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> All types of fixed skylights work. </p>
-				</div>
-      </section>
       <div className="container max-w-4xl mx-auto text-center pt-12 pb-10">
         <Link to="/services" 
           title="all services link"

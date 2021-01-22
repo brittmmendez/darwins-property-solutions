@@ -118,7 +118,7 @@ class RoofingPage extends Component{
 
         <section className="pt-6 pb-20 roofing-services">
           <div className="text-center px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-            <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Residential Roofing</h2>
+            <h2 id="residential" className="w-full my-8 text-4xl leading-tight">Residential Roofing</h2>
           </div>
           <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
             <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
@@ -162,10 +162,10 @@ class RoofingPage extends Component{
         
         <section className="pt-6 pb-20 roofing-services">
           <div className="text-center px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-            <h2 id="industrial" className="w-full my-8 text-4xl leading-tight">Commericial Roofing</h2>
+            <h2 id="commercial" className="w-full my-8 text-4xl leading-tight">Commericial Roofing</h2>
           </div>
           <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-            <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
+            <div className="my-4 w-full md:w-1/2 flex flex-col px-6">
             <h3 className="text-left text-2xl">We offer different types of commercial roofing services ranging from:</h3>
             <p className="mb-5">
                 <ul className="mb-8 text-left">
@@ -204,6 +204,7 @@ class RoofingPage extends Component{
             <a className="underline cursor-pointer" onClick={() => this.handleClickComm()} >See More</a>
           </div>
         </section>
+      
       </Layout>
     );
   }
