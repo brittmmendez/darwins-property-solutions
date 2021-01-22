@@ -121,7 +121,7 @@ class RoofingPage extends Component{
             <h2 id="residential" className="w-full my-8 text-4xl leading-tight">Residential Roofing</h2>
           </div>
           <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-            <div className="my-4 w-full md:w-1/2 flex flex-col items-center justify-center px-6">
+            <div className="my-4 w-full md:w-1/2 flex flex-col px-6">
               <h3 className="text-left text-2xl">We offer a vast array of residential roofing services that ranges from:</h3>
               <p className="mb-5">
                 <ul className="mb-8 text-left">
