@@ -33,7 +33,6 @@ export default AboutPage;
 function useScript(src) {
   // Keep track of script status ("idle", "loading", "ready", "error")
   const [status, setStatus] = useState(src ? "loading" : "idle");
-debugger
   useEffect(
     () => {
       // Allow falsy src value if waiting on other data needed for

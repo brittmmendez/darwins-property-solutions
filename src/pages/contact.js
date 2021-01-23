@@ -45,6 +45,7 @@ export default class ContactPage extends React.Component {
       e.target[2].value="";
       e.target[3].value="";
       e.target[4].value="";
+      e.target[5].value="";
   }
 
   handleClick() {

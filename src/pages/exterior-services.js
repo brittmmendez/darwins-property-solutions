@@ -104,7 +104,7 @@ function ExteriorServices({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Install and replace insulation material in attaics to save energy and money on your monthly bills</p>
+          <p className="mb-5"> We can install or replace insulation material in attaics.  Updating or installing insulation helps to save energy and in return, save money on your monthly expenses.</p>
 				</div>
       </section>
 
@@ -114,7 +114,7 @@ function ExteriorServices({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Clean or sweep chimneys and make repairs including masonry work and relining. </p>
+          <p className="mb-5"> We can clean or sweep chimneys and make repairs including masonry work and relining. </p>
 				</div>
       </section>
 
@@ -124,7 +124,7 @@ function ExteriorServices({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Let us help you transform your backyard into an oasis. We provide services to for deck and patir installation, replacement, cleaning, sealing, and repair.</p>
+          <p className="mb-5"> Let us help you transform your backyard into an oasis. We provide services for deck and patio installation, replacement, cleaning, sealing, and repair.</p>
 				</div>
       </section>
 
@@ -141,17 +141,57 @@ function ExteriorServices({data}) {
 
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Vinyl Siding</h3>
+          <h3 className="text-3xl mb-6">Siding</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Installation and repair of siding </p>
+          <p className="mb-5"> We can install and repair your exterior siding to help enhance the look of your house. We also work with a wide range of materials to meet your design needs such as Cedar Shingles, Stucca, Vinyl and more. </p>
 				</div>
       </section>
       
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Window Replacement & Skylight Installation</h3>
+          <h3 className="text-3xl mb-6">Skylight Installation</h3>
+				</div>
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <p className="mb-5"> - - </p>
+				</div>
+      </section>
+      
+      <section className="py-6">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h3 className="text-3xl mb-6">Replaecment Windows</h3>
+				</div>
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <p className="mb-5"> - - </p>
+				</div>
+      </section>
+      
+      <section className="py-6">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h3 className="text-3xl mb-6">Entry Doors</h3>
+				</div>
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <p className="mb-5"> - - </p>
+				</div>
+      </section>
+      
+      <section className="py-6">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h3 className="text-3xl mb-6">Patio Doors</h3>
+				</div>
+        
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
+          <p className="mb-5"> - - </p>
+				</div>
+      </section>
+
+      <section className="py-6">
+        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
+          <h3 className="text-3xl mb-6">Storm Doors</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
