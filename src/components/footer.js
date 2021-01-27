@@ -67,7 +67,7 @@ function Footer() {
                       <path d="M13 7L11 7 11 13 17 13 17 11 13 11z" /></svg>
                   </span>
                   <span className="ml-3">
-                    Mon - Fri: 9:00 - 19:00<br/>
+                    Mon - Fri: 9:00 - 5:00<br/>
                     Closed on Weekends
                   </span>
                 </div>

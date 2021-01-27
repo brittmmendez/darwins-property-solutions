@@ -145,7 +145,7 @@ function ExteriorServices({data}) {
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> We can install and repair your exterior siding to help enhance the look of your house. We also work with a wide range of materials to meet your design needs such as Cedar Shingles, Stucca, Vinyl and more. </p>
+          <p className="mb-5"> We can install and repair your exterior siding to help enhance the look of your house. We also work with a wide range of materials to meet your design needs such as Cedar Shingles, Stucco, Vinyl and more. </p>
 				</div>
       </section>
       
@@ -161,51 +161,21 @@ function ExteriorServices({data}) {
       
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Replaecment Windows</h3>
+          <h3 className="text-3xl mb-6">Windows & Doors</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> - - </p>
+          <p className="mb-5"> We can replace and install windows, exterior doors, storm doors, patio sliding doors and more. </p>
 				</div>
       </section>
       
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Entry Doors</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> - - </p>
-				</div>
-      </section>
-      
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Patio Doors</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> - - </p>
-				</div>
-      </section>
-
-      <section className="py-6">
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
-          <h3 className="text-3xl mb-6">Storm Doors</h3>
-				</div>
-        
-        <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> - - </p>
-				</div>
-      </section>
-
       <section className="py-6">
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps">
           <h3 className="text-3xl mb-6">Painting</h3>
 				</div>
         
         <div className="px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mx-auto flex flex-wrap items-start md:flex-no-wraps our-projects">
-          <p className="mb-5"> Improve your business or home&apos;s curb appeal instantly with a fresh coat of paint or stain.  Letting us help you with this project means there will be no hassle and no mess for you. We provide services with everything from pressure washing to paint selection.  </p>
+          <p className="mb-5">We can help with any painting project you might have planned for your commericial or resendentialp property. Adding a fresh coat of paint or stain can improve your business or home&apos;s curb appeal instantly!  Letting us help you with this project means there will be no hassle and no mess for you. We provide services with everything from pressure washing to paint selection.</p>
 				</div>
       </section>
 
